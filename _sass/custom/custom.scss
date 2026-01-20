@@ -1,0 +1,36 @@
+.plugin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.plugin {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background: rgb(31 31 31);
+
+  .spacer {
+    height: $sp-4;
+    flex-grow: 1;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+blockquote.warning {
+  background: #4a3700;
+  border: none;
+}
+.gap-2 {
+  gap: $sp-2;
+}
+.gap-3 {
+  gap: $sp-3;
+}
+.gap-4 {
+  gap: $sp-4;
+}
+

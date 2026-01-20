@@ -161,7 +161,8 @@ echo "Fetched ${ref_count} merge refs"
 echo ""
 echo "=== Step 3: Extracting current plugins from master ==="
 
-git show HEAD:community-plugins.json > "$OUTPUT_DIR/current-plugins.json"
+# Use jq to ensure proper Unicode encoding (git show can output escaped surrogates)
+git show HEAD:community-plugins.json | jq '.' > "$OUTPUT_DIR/current-plugins.json"
 CURRENT_COUNT=$(jq 'length' "$OUTPUT_DIR/current-plugins.json")
 echo "Current plugins in master: $CURRENT_COUNT"
 
