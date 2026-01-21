@@ -1,3 +1,14 @@
+span.pending {
+  display: flex;
+  align-items: center;
+  gap: $sp-1;
+
+  span {
+    color: $link-color;
+  }
+}
+
+
 .plugin-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

@@ -3,7 +3,11 @@ title: Home
 layout: home
 ---
 
-# Obsidian Unofficial Plugins
+# Obsidian Unofficial Plugins  
+<span class="pending"
+title="This value is updated every few days and only includes plugin submissions that have passed validation.">Currently <span>{{ site.data.pending-plugins | size }}</span> plugins pending review.
+    <svg width="14" viewBox="0 0 24 24" aria-hidden="true"><use href="#svg-info"></use></svg>
+</span>
 
 ## A catalog of [Obsidian] plugins that have *yet-to-be* accepted into the official community plugin list.
 
