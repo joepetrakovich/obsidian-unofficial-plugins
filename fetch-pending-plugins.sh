@@ -4,7 +4,7 @@
 # 
 # This script:
 # 1. Fetches open PR numbers for community-plugins.json via gh CLI
-# 2. Batch fetches all merge refs at once (fast!)
+# 2. Batch fetches all merge refs
 # 3. Locally extracts plugin data from each PR
 # 4. Outputs pending-plugins.json with all pending plugin submissions
 #
@@ -15,39 +15,17 @@ set -e
 REPO_URL="https://github.com/obsidianmd/obsidian-releases.git"
 API_REPO="obsidianmd/obsidian-releases"
 OUTPUT_DIR="_data"
-WORK_DIR=""
+WORK_DIR="_work"
 CLEANUP=true
-STATE_FILE=""
-INCREMENTAL=false
 
 # Parse arguments
 while [[ $# -gt 0 ]]; do
   case $1 in
-    -o|--output)
-      OUTPUT_DIR="$2"
-      shift 2
-      ;;
-    -w|--workdir)
-      WORK_DIR="$2"
-      CLEANUP=false
-      shift 2
-      ;;
-    -s|--state)
-      STATE_FILE="$2"
-      INCREMENTAL=true
-      shift 2
-      ;;
     -h|--help)
-      echo "Usage: $0 [-o|--output <directory>] [-w|--workdir <directory>] [-s|--state <file>]"
+      echo "Usage: $0"
       echo ""
       echo "Fetches pending plugin submissions from open PRs in obsidian-releases."
       echo ""
-      echo "Options:"
-      echo "  -o, --output <dir>   Output directory (default: current directory)"
-      echo "  -w, --workdir <dir>  Working directory for git clone (default: temp dir)"
-      echo "                       If specified, the directory will not be cleaned up"
-      echo "  -s, --state <file>   State file for incremental updates"
-      echo "                       Tracks last processed PR to only fetch new ones"
       echo ""
       echo "Output files:"
       echo "  pending-plugins.json  - Array of pending plugin objects"
@@ -72,14 +50,6 @@ done
 # Create output directory and convert to absolute path
 mkdir -p "$OUTPUT_DIR"
 OUTPUT_DIR=$(cd "$OUTPUT_DIR" && pwd)
-
-# Convert state file to absolute path if specified
-if [ -n "$STATE_FILE" ]; then
-  STATE_DIR=$(dirname "$STATE_FILE")
-  mkdir -p "$STATE_DIR"
-  STATE_DIR=$(cd "$STATE_DIR" && pwd)
-  STATE_FILE="$STATE_DIR/$(basename "$STATE_FILE")"
-fi
 
 # Create or use work directory and convert to absolute path
 if [ -z "$WORK_DIR" ]; then
@@ -107,32 +77,21 @@ echo "=== Step 1: Fetching open PR numbers ==="
 PR_LIST_FILE="$WORK_DIR/open_prs.txt"
 
 # Filter to only PRs that modify community-plugins.json
+# Save PR number + owner login + title for matching at the end
+PR_MAP_FILE="$WORK_DIR/pr_map.json"
 gh pr list -R "${API_REPO}" --limit 5000 \
   --search "community-plugins in:path" \
-  --json number -q '.[].number' | sort -n > "$PR_LIST_FILE"
+  --json number,headRepositoryOwner,title > "$PR_MAP_FILE"
+
+# Extract just PR numbers for processing
+PR_ORDER_FILE="$WORK_DIR/pr_order.txt"
+jq -r '.[].number' "$PR_MAP_FILE" > "$PR_ORDER_FILE"
+
+# Sort for processing (batch fetch works better with sorted refs)
+sort -n "$PR_ORDER_FILE" > "$PR_LIST_FILE"
 
 total_prs=$(wc -l < "$PR_LIST_FILE" | tr -d ' ')
 echo "Found ${total_prs} open PRs modifying community-plugins.json"
-
-# Check for incremental mode
-last_pr=0
-if [ "$INCREMENTAL" = true ] && [ -f "$STATE_FILE" ]; then
-  last_pr=$(cat "$STATE_FILE" 2>/dev/null || echo "0")
-  echo "Incremental mode: last processed PR was #${last_pr}"
-  
-  # Filter to only new PRs
-  awk -v last="$last_pr" '$1 > last' "$PR_LIST_FILE" > "$WORK_DIR/new_prs.txt"
-  new_count=$(wc -l < "$WORK_DIR/new_prs.txt" | tr -d ' ')
-  echo "Found ${new_count} new PRs since last run"
-  
-  if [ "$new_count" -eq 0 ]; then
-    echo "No new PRs to process."
-    exit 0
-  fi
-  
-  mv "$WORK_DIR/new_prs.txt" "$PR_LIST_FILE"
-  total_prs=$new_count
-fi
 
 # Step 2: Clone the repo and batch fetch all merge refs
 echo ""
@@ -150,7 +109,7 @@ else
   cd "$REPO_DIR"
 fi
 
-echo "Batch fetching all PR merge refs (this is fast!)..."
+echo "Batch fetching all PR merge refs..."
 git fetch origin 'refs/pull/*/merge:refs/remotes/origin/pr/*/merge' 2>&1 | tail -1 || true
 
 # Count how many refs we fetched
@@ -168,7 +127,7 @@ echo "Current plugins in master: $CURRENT_COUNT"
 
 # Step 4: Process each PR locally (no network calls!)
 echo ""
-echo "=== Step 4: Processing PRs (local, fast!) ==="
+echo "=== Step 4: Processing PRs ==="
 
 PENDING_FILE="$WORK_DIR/pending.jsonl"
 > "$PENDING_FILE"
@@ -176,15 +135,9 @@ PENDING_FILE="$WORK_DIR/pending.jsonl"
 processed=0
 extracted=0
 skipped=0
-max_pr=0
 
 while IFS= read -r pr_number; do
   processed=$((processed + 1))
-  
-  # Track highest PR number for state
-  if [ "$pr_number" -gt "$max_pr" ]; then
-    max_pr=$pr_number
-  fi
   
   # Progress update every 100 PRs
   if [ $((processed % 100)) -eq 0 ]; then
@@ -240,37 +193,84 @@ echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skippe
 echo ""
 echo "=== Step 5: Creating final output ==="
 
-# Handle incremental mode - merge with existing pending plugins
-if [ "$INCREMENTAL" = true ] && [ -f "$OUTPUT_DIR/pending-plugins.json" ]; then
-  echo "Merging with existing pending-plugins.json..."
+# Deduplicate and fix PR numbers by matching repo owner to PR headRepositoryOwner
+# When an owner has multiple PRs, fuzzy match plugin name against PR title
+# Fallback to name-based matching across all PRs if no owner match
+# Output warnings for unmatched plugins
+
+UNMATCHED_FILE="$WORK_DIR/unmatched.jsonl"
+
+jq -s --slurpfile prmap "$PR_MAP_FILE" '
+  # Build owner (lowercase) -> [{number, title, index}] map from PR list
+  # Group by owner since one owner can have multiple PRs
+  ($prmap[0] | to_entries | map({
+    owner: (.value.headRepositoryOwner.login | ascii_downcase),
+    number: .value.number,
+    title: (.value.title // ""),
+    index: .key
+  })) as $allPRs |
   
-  # Convert JSONL to array, then merge with existing
-  jq -s '.' "$PENDING_FILE" > "$WORK_DIR/new_pending.json"
+  ($allPRs | group_by(.owner) | map({key: .[0].owner, value: .}) | from_entries) as $ownerPRs |
   
-  # Combine existing and new, deduplicate by ID (prefer newer)
-  jq -s '
-    add |
-    group_by(.id) | 
-    map(last) |
-    sort_by(.name)
-  ' "$OUTPUT_DIR/pending-plugins.json" "$WORK_DIR/new_pending.json" > "$OUTPUT_DIR/pending-plugins.json.tmp"
-  mv "$OUTPUT_DIR/pending-plugins.json.tmp" "$OUTPUT_DIR/pending-plugins.json"
-else
-  # Fresh run - just deduplicate
-  jq -s '
-    group_by(.id) | 
-    map(.[0]) |
-    sort_by(.name)
-  ' "$PENDING_FILE" > "$OUTPUT_DIR/pending-plugins.json"
-fi
+  # Deduplicate plugins by id
+  group_by(.id) | 
+  map(.[0]) |
+  
+  # Match each plugin to correct PR
+  map(
+    (.repo | split("/")[0] | ascii_downcase) as $owner |
+    .name as $pluginName |
+    ($pluginName | ascii_downcase) as $nameLower |
+    
+    # Get PRs for this owner
+    ($ownerPRs[$owner] // []) as $prs |
+    
+    if ($prs | length) == 1 then
+      # Single PR for owner - direct match
+      { plugin: ., pr_number: $prs[0].number, pr_order: $prs[0].index, status: "owner_match" }
+    elif ($prs | length) > 1 then
+      # Multiple PRs for same owner - fuzzy match plugin name against PR title
+      # PR titles should follow "Add plugin: {Plugin Name}" pattern
+      ($prs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $matched |
+      
+      if $matched then
+        { plugin: ., pr_number: $matched.number, pr_order: $matched.index, status: "owner_name_match" }
+      else
+        # Multiple PRs but no title match - output warning
+        { plugin: ., pr_number: null, pr_order: null, status: "owner_multiple_no_title_match" }
+      end
+    else
+      # No owner match - try name-based fallback across ALL PRs
+      # Require "Add plugin:" prefix to avoid false positives
+      ($allPRs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $nameMatch |
+      
+      if $nameMatch then
+        { plugin: ., pr_number: $nameMatch.number, pr_order: $nameMatch.index, status: "name_fallback" }
+      else
+        # No match at all
+        { plugin: ., pr_number: null, pr_order: null, status: "no_match" }
+      end
+    end
+  ) |
+  
+  # Separate matched and unmatched
+  {
+    matched: [.[] | select(.pr_number != null) | .plugin + {pr_number: .pr_number, pr_order: .pr_order}],
+    unmatched: [.[] | select(.pr_number == null)]
+  }
+' "$PENDING_FILE" > "$WORK_DIR/matched_result.json"
+
+# Extract unmatched plugins and output warnings
+jq -r '.unmatched[] | "WARNING: No matching PR for plugin: \(.plugin.id) (name: \"\(.plugin.name)\", repo: \"\(.plugin.repo)\", status: \(.status))"' "$WORK_DIR/matched_result.json"
+
+# Save unmatched to file for reference
+jq '.unmatched' "$WORK_DIR/matched_result.json" > "$UNMATCHED_FILE"
+unmatched_count=$(jq '.unmatched | length' "$WORK_DIR/matched_result.json")
+
+# Create final output from matched plugins
+jq '.matched | sort_by(.pr_order) | map(del(.pr_order))' "$WORK_DIR/matched_result.json" > "$OUTPUT_DIR/pending-plugins.json"
 
 PENDING_COUNT=$(jq 'length' "$OUTPUT_DIR/pending-plugins.json")
-
-# Save state for incremental mode
-if [ "$INCREMENTAL" = true ] && [ "$max_pr" -gt 0 ]; then
-  echo "$max_pr" > "$STATE_FILE"
-  echo "Saved state: last PR #${max_pr}"
-fi
 
 echo ""
 echo "========================================="
@@ -280,8 +280,13 @@ echo "Open PRs processed:  ${processed}"
 echo "Skipped:             ${skipped}"
 echo "Current plugins:     ${CURRENT_COUNT}"
 echo "Pending plugins:     ${PENDING_COUNT}"
+echo "Unmatched plugins:   ${unmatched_count}"
 echo "========================================="
 echo ""
 echo "Output files:"
 echo "  ${OUTPUT_DIR}/current-plugins.json"
 echo "  ${OUTPUT_DIR}/pending-plugins.json"
+if [ "$unmatched_count" -gt 0 ]; then
+  echo ""
+  echo "Review unmatched plugins above and fix manually if needed."
+fi

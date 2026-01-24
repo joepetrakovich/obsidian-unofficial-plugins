@@ -16,6 +16,7 @@ vendor/
 
 # Ignore fetch-pending-plugins.sh working directory and state
 work/
+_work/
 .state.txt
 
 # Leftover test files
