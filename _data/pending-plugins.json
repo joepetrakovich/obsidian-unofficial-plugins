@@ -5368,20 +5368,20 @@
     "pr_number": 7531
   },
   {
-    "id": "vaultmind",
-    "name": "VaultMind",
-    "author": "Shameem Reza",
-    "description": "AI-powered task management, goal tracking, and intelligent assistant for your vault. Features smart scheduling, multiple AI providers, and an interactive dashboard.",
-    "repo": "shameemreza/vaultmind",
-    "pr_number": 8716
-  },
-  {
     "id": "card-forge",
     "name": "Card Forge",
     "author": "Carl Sverre",
     "description": "Convert notes into printable cards.",
     "repo": "carlsverre/obsidian-card-forge",
     "pr_number": 7844
+  },
+  {
+    "id": "vaultmind",
+    "name": "VaultMind",
+    "author": "Shameem Reza",
+    "description": "AI-powered task management, goal tracking, and intelligent assistant for your vault. Features smart scheduling, multiple AI providers, and an interactive dashboard.",
+    "repo": "shameemreza/vaultmind",
+    "pr_number": 8716
   },
   {
     "id": "alias-file-name-history",
