@@ -72,14 +72,6 @@
     "pr_number": 9204
   },
   {
-    "id": "ai-transcriber",
-    "name": "AI Transcriber",
-    "author": "Musashino Software",
-    "description": "AI-powered speech-to-text transcription using OpenAI GPT-4o and Whisper APIs.",
-    "repo": "mssoftjp/obsidian-ai-transcriber",
-    "pr_number": 8004
-  },
-  {
     "id": "ai-writing-tools",
     "name": "AI Writing Tools",
     "author": "Sahand Malaei",
@@ -664,6 +656,14 @@
     "pr_number": 8049
   },
   {
+    "id": "better-reading-mode",
+    "name": "Better Reading Mode",
+    "author": "Boninall",
+    "description": "Enable bionic reading mode in Live Preview mode.",
+    "repo": "Quorafind/Obsidian-Better-Reading-Mode",
+    "pr_number": 5319
+  },
+  {
     "id": "better-section-word-count",
     "name": "Better Section Word Count",
     "author": "Nysiades",
@@ -1176,14 +1176,6 @@
     "pr_number": 8820
   },
   {
-    "id": "colorful-note-background",
-    "name": "Colorful Note Background",
-    "author": "andresgongora",
-    "description": "Set note background based on file location or frontmatter metadata.",
-    "repo": "andresgongora/obsidian-colorful-note-background",
-    "pr_number": 8004
-  },
-  {
     "id": "combine-markdown",
     "name": "Combine Markdown Files",
     "author": "Hugh Coleman",
@@ -1640,6 +1632,14 @@
     "pr_number": 9562
   },
   {
+    "id": "double-click-tab",
+    "name": "Double Click Tab",
+    "author": "Boninall",
+    "description": "Modify the default behavior when you double click on the tab title, like close tab.",
+    "repo": "Quorafind/Obsidian-Double-Click-Tab",
+    "pr_number": 5319
+  },
+  {
     "id": "double-click-image-opener",
     "name": "Double-Click Image Opener",
     "author": "atman",
@@ -1718,14 +1718,6 @@
     "description": "Automatically formats pasted URLs into titled links, image links, or applies them to selected text.",
     "repo": "poenl/easy-link-obsidian",
     "pr_number": 8809
-  },
-  {
-    "id": "easy-tracker",
-    "name": "Easy Tracker",
-    "author": "Hunter Ji",
-    "description": "Instantly track goals and habits. Simple, beautiful, and configuration-free.",
-    "repo": "hunter-ji/obsidian-easy-tracker",
-    "pr_number": 8004
   },
   {
     "id": "easyview",
@@ -1856,6 +1848,14 @@
     "pr_number": 9153
   },
   {
+    "id": "obsidian-expand-bullet",
+    "name": "Expand Bullet",
+    "author": "Boninall",
+    "description": "Transform bullet content into note.",
+    "repo": "Quorafind/Obsidian-Expand-Bullet",
+    "pr_number": 5319
+  },
+  {
     "id": "expand-selection",
     "name": "Expand Selection",
     "author": "Alex Tait",
@@ -1974,6 +1974,14 @@
     "description": "Create notes for non-native files, including binary files.",
     "repo": "netopolit/obsidian-file-notes-plugin",
     "pr_number": 9640
+  },
+  {
+    "id": "file-property-enhancer",
+    "name": "File Property Enhancer",
+    "author": "Boninall",
+    "description": "Add icons to the file property, and customize the display of the file property.",
+    "repo": "Quorafind/Obsidian-File-Property-Enhancer",
+    "pr_number": 5319
   },
   {
     "id": "file-timer",
@@ -2296,6 +2304,14 @@
     "pr_number": 9355
   },
   {
+    "id": "github-assignments",
+    "name": "GitHub Assignments",
+    "author": "Joe Whitsitt",
+    "description": "Lightweight plugin to append assigned GitHub issues and pull requests to your note.",
+    "repo": "joewhitsitt/obsidian-github-assignments",
+    "pr_number": 9753
+  },
+  {
     "id": "github-commit-embed",
     "name": "GitHub Commit Embed",
     "author": "Arcangelo Massari",
@@ -2336,6 +2352,14 @@
     "pr_number": 8863
   },
   {
+    "id": "glint-native-slides",
+    "name": "Glint Native Slides",
+    "author": "Philip Press",
+    "description": "A liquid-smooth local viewer for PowerPoint (.pptx) files.",
+    "repo": "bohem-dev/glint-native-slides",
+    "pr_number": 9127
+  },
+  {
     "id": "global-week-start",
     "name": "Global Week Start",
     "author": "Christopher Jones",
@@ -2353,9 +2377,9 @@
   },
   {
     "id": "viewday-google-calendar",
-    "name": "Google Calendar by Viewday (Official)",
+    "name": "Google Calendar by Viewday",
     "author": "viewdayapp",
-    "description": "The official Viewday Google Calendar integration. Real-time sync, multi-account support, & OAuth. No API keys required.",
+    "description": "The official Viewday integration. Real-time sync, multi-account support, and one-click meeting notes. No API keys required.",
     "repo": "viewdayapp/viewday-obsidian-plugin",
     "pr_number": 9206
   },
@@ -3264,6 +3288,14 @@
     "pr_number": 5952
   },
   {
+    "id": "link-nodes-in-canvas",
+    "name": "Link Nodes in Canvas",
+    "description": "Add edges between notes in Canvas based on their links.",
+    "author": "Boninall",
+    "repo": "Quorafind/Obsidian-Link-Nodes-In-Canvas",
+    "pr_number": 5319
+  },
+  {
     "id": "link-scraper",
     "name": "Link Scraper",
     "author": "Błażej Kapała",
@@ -3824,14 +3856,6 @@
     "pr_number": 9497
   },
   {
-    "id": "my-svgs",
-    "name": "My SVGs",
-    "author": "Omar Badawy",
-    "description": "Registers your own SVGs into the global icon library for use with other plugins or however you want.",
-    "repo": "ce-omarbadawy/obsidian-my-svgs",
-    "pr_number": 8004
-  },
-  {
     "id": "n-brace",
     "name": "N-brace",
     "author": "Rafael Hazan",
@@ -4350,6 +4374,14 @@
     "description": "Paste images as compressed WebP files when pasting from the clipboard, with customizable file names, quality settings, and save locations.",
     "repo": "CocoaAI-IT/paste-image-as-webp",
     "pr_number": 8556
+  },
+  {
+    "id": "pdf-annotator",
+    "name": "Pdf Annotator",
+    "author": "Boninall",
+    "description": "Simple but powerful pdf annotator.",
+    "repo": "Quorafind/Obsidian-PDF-Annotator",
+    "pr_number": 5319
   },
   {
     "id": "pensieve",
@@ -5843,7 +5875,7 @@
     "id": "tarot-practice",
     "name": "Tarot Practice",
     "author": "Todd Waits",
-    "description": "A minimal tarot plugin for daily practice. Draw a single card with intention using true randomness seeded by your words and the exact moment of the draw.",
+    "description": "A tarot plugin for daily practice. Draw single or multiple cards with intention using randomness seeded by your words. Full mobile support.",
     "repo": "w8s/obsidian-tarot-practice",
     "pr_number": 9473
   },
@@ -5886,14 +5918,6 @@
     "description": "Add interactive checkboxes to notes with task emojis. Checking the box automatically updates the emoji.",
     "repo": "Benedikt-Hollerauer/task-notes-obisidan-plugin",
     "pr_number": 9413
-  },
-  {
-    "id": "task-planner",
-    "name": "Task Planner",
-    "author": "Selfish",
-    "description": "Manage tasks with drag-and-drop planning, Today focus, backlog, overdue tracking, and weekly time horizons.",
-    "repo": "selfish/obsidian-task-planner",
-    "pr_number": 9560
   },
   {
     "id": "task-scheduler",
@@ -6184,14 +6208,6 @@
     "pr_number": 8403
   },
   {
-    "id": "todoister",
-    "name": "Todoister",
-    "author": "erblack",
-    "description": "Sync todos from your active file to Todoist and back.",
-    "repo": "erblack/obsidian-todoister",
-    "pr_number": 9625
-  },
-  {
     "id": "toggle-premium",
     "name": "Toggle",
     "author": "jawoojo",
@@ -6438,14 +6454,6 @@
     "description": "Define forms to input data on notes structured as frontmatter.",
     "repo": "carlosavila7/obsidian-vault-forms",
     "pr_number": 7813
-  },
-  {
-    "id": "vault-glossary",
-    "name": "Vault Glossary",
-    "author": "Levon Fischer",
-    "description": "Adds capabilities to create a custom glossary for words in your vault.",
-    "repo": "levon-fischer/vault-glossary",
-    "pr_number": 9727
   },
   {
     "id": "vault-intelligence",
@@ -6798,14 +6806,6 @@
     "description": "Advanced workout tracker with AI analysis powered by Claude. Track exercises, analyze progress, and get personalized recommendations.",
     "repo": "avlihachev/obsidian-workout-ai-tracker",
     "pr_number": 8465
-  },
-  {
-    "id": "workout-planner",
-    "name": "Workout Planner",
-    "author": "Rares Spatariu",
-    "description": "Visualize workout data with interactive charts and advanced search capabilities.",
-    "repo": "SpatariuRares/obsidian-workout-plugin",
-    "pr_number": 8004
   },
   {
     "id": "writetex",

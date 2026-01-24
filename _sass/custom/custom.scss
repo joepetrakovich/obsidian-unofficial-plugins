@@ -8,6 +8,12 @@ span.pending {
   }
 }
 
+form.sort {
+  display: flex;
+  align-items: center;
+  gap: $sp-3;
+}
+
 
 .plugin-grid {
   display: grid;
