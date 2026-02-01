@@ -24,6 +24,22 @@
     "pr_number": 9708
   },
   {
+    "id": "local-html-embed",
+    "name": "Local HTML Embed",
+    "author": "Poesy",
+    "description": "Embed local HTML files as interactive iframes in your markdown notes. Perfect for Plotly, D3.js visualizations.",
+    "repo": "Poesy-Lab/obsidian-local-html-embed",
+    "pr_number": 9921
+  },
+  {
+    "id": "strava-periodic-note-sync",
+    "name": "Strava Periodic Note Sync",
+    "author": "James Jarvis",
+    "description": "Sync Strava activities to your periodic notes.",
+    "repo": "jamesjarvis/obsidian-strava-periodic-sync",
+    "pr_number": 9891
+  },
+  {
     "id": "integrated-terminal",
     "name": "Integrated Terminal",
     "author": "ran-li",
@@ -40,28 +56,180 @@
     "pr_number": 9892
   },
   {
-    "id": "strava-periodic-note-sync",
-    "name": "Strava Periodic Note Sync",
-    "author": "James Jarvis",
-    "description": "Sync Strava activities to your periodic notes.",
-    "repo": "jamesjarvis/obsidian-strava-periodic-sync",
-    "pr_number": 9891
+    "id": "furigana",
+    "name": "Japanese Furigana",
+    "author": "Joe Petrakovich",
+    "description": "Create and show furigana above Japanese text in reading view.",
+    "repo": "joepetrakovich/obsidian-furigana",
+    "pr_number": 9931
   },
   {
-    "id": "copy-as-note",
-    "name": "Copy Note Content",
-    "author": "lyqed",
-    "description": "Copy the full raw Markdown of the current note to your clipboard (mobile toolbar + desktop ribbon).",
-    "repo": "Lyqed/copy-as-note",
-    "pr_number": 9904
+    "id": "simple-exporter-for-llm",
+    "name": "Simple exporter for LLM",
+    "author": "Gordan Renic",
+    "description": "Copy folder contents (Markdown & Canvas files) to the clipboard formatted for LLM context.",
+    "repo": "gogothegogo/Simple-exporter-for-LLM",
+    "pr_number": 9930
   },
   {
-    "id": "go-playground",
-    "name": "Go Playground",
-    "author": "HuLunTunTao",
-    "description": "Run, format, and share Golang code snippets using the Go Playground API.",
-    "repo": "HuLunTunTao/go-playground-plugin-for-obsidian",
-    "pr_number": 9901
+    "id": "activity-heatmap-2",
+    "name": "Activity Heatmap 2",
+    "author": "mihanixa1",
+    "description": "Track document open/edit frequency with heatmap visualization. View activity by files, folders, or tags with sortable metrics.",
+    "repo": "mihanixa1/obsidian-heatmap-pluign",
+    "pr_number": 9929
+  },
+  {
+    "id": "pdf-annotation-creator",
+    "name": "PDF Annotation Creator",
+    "author": "Ella Zhao",
+    "description": "Right-click on PDF files to create annotation notes for use with the Annotator plugin.",
+    "repo": "EllaZhao/pdf-annotation-creator",
+    "pr_number": 9928
+  },
+  {
+    "id": "modern-mermaid",
+    "name": "Modern Mermaid",
+    "author": "wis-graph",
+    "description": "Render latest Mermaid diagrams.",
+    "repo": "wis-graph/obsidian-modern-mermaid",
+    "pr_number": 9923
+  },
+  {
+    "id": "obsidian-modern-mermaid",
+    "name": "Modern Mermaid",
+    "description": "Render latest Mermaid diagrams in Obsidian",
+    "author": "wis",
+    "repo": "wis-graph/obsidian-modern-mermaid",
+    "pr_number": 9923
+  },
+  {
+    "id": "ai-flashcards",
+    "name": "AI Flashcards",
+    "description": "Generate flashcards from your notes using AI (OpenAI, Claude, Gemini, or local models). Multiple templates, smart chunking for long documents, compatible with Spaced Repetition plugin.",
+    "author": "Louis Ulmer",
+    "repo": "lulmer/obsidian-ai-flashcards",
+    "pr_number": 9927
+  },
+  {
+    "id": "timelink",
+    "name": "TimeLink",
+    "author": "jskorlol",
+    "description": "Kanban board, calendar, and timeline views with linked event notes.",
+    "repo": "korioinc/obsidian-timelink",
+    "pr_number": 9922
+  },
+  {
+    "id": "code-highlight-d3af90d",
+    "name": "Code Highlight",
+    "author": "0xd3af90d",
+    "description": "Highlight text inside code blocks using Dradis-like or custom delimiters.",
+    "repo": "d3af90d/code-highlight-obsidian",
+    "pr_number": 9926
+  },
+  {
+    "id": "notes-dashboard",
+    "name": "Notes Dashboard",
+    "author": "kharbacheuski",
+    "description": "Dashboard with favorite notes as cards displayed in a Kanban-style board.",
+    "repo": "kharbacheuski/obsidian-notes-dashboard",
+    "pr_number": 9925
+  },
+  {
+    "id": "vault-snapshot",
+    "name": "Vault Snapshot",
+    "author": "mertso13",
+    "description": "Generate a condensed Markdown snapshot of your entire vault or specific folders.",
+    "repo": "mertso13/obsidian-vault-snapshot",
+    "pr_number": 9924
+  },
+  {
+    "id": "evc-local-sync",
+    "name": "EVC Local Sync to AI Agent",
+    "author": "Entire VC",
+    "description": "Bidirectional sync of docs folders between your vault and AI development projects (Claude Code, Cursor AI, VS Code). Single source of truth for project documentation with minimal context overhead for AI agents.",
+    "repo": "entire-vc/evc-local-sync-plugin",
+    "pr_number": 9908
+  },
+  {
+    "id": "dual-title-translator",
+    "name": "Dual Title Translator",
+    "author": "H0taru-9F",
+    "description": "Automatically translates note titles using DeepL and adds a dual-language title.",
+    "repo": "H0taru-9F/dual-title-translator",
+    "pr_number": 9919
+  },
+  {
+    "id": "roguelike",
+    "name": "Roguelike",
+    "author": "Creative Ventures",
+    "description": "Gamified goal tracking with XP, levels, achievements, and AI-powered planning. Turn your tasks into an RPG adventure!",
+    "repo": "creative-ventures/obsidian-roguelike",
+    "pr_number": 9913
+  },
+  {
+    "id": "copy-embed-url",
+    "name": "Copy Embed Code",
+    "author": "Dustin Ho",
+    "description": "Adds a 'Copy Embed Code' option to right-click context menu for images. Works in Live Preview and Reading Mode, including nested embeds.",
+    "repo": "dustinho/obsidian-copy-embed-code",
+    "pr_number": 9918
+  },
+  {
+    "id": "deadline",
+    "name": "Deadline",
+    "author": "Javlonbek Saydullaev",
+    "description": "All-in-one productivity plugin with calendar, Pomodoro timer, and task manager.",
+    "repo": "Saydullayev017/deadline",
+    "pr_number": 9917
+  },
+  {
+    "id": "reading-progress",
+    "name": "Reading Progress",
+    "author": "Johnny Chadda",
+    "description": "Track and restore reading position in notes. Saves scroll position to frontmatter.",
+    "repo": "joch/obsidian-reading-progress",
+    "pr_number": 9911
+  },
+  {
+    "id": "workspace-plus-plus",
+    "name": "Workspace++",
+    "author": "s1m4ne",
+    "description": "Workspace session manager with a native-feeling UI/UX.",
+    "repo": "s1m4ne/obsidian-workspace-plus",
+    "pr_number": 9916
+  },
+  {
+    "id": "thought-completion",
+    "name": "Thought Completion",
+    "author": "talhabw",
+    "description": "A thinking companion that suggests what to think or write about next. Like IDE tab completion, but for thoughts.",
+    "repo": "talhabw/obsidian-thought-completion",
+    "pr_number": 9915
+  },
+  {
+    "id": "book-bibliography-card",
+    "name": "Book Bibliography Card",
+    "author": "The Town",
+    "description": "Display book cover and bibliography from ISBN (OpenBD). Write ISBN in a code block to show a book card.",
+    "repo": "The-town/book-bibliography-card",
+    "pr_number": 9909
+  },
+  {
+    "id": "connect-mcp",
+    "name": "Connect MCP",
+    "author": "Johnny Chadda",
+    "description": "MCP server for AI agents to access your vault - read, edit, search notes and run Dataview queries.",
+    "repo": "joch/obsidian-connect-mcp",
+    "pr_number": 9910
+  },
+  {
+    "id": "diff-apply",
+    "name": "Diff Apply",
+    "author": "Lihua Zheng",
+    "description": "Compare and merge selected text with clipboard content in a floating window.",
+    "repo": "zlhhhh8901/obsidian-diff-apply",
+    "pr_number": 9900
   },
   {
     "id": "timeline-note-launcher",
@@ -72,34 +240,10 @@
     "pr_number": 9899
   },
   {
-    "id": "ascii-art-heading",
-    "name": "ASCII Art Heading",
-    "author": "Michael Frampton",
-    "description": "Render ASCII art headings from code blocks using FIGlet fonts.",
-    "repo": "nbDev99/ascii-art-heading",
-    "pr_number": 9854
-  },
-  {
-    "id": "clauwrite",
-    "name": "Clauwrite",
-    "author": "eric0324",
-    "description": "Claude AI assistant - chat, summarize, rewrite, and agentic note operations.",
-    "repo": "eric0324/clauwrite",
-    "pr_number": 9896
-  },
-  {
-    "id": "pomodoro-task",
-    "name": "Pomodoro Task",
-    "author": "Isabela Grunevald",
-    "description": "Integrate Pomodoro timer with Markdown tasks. Track focus sessions, log completed cycles directly to your notes, and manage subtasks.",
-    "repo": "belagrun/PomodoroTask",
-    "pr_number": 9898
-  },
-  {
-    "id": "igdb-game-search-plugin",
+    "id": "igdb-game-search",
     "name": "IGDB Game Search",
     "author": "David Mohundro",
-    "description": "IGDB-based Game Search.",
+    "description": "Automatically create templated notes for video games from an IGDB-based API search.",
     "repo": "drmohundro/obsidian-igdb-game-search-plugin",
     "pr_number": 9895
   },
@@ -110,6 +254,54 @@
     "description": "Bidirectional task sync with Todoist. Tag tasks with #todoist to sync them automatically. 100% coded by AI.",
     "repo": "bastiaanschonhage/syncist",
     "pr_number": 9893
+  },
+  {
+    "id": "the-journey",
+    "name": "The Journey",
+    "author": "Huy Hung",
+    "description": "Your personal hero's journey - gamify life with 9 GNH domains, HUMAN 3.0 Framework, Four Quadrants, Journey Stats, and The Elder wisdom guide.",
+    "repo": "huyhungai/the-journey",
+    "pr_number": 9905
+  },
+  {
+    "id": "copy-as-note",
+    "name": "Copy Note Content",
+    "author": "lyqed",
+    "description": "Copy the full raw Markdown of the current note to your clipboard (mobile toolbar + desktop ribbon).",
+    "repo": "Lyqed/copy-as-note",
+    "pr_number": 9904
+  },
+  {
+    "id": "pomodoro-task",
+    "name": "Pomodoro Task",
+    "author": "Isabela Grunevald",
+    "description": "Integrate Pomodoro timer with Markdown tasks. Track focus sessions, log completed cycles directly to your notes, and manage subtasks.",
+    "repo": "belagrun/PomodoroTask",
+    "pr_number": 9898
+  },
+  {
+    "id": "go-playground",
+    "name": "Go Playground",
+    "author": "HuLunTunTao",
+    "description": "Run, format, and share Golang code snippets using the Go Playground API.",
+    "repo": "HuLunTunTao/go-playground-plugin-for-obsidian",
+    "pr_number": 9901
+  },
+  {
+    "id": "clauwrite",
+    "name": "Clauwrite",
+    "author": "eric0324",
+    "description": "Claude AI assistant - chat, summarize, rewrite, and agentic note operations.",
+    "repo": "eric0324/clauwrite",
+    "pr_number": 9896
+  },
+  {
+    "id": "ascii-art-heading",
+    "name": "ASCII Art Heading",
+    "author": "Michael Frampton",
+    "description": "Render ASCII art headings from code blocks using FIGlet fonts.",
+    "repo": "nbDev99/ascii-art-heading",
+    "pr_number": 9854
   },
   {
     "id": "graph-mind",
@@ -160,6 +352,14 @@
     "pr_number": 9882
   },
   {
+    "id": "multi-level-note-mover",
+    "name": "Multi Level Note Mover",
+    "author": "JR (Jayachandran Ramadoss)",
+    "description": "Automatically move notes based on tag hierarchy using a tree structure interface.",
+    "repo": "jrjakiro/multi-level-note-mover",
+    "pr_number": 9864
+  },
+  {
     "id": "auto-pin",
     "name": "Auto Pin",
     "author": "Kageetai",
@@ -176,12 +376,60 @@
     "pr_number": 9879
   },
   {
+    "id": "plane-project",
+    "name": "Plane Project",
+    "author": "Arcodify",
+    "description": "Manage Plane projects with boards, modules, and syncing.",
+    "repo": "Arcodify/obsidian-plane-plugin",
+    "pr_number": 9862
+  },
+  {
+    "id": "ollama-tagger",
+    "name": "Local LLM",
+    "author": "Sébastien Minne",
+    "description": "Your private AI assistant. Generate meeting minutes, get smart context-aware tag suggestions, and correct text—all running locally via Ollama.",
+    "repo": "sebastienminne/obsidian-ia",
+    "pr_number": 9871
+  },
+  {
+    "id": "audio-transcription",
+    "name": "Audio Transcription",
+    "author": "Panagiotis Tzamtzis",
+    "description": "Transcribe audio files (m4a, mp3) and extract actionable insights using AI. Supports all languages with local or cloud processing.",
+    "repo": "tzamtzis/obsidian-transcription-plugin",
+    "pr_number": 9853
+  },
+  {
+    "id": "bases-views",
+    "name": "Bases Views",
+    "author": "Alexander Bukhtatyy",
+    "description": "Adds Board, Gantt, and Calendar views to Bases.",
+    "repo": "AlexandrBukhtatyy/obsidian-bases-views",
+    "pr_number": 9866
+  },
+  {
     "id": "code-folding",
     "name": "Code Folding",
     "author": "mr-pounds",
     "description": "A lightweight plugin that adds smart folding functionality to code blocks.",
     "repo": "mr-pounds/code-folding",
     "pr_number": 9880
+  },
+  {
+    "id": "favorites-notes",
+    "name": "Favorites Notes",
+    "author": "kharbacheuski",
+    "description": "Quick access to your favorite notes.",
+    "repo": "kharbacheuski/obsidian-favorites-notes",
+    "pr_number": 9851
+  },
+  {
+    "id": "powerpoint-viewer",
+    "name": "PowerPoint Viewer",
+    "description": "View PowerPoint (.pptx) files directly inside the app.",
+    "author": "Blue obsidian",
+    "repo": "Emmanuek5/obsidian-powerpoint",
+    "pr_number": 9835
   },
   {
     "id": "tasktrack",
@@ -200,14 +448,6 @@
     "pr_number": 9875
   },
   {
-    "id": "bases-views",
-    "name": "Bases Views",
-    "author": "Alexander Bukhtatyy",
-    "description": "Adds Board, Gantt, and Calendar views to Bases.",
-    "repo": "AlexandrBukhtatyy/obsidian-bases-views",
-    "pr_number": 9866
-  },
-  {
     "id": "android-camera-embed",
     "name": "Android Camera Embed",
     "author": "manchatz",
@@ -216,28 +456,12 @@
     "pr_number": 9872
   },
   {
-    "id": "obsidian-ollama-tagger",
-    "name": "Local LLM",
-    "author": "Sébastien Minne",
-    "description": "Your private AI assistant. Generate meeting minutes, get smart context-aware tag suggestions, and correct text—all running locally via Ollama.",
-    "repo": "sebastienminne/obsidian-ia",
-    "pr_number": 9871
-  },
-  {
-    "id": "ollama-tagger",
-    "name": "Local LLM",
-    "author": "Sébastien Minne",
-    "description": "Your private AI assistant. Generate meeting minutes, get smart context-aware tag suggestions, and correct text—all running locally via Ollama.",
-    "repo": "sebastienminne/obsidian-ia",
-    "pr_number": 9871
-  },
-  {
-    "id": "plane-project",
-    "name": "Plane Project",
-    "author": "Arcodify",
-    "description": "Manage Plane projects with boards, modules, and syncing.",
-    "repo": "Arcodify/obsidian-plane-plugin",
-    "pr_number": 9862
+    "id": "countdown-dashboard",
+    "name": "Countdown Dashboard",
+    "author": "mingyuepianzhou-gif",
+    "description": "A simple countdown dashboard plugin in the sidebar.",
+    "repo": "mingyuepianzhou-gif/obsidian-countdown-dashboard",
+    "pr_number": 9849
   },
   {
     "id": "line-audio-summarizer",
@@ -254,14 +478,6 @@
     "description": "Replaces default behavior for Drag and Drop, where it puts embedded links, and instead uses normal ones.",
     "repo": "debuxxed/disable-embedded-default",
     "pr_number": 9867
-  },
-  {
-    "id": "multi-level-note-mover",
-    "name": "Multi Level Note Mover",
-    "author": "JR (Jayachandran Ramadoss)",
-    "description": "Automatically move notes based on tag hierarchy using a tree structure interface.",
-    "repo": "jrjakiro/multi-level-note-mover",
-    "pr_number": 9864
   },
   {
     "id": "todo-flow",
@@ -312,36 +528,12 @@
     "pr_number": 9846
   },
   {
-    "id": "audio-transcription",
-    "name": "Audio Transcription",
-    "author": "Panagiotis Tzamtzis",
-    "description": "Transcribe audio files (m4a, mp3) and extract actionable insights using AI. Supports all languages with local or cloud processing.",
-    "repo": "tzamtzis/obsidian-transcription-plugin",
-    "pr_number": 9853
-  },
-  {
     "id": "spellfix",
     "name": "SpellFix",
     "author": "Yoav Ravid",
     "description": "seamlessly accept spellchecker suggestions.",
     "repo": "Yoav6/Obsidian-SpellFix",
     "pr_number": 9856
-  },
-  {
-    "id": "mini-notes",
-    "name": "Mini Notes",
-    "author": "Bana Tawalbeh",
-    "description": "Your quick thoughts, beautifully displayed, with a Google Keep-style colorful card-based view.",
-    "repo": "rknastenka/obsidian-mini-notes",
-    "pr_number": 9859
-  },
-  {
-    "id": "favorites-notes",
-    "name": "Favorites Notes",
-    "author": "kharbacheuski",
-    "description": "Quick access to your favorite notes.",
-    "repo": "kharbacheuski/obsidian-favorites-notes",
-    "pr_number": 9851
   },
   {
     "id": "claudian",
@@ -360,28 +552,12 @@
     "pr_number": 9850
   },
   {
-    "id": "countdown-dashboard",
-    "name": "Countdown Dashboard",
-    "author": "mingyuepianzhou-gif",
-    "description": "A simple countdown dashboard plugin in the sidebar.",
-    "repo": "mingyuepianzhou-gif/obsidian-countdown-dashboard",
-    "pr_number": 9849
-  },
-  {
     "id": "atmark",
     "name": "ATmark",
     "author": "treethought",
     "description": "View and manage AT Protocol bookmarks.",
     "repo": "treethought/obsidian-atmark",
     "pr_number": 9824
-  },
-  {
-    "id": "powerpoint-viewer",
-    "name": "PowerPoint Viewer",
-    "description": "View PowerPoint (.pptx) files directly inside the app.",
-    "author": "Blue obsidian",
-    "repo": "Emmanuek5/obsidian-powerpoint",
-    "pr_number": 9835
   },
   {
     "id": "hermes-voice-assistant",
@@ -400,6 +576,14 @@
     "pr_number": 9841
   },
   {
+    "id": "notetabs",
+    "name": "Note Tabs",
+    "author": "Jheanell Elliott",
+    "description": "Create tabbed sections within your notes.",
+    "repo": "Project-Free-Rangers/obsidian-notetabs",
+    "pr_number": 9489
+  },
+  {
     "id": "imageview",
     "name": "ImageView",
     "author": "Larry Nguyen",
@@ -414,14 +598,6 @@
     "description": "Copy into the system clipboard a link to the current note.",
     "repo": "Seagull2004/copy-note-link",
     "pr_number": 9834
-  },
-  {
-    "id": "notetabs",
-    "name": "Note Tabs",
-    "author": "Jheanell Elliott",
-    "description": "Create tabbed sections within your notes.",
-    "repo": "Project-Free-Rangers/obsidian-notetabs",
-    "pr_number": 9489
   },
   {
     "id": "audio-recording-timer",
@@ -472,6 +648,14 @@
     "pr_number": 9827
   },
   {
+    "id": "nexuspm",
+    "name": "NexusPM",
+    "author": "eieio81810",
+    "description": "Project managemen: WBS view with task metadata, configurable settings, and custom graph view.",
+    "repo": "eieio81810/nexuspm",
+    "pr_number": 9702
+  },
+  {
     "id": "flash",
     "name": "Flash",
     "author": "Vasiliy Ivanov",
@@ -496,6 +680,14 @@
     "pr_number": 9802
   },
   {
+    "id": "folder-graph",
+    "name": "Folder Graph",
+    "author": "YhhhZzzzzz",
+    "description": "Visualize folder structure in Graph View using a shadow index system.",
+    "repo": "YhhhZzzzzz/obsidian-folder-graph-plugin",
+    "pr_number": 9443
+  },
+  {
     "id": "smart-code-blocks",
     "name": "Smart Code Blocks",
     "author": "Nathan Sujatno",
@@ -512,12 +704,12 @@
     "pr_number": 9808
   },
   {
-    "id": "folder-graph",
-    "name": "Folder Graph",
-    "author": "YhhhZzzzzz",
-    "description": "Visualize folder structure in Graph View using a shadow index system.",
-    "repo": "YhhhZzzzzz/obsidian-folder-graph-plugin",
-    "pr_number": 9443
+    "id": "vault-gardener",
+    "name": "Vault Gardener",
+    "author": "intelligence401",
+    "description": "Creates internal links and aliases.",
+    "repo": "intelligence401/obsidian-vault-gardener",
+    "pr_number": 9765
   },
   {
     "id": "block-view",
@@ -568,6 +760,22 @@
     "pr_number": 9789
   },
   {
+    "id": "explorer",
+    "name": "Explorer",
+    "author": "manemajef",
+    "description": "A file explorer view with card and list views. Displays folder contents with sorting, pagination, and search.",
+    "repo": "manemajef/obsidian-explorer",
+    "pr_number": 9750
+  },
+  {
+    "id": "speed-reader",
+    "name": "Speed Reader",
+    "author": "Madhusudan Kulkarni",
+    "description": "RSVP-based speed reading for your notes - flash one word at a time with optimal recognition point highlighting.",
+    "repo": "madhusudan-kulkarni/obsidian-speed-reader",
+    "pr_number": 9736
+  },
+  {
     "id": "gantt-calendar",
     "name": "Gantt Calendar",
     "author": "Sugar",
@@ -584,20 +792,20 @@
     "pr_number": 9781
   },
   {
-    "id": "vault-gardener",
-    "name": "Vault Gardener",
-    "author": "intelligence401",
-    "description": "Creates internal links and aliases.",
-    "repo": "intelligence401/obsidian-vault-gardener",
-    "pr_number": 9765
-  },
-  {
     "id": "steamgriddb-embedder",
     "name": "SteamGridDB Image Embedder",
     "author": "abduznik",
     "description": "Embeds images from SteamGridDB based on the note title.",
     "repo": "abduznik/obsidian-steamgriddb",
     "pr_number": 9793
+  },
+  {
+    "id": "xmind-to-canvas",
+    "name": "XMind to Canvas",
+    "author": "wllzhang",
+    "description": "Convert XMind files to JSON Canvas format for seamless mind map integration.",
+    "repo": "wllzhang/xmind-to-canvas",
+    "pr_number": 9730
   },
   {
     "id": "vim-mode-status",
@@ -640,20 +848,20 @@
     "pr_number": 9785
   },
   {
+    "id": "sparklines",
+    "name": "Sparklines",
+    "author": "Dinu Gherman",
+    "description": "Render inline sparklines, converting code blocks to SVG.",
+    "repo": "deeplook/obsidian-sparklines",
+    "pr_number": 9694
+  },
+  {
     "id": "llm-separator-remover",
     "name": "LLM Separator Remover",
     "author": "Rhyd Lewis",
     "description": "Remove LLM-generated separator patterns (blank line + --- + blank line) from notes.",
     "repo": "rhydlewis/obsidian-llm-separator-remover-plugin",
     "pr_number": 9717
-  },
-  {
-    "id": "habr-importer",
-    "name": "Habr Importer",
-    "author": "playmean",
-    "description": "Download Habr articles, convert to Markdown, and save into your vault.",
-    "repo": "playmean/obsidian-habr-importer-plugin",
-    "pr_number": 9763
   },
   {
     "id": "boxflow",
@@ -664,20 +872,20 @@
     "pr_number": 9711
   },
   {
+    "id": "habr-importer",
+    "name": "Habr Importer",
+    "author": "playmean",
+    "description": "Download Habr articles, convert to Markdown, and save into your vault.",
+    "repo": "playmean/obsidian-habr-importer-plugin",
+    "pr_number": 9763
+  },
+  {
     "id": "hugo-boss",
     "name": "Hugo Boss",
     "author": "Jerod Santo",
     "description": "Preview, publish, and deploy your Hugo blog without leaving your editor.",
     "repo": "jerodsanto/hugo-boss",
     "pr_number": 9725
-  },
-  {
-    "id": "speed-reader",
-    "name": "Speed Reader",
-    "author": "Madhusudan Kulkarni",
-    "description": "RSVP-based speed reading for your notes - flash one word at a time with optimal recognition point highlighting.",
-    "repo": "madhusudan-kulkarni/obsidian-speed-reader",
-    "pr_number": 9736
   },
   {
     "id": "owly-relations",
@@ -688,28 +896,20 @@
     "pr_number": 9732
   },
   {
-    "id": "attachmenter",
-    "name": "Attachmenter",
-    "author": "Nat Lee",
-    "description": "Manage attachments with flexible paths, automatic naming, and remote image downloading.",
-    "repo": "NatLee/obsidian-attachmenter",
-    "pr_number": 9706
-  },
-  {
-    "id": "xmind-to-canvas",
-    "name": "XMind to Canvas",
-    "author": "wllzhang",
-    "description": "Convert XMind files to JSON Canvas format for seamless mind map integration.",
-    "repo": "wllzhang/xmind-to-canvas",
-    "pr_number": 9730
-  },
-  {
     "id": "web-crawler",
     "name": "Web Crawler",
     "author": "wangrongjia",
     "description": "Crawl web pages and convert them to Markdown files. Supports websites that require login via cookies, including Twitter/X, Reddit, Zhihu, and more.",
     "repo": "wangrongjia/obsidian-web-crawler",
     "pr_number": 9338
+  },
+  {
+    "id": "attachmenter",
+    "name": "Attachmenter",
+    "author": "Nat Lee",
+    "description": "Manage attachments with flexible paths, automatic naming, and remote image downloading.",
+    "repo": "NatLee/obsidian-attachmenter",
+    "pr_number": 9706
   },
   {
     "id": "inner-circle",
@@ -736,20 +936,20 @@
     "pr_number": 9776
   },
   {
-    "id": "auto-heading-links",
-    "name": "Auto Heading Links",
-    "author": "Micky",
-    "description": "Automatically updates internal links when headings are renamed.",
-    "repo": "UngaroMarcoo/plug-in-link-updater-obsidian",
-    "pr_number": 9774
-  },
-  {
     "id": "em-dash-replace",
     "name": "Em Dash Replace",
     "author": "Egor Ilin",
     "description": "Replaces double dashes with em dashes in real time.",
     "repo": "jefrry/obsidian-em-dash-replace",
     "pr_number": 9707
+  },
+  {
+    "id": "auto-heading-links",
+    "name": "Auto Heading Links",
+    "author": "Micky",
+    "description": "Automatically updates internal links when headings are renamed.",
+    "repo": "UngaroMarcoo/plug-in-link-updater-obsidian",
+    "pr_number": 9774
   },
   {
     "id": "vault-launcher",
@@ -768,12 +968,28 @@
     "pr_number": 9698
   },
   {
+    "id": "neural-composer",
+    "name": "Neural Composer",
+    "author": "Oscar Campo",
+    "description": "Local Graph RAG powered by LightRAG. Chat with your notes using deep knowledge graph connections.",
+    "repo": "oscampo/obsidian-neural-composer",
+    "pr_number": 9615
+  },
+  {
     "id": "youtube-preview",
     "name": "YouTube Preview",
     "author": "Amarnadh",
     "description": "Extract YouTube video metadata (title, thumbnail, channel) and insert beautiful previews into your notes.",
     "repo": "amarnadh98/obsidian-youtube-preview",
     "pr_number": 9762
+  },
+  {
+    "id": "albus-imagine",
+    "name": "Imagine",
+    "author": "Albus",
+    "description": "A comprehensive image management plugin for managing, inserting, resizing, viewing, and batch processing images.",
+    "repo": "AlbusGuo/albus-imagine",
+    "pr_number": 9673
   },
   {
     "id": "remote-vault-sync",
@@ -784,20 +1000,20 @@
     "pr_number": 9751
   },
   {
+    "id": "code-space",
+    "name": "Code Space",
+    "description": "Professional code file management with visual dashboard, syntax highlighting editor, and Markdown embedding.",
+    "author": "unlinearity",
+    "repo": "UNLINEARITY/Obsidian-CodeSpace",
+    "pr_number": 9662
+  },
+  {
     "id": "vim-cursor-column-highlight",
     "name": "Vim Cursor Column Highlight",
     "author": "miyatam3551",
     "description": "Displays crosshair-style highlighting at cursor position (vertical column + horizontal line)",
     "repo": "miyatam3551/vim-cursor-column-highlight",
     "pr_number": 9756
-  },
-  {
-    "id": "duplicate-line-up-down",
-    "name": "Duplicate Line Up/Down",
-    "author": "ando-s",
-    "description": "Duplicate the current line or selection upward or downward.",
-    "repo": "ando-s/obsidian-duplicate-line-up-down",
-    "pr_number": 9735
   },
   {
     "id": "business-card-ai",
@@ -808,12 +1024,12 @@
     "pr_number": 9688
   },
   {
-    "id": "neural-composer",
-    "name": "Neural Composer",
-    "author": "Oscar Campo",
-    "description": "Local Graph RAG powered by LightRAG. Chat with your notes using deep knowledge graph connections.",
-    "repo": "oscampo/obsidian-neural-composer",
-    "pr_number": 9615
+    "id": "duplicate-line-up-down",
+    "name": "Duplicate Line Up/Down",
+    "author": "ando-s",
+    "description": "Duplicate the current line or selection upward or downward.",
+    "repo": "ando-s/obsidian-duplicate-line-up-down",
+    "pr_number": 9735
   },
   {
     "id": "mermaid-fullscreen",
@@ -832,20 +1048,12 @@
     "pr_number": 9754
   },
   {
-    "id": "albus-imagine",
-    "name": "Imagine",
-    "author": "Albus",
-    "description": "A comprehensive image management plugin for managing, inserting, resizing, viewing, and batch processing images.",
-    "repo": "AlbusGuo/albus-imagine",
-    "pr_number": 9673
-  },
-  {
-    "id": "nexuspm",
-    "name": "NexusPM",
-    "author": "eieio81810",
-    "description": "Project managemen: WBS view with task metadata, configurable settings, and custom graph view.",
-    "repo": "eieio81810/nexuspm",
-    "pr_number": 9702
+    "id": "obsidigram",
+    "name": "Obsidigram",
+    "author": "Tsupko Igor",
+    "description": "Plugin to provide telegram bot support with AI superpowers.",
+    "repo": "may-cat/obsidigram",
+    "pr_number": 9689
   },
   {
     "id": "github-assignments",
@@ -856,28 +1064,12 @@
     "pr_number": 9753
   },
   {
-    "id": "obsidigram",
-    "name": "Obsidigram",
-    "author": "Tsupko Igor",
-    "description": "Plugin to provide telegram bot support with AI superpowers.",
-    "repo": "may-cat/obsidigram",
-    "pr_number": 9689
-  },
-  {
     "id": "ai-cli-chat",
     "name": "AI CLI Chat",
     "author": "Nealey",
     "description": "Chat with Claude Code CLI in your vault. Read, write, and edit notes directly.",
     "repo": "jnealey88/obsidian-claude-code",
     "pr_number": 9729
-  },
-  {
-    "id": "roll",
-    "name": "Roll",
-    "author": "Christopher Hugentobler",
-    "description": "One-page todo list. Three states. No due dates. Unfinished tasks roll forward.",
-    "repo": "hugentobler/obsidian-roll",
-    "pr_number": 9728
   },
   {
     "id": "sspai-toc",
@@ -888,12 +1080,12 @@
     "pr_number": 9683
   },
   {
-    "id": "explorer",
-    "name": "Explorer",
-    "author": "manemajef",
-    "description": "A file explorer view with card and list views. Displays folder contents with sorting, pagination, and search.",
-    "repo": "manemajef/obsidian-explorer",
-    "pr_number": 9750
+    "id": "roll",
+    "name": "Roll",
+    "author": "Christopher Hugentobler",
+    "description": "One-page todo list. Three states. No due dates. Unfinished tasks roll forward.",
+    "repo": "hugentobler/obsidian-roll",
+    "pr_number": 9728
   },
   {
     "id": "home-button",
@@ -902,6 +1094,14 @@
     "description": "Button to return yourself to home tab.",
     "repo": "leo-proger/obsidian-home-button",
     "pr_number": 9738
+  },
+  {
+    "id": "i18n-plus",
+    "name": "i18n+",
+    "author": "dangehub",
+    "description": "Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
+    "repo": "dangehub/obsidian-plugins-i18n-plus",
+    "pr_number": 9642
   },
   {
     "id": "asr-transcription",
@@ -1024,14 +1224,6 @@
     "pr_number": 9724
   },
   {
-    "id": "code-space",
-    "name": "Code Space",
-    "description": "Professional code file management with visual dashboard, syntax highlighting editor, and Markdown embedding.",
-    "author": "unlinearity",
-    "repo": "UNLINEARITY/Obsidian-CodeSpace",
-    "pr_number": 9662
-  },
-  {
     "id": "knowledge-card-sync",
     "name": "Knowledge Card Sync",
     "author": "Knowledge Card Team",
@@ -1064,6 +1256,22 @@
     "pr_number": 9656
   },
   {
+    "id": "opsto-mp",
+    "name": "OpsToMP",
+    "author": "Qysec",
+    "description": "Convert and post Markdown notes to WeChat Official Account Draft Box.",
+    "repo": "EATMELONSEC/OpsToMP",
+    "pr_number": 9185
+  },
+  {
+    "id": "nexus-properties",
+    "name": "Nexus Properties",
+    "author": "Real1tyy",
+    "description": "Automated property management plugin that syncs parent-child and related relationships bidirectionally with recursive tree properties.",
+    "repo": "Real1tyy/Nexus-Properties",
+    "pr_number": 9596
+  },
+  {
     "id": "tag-view-untagged",
     "name": "Tag View Untagged",
     "author": "Joaq33",
@@ -1088,14 +1296,6 @@
     "pr_number": 9691
   },
   {
-    "id": "opsto-mp",
-    "name": "OpsToMP",
-    "author": "Qysec",
-    "description": "Convert and post Markdown notes to WeChat Official Account Draft Box.",
-    "repo": "EATMELONSEC/OpsToMP",
-    "pr_number": 9185
-  },
-  {
     "id": "paper-processor",
     "name": "Paper Processor",
     "author": "Jae Heon Jung",
@@ -1112,12 +1312,28 @@
     "pr_number": 9635
   },
   {
+    "id": "obshare",
+    "name": "ObShare",
+    "author": "xigua",
+    "description": "Your Note Synchronization and Sharing Solution Based on Feishu Docs. 基于飞书云文档的笔记同步与分享方案.",
+    "repo": "xigua222/ObShare",
+    "pr_number": 9595
+  },
+  {
     "id": "confluence-publisher",
     "name": "Confluence Publisher",
     "author": "Riccardo Petraglia",
     "description": "Sync the active note to Confluence using the REST API.",
     "repo": "grhawk/obsidian-2-confluence",
     "pr_number": 9618
+  },
+  {
+    "id": "autolinks",
+    "name": "Auto Links",
+    "author": "Jeon Suyeol",
+    "description": "Auto-convert regex patterns to clickable links.",
+    "repo": "devxoul/obsidian-autolinks",
+    "pr_number": 9582
   },
   {
     "id": "vault-sync-realtime",
@@ -1134,14 +1350,6 @@
     "description": "Drag and drop text blocks within notes, Notion-style.",
     "repo": "nikitadorofeevdesigner-prog/obsidian-block-dnd",
     "pr_number": 9617
-  },
-  {
-    "id": "sparklines",
-    "name": "Sparklines",
-    "author": "Dinu Gherman",
-    "description": "Render inline sparklines, converting code blocks to SVG.",
-    "repo": "deeplook/obsidian-sparklines",
-    "pr_number": 9694
   },
   {
     "id": "bases-style-enhancer",
@@ -1192,6 +1400,14 @@
     "pr_number": 9437
   },
   {
+    "id": "snorkel",
+    "name": "Snorkel",
+    "author": "Andrew Foster",
+    "description": "Snorkel is an assistant for getting things done.",
+    "repo": "afoster1/snorkel",
+    "pr_number": 9551
+  },
+  {
     "id": "sync-folds",
     "name": "Sync Folds",
     "author": "James Alexandre",
@@ -1208,12 +1424,12 @@
     "pr_number": 9667
   },
   {
-    "id": "obshare",
-    "name": "ObShare",
-    "author": "xigua",
-    "description": "Your Note Synchronization and Sharing Solution Based on Feishu Docs. 基于飞书云文档的笔记同步与分享方案.",
-    "repo": "xigua222/ObShare",
-    "pr_number": 9595
+    "id": "obsidoist",
+    "name": "Obsidoist",
+    "author": "0ximst1ll",
+    "description": "Task management with Todoist bidirectional sync.",
+    "repo": "0ximst1ll/obsidoist-plugin",
+    "pr_number": 9605
   },
   {
     "id": "move-active-folder",
@@ -1232,14 +1448,6 @@
     "pr_number": 9664
   },
   {
-    "id": "obsidoist",
-    "name": "Obsidoist",
-    "author": "0ximst1ll",
-    "description": "Task management with Todoist bidirectional sync.",
-    "repo": "0ximst1ll/obsidoist-plugin",
-    "pr_number": 9605
-  },
-  {
     "id": "o2any-obsdian",
     "name": "O2Any",
     "author": "张雨帆",
@@ -1248,12 +1456,12 @@
     "pr_number": 9559
   },
   {
-    "id": "chatterbox",
-    "name": "Chatterbox",
-    "author": "Ossama W. Obeid",
-    "description": "Render dialogues and conversations in the style of messaging apps.",
-    "repo": "owo/obsidian-chatterbox-plugin",
-    "pr_number": 9674
+    "id": "link-colorer",
+    "name": "Link Colorer",
+    "author": "Pamela Wang",
+    "description": "Colors the links differently to help differentiate the links and give them a consistent color scheme.",
+    "repo": "Caffa/links-coloring",
+    "pr_number": 9536
   },
   {
     "id": "supernote-viewer",
@@ -1262,6 +1470,14 @@
     "description": "View and navigate Supernote .note files with thumbnails, zoom, and dark mode support.",
     "repo": "HelloKashif/obsidian-supernote",
     "pr_number": 9575
+  },
+  {
+    "id": "chatterbox",
+    "name": "Chatterbox",
+    "author": "Ossama W. Obeid",
+    "description": "Render dialogues and conversations in the style of messaging apps.",
+    "repo": "owo/obsidian-chatterbox-plugin",
+    "pr_number": 9674
   },
   {
     "id": "underpowered-files",
@@ -1294,14 +1510,6 @@
     "description": "Professional file-level encryption with military-grade AES-256-GCM security.",
     "repo": "HGiorgis/sankryptidian",
     "pr_number": 9669
-  },
-  {
-    "id": "nexus-properties",
-    "name": "Nexus Properties",
-    "author": "Real1tyy",
-    "description": "Automated property management plugin that syncs parent-child and related relationships bidirectionally with recursive tree properties.",
-    "repo": "Real1tyy/Nexus-Properties",
-    "pr_number": 9596
   },
   {
     "id": "the-minimalist-editor",
@@ -1350,14 +1558,6 @@
     "description": "Import Poe AI chat conversations from the RavenVault desktop app into your vault.",
     "repo": "ravenvault-app/ravenvault-obsidian",
     "pr_number": 9653
-  },
-  {
-    "id": "i18n-plus",
-    "name": "i18n+",
-    "author": "dangehub",
-    "description": "Manage translations for plugins with hot-reload support and crowdsourced dictionaries.",
-    "repo": "dangehub/obsidian-plugins-i18n-plus",
-    "pr_number": 9642
   },
   {
     "id": "word-to-md",
@@ -1416,14 +1616,6 @@
     "pr_number": 9640
   },
   {
-    "id": "viwoods-sync",
-    "name": "Viwoods Sync",
-    "description": "Import and sync Viwoods .note files. Converts handwritten notes to PNG, extracts audio recordings, and supports auto-sync for real-time updates.",
-    "author": "tuannvm",
-    "repo": "tuannvm/viwoods-sync",
-    "pr_number": 9627
-  },
-  {
     "id": "time-tracker",
     "name": "Time Tracker",
     "author": "Lu-Wai Wong",
@@ -1432,12 +1624,12 @@
     "pr_number": 9524
   },
   {
-    "id": "snorkel",
-    "name": "Snorkel",
-    "author": "Andrew Foster",
-    "description": "Snorkel is an assistant for getting things done.",
-    "repo": "afoster1/snorkel",
-    "pr_number": 9551
+    "id": "viwoods-sync",
+    "name": "Viwoods Sync",
+    "description": "Import and sync Viwoods .note files. Converts handwritten notes to PNG, extracts audio recordings, and supports auto-sync for real-time updates.",
+    "author": "tuannvm",
+    "repo": "tuannvm/viwoods-sync",
+    "pr_number": 9627
   },
   {
     "id": "supabase-image-uploader",
@@ -1448,28 +1640,12 @@
     "pr_number": 9628
   },
   {
-    "id": "link-colorer",
-    "name": "Link Colorer",
-    "author": "Pamela Wang",
-    "description": "Colors the links differently to help differentiate the links and give them a consistent color scheme.",
-    "repo": "Caffa/links-coloring",
-    "pr_number": 9536
-  },
-  {
     "id": "clipflow",
     "name": "ClipFlow",
     "author": "Helalsoft",
     "description": "Seamlessly capture, search, and quick-paste from your clipboard history.",
     "repo": "helalsoft/obsidian-clipflow",
     "pr_number": 9597
-  },
-  {
-    "id": "lantern",
-    "name": "Lantern",
-    "author": "Julia Cheung",
-    "description": "AI-powered introspective dialogue for self-reflection and insight discovery.",
-    "repo": "cheungjulia/lantern",
-    "pr_number": 9629
   },
   {
     "id": "one-click-lock",
@@ -1480,20 +1656,28 @@
     "pr_number": 9485
   },
   {
+    "id": "lantern",
+    "name": "Lantern",
+    "author": "Julia Cheung",
+    "description": "AI-powered introspective dialogue for self-reflection and insight discovery.",
+    "repo": "cheungjulia/lantern",
+    "pr_number": 9629
+  },
+  {
+    "id": "tarot-practice",
+    "name": "Tarot Practice",
+    "author": "Todd Waits",
+    "description": "A tarot plugin for daily practice. Draw single or multiple cards with intention using randomness seeded by your words. Full mobile support.",
+    "repo": "w8s/obsidian-tarot-practice",
+    "pr_number": 9473
+  },
+  {
     "id": "yesterday-summarizer",
     "name": "Yesterday Summarizer",
     "author": "Xiaolong Yang",
     "description": "Summarize yesterday's daily note using local LLM (Ollama) to generate actionable insights for today's planning.",
     "repo": "xiaolong-y/obsidian-yesterday-summarizer",
     "pr_number": 9511
-  },
-  {
-    "id": "autolinks",
-    "name": "Auto Links",
-    "author": "Jeon Suyeol",
-    "description": "Auto-convert regex patterns to clickable links.",
-    "repo": "devxoul/obsidian-autolinks",
-    "pr_number": 9582
   },
   {
     "id": "pin-to-top",
@@ -1520,12 +1704,12 @@
     "pr_number": 9563
   },
   {
-    "id": "tarot-practice",
-    "name": "Tarot Practice",
-    "author": "Todd Waits",
-    "description": "A tarot plugin for daily practice. Draw single or multiple cards with intention using randomness seeded by your words. Full mobile support.",
-    "repo": "w8s/obsidian-tarot-practice",
-    "pr_number": 9473
+    "id": "hierarchy-graph",
+    "name": "Hierarchy Graph",
+    "author": "iso53",
+    "description": "Visualize your vault's folder structure as an interactive force-directed graph, showing file hierarchy.",
+    "repo": "iso53/hierarchy-graph",
+    "pr_number": 9506
   },
   {
     "id": "kanban-multilevel",
@@ -1536,12 +1720,12 @@
     "pr_number": 9571
   },
   {
-    "id": "hierarchy-graph",
-    "name": "Hierarchy Graph",
-    "author": "iso53",
-    "description": "Visualize your vault's folder structure as an interactive force-directed graph, showing file hierarchy.",
-    "repo": "iso53/hierarchy-graph",
-    "pr_number": 9506
+    "id": "special-callouts",
+    "name": "Special Callouts",
+    "author": "ahseyg81",
+    "description": "Advanced callout styling with grid layouts, custom colors, gradients, glow effects, and multi-column support.",
+    "repo": "ahseyg81/special-callouts",
+    "pr_number": 9440
   },
   {
     "id": "note-to-wikijs",
@@ -1568,12 +1752,12 @@
     "pr_number": 9612
   },
   {
-    "id": "special-callouts",
-    "name": "Special Callouts",
-    "author": "ahseyg81",
-    "description": "Advanced callout styling with grid layouts, custom colors, gradients, glow effects, and multi-column support.",
-    "repo": "ahseyg81/special-callouts",
-    "pr_number": 9440
+    "id": "memmaster",
+    "name": "MemMaster — Spaced Repetition",
+    "author": "qoonmax",
+    "description": "A spaced repetition plugin that helps you remember your notes by scheduling them for review at the right time.",
+    "repo": "qoonmax/memmaster-obsidian-plugin",
+    "pr_number": 9420
   },
   {
     "id": "import-latest-md-from-downloads",
@@ -1656,28 +1840,20 @@
     "pr_number": 9600
   },
   {
-    "id": "threads-poster",
-    "name": "Threads Poster",
-    "author": "Anna Gavrilova",
-    "description": "Post to threads account directly from your vault with a single command.",
-    "repo": "anna-gavrilova/obisidan-to-threads-plugin",
-    "pr_number": 9464
-  },
-  {
-    "id": "hevy",
-    "name": "Hevy",
-    "author": "0xv1n",
-    "description": "Track and visualize workout data from Hevy.",
-    "repo": "0xv1n/hevy-for-obsidian",
-    "pr_number": 9572
-  },
-  {
     "id": "web-sidecar",
     "name": "Web Sidecar",
     "author": "Greg K.",
     "description": "Rediscover web notes with a streamlined design. Track open pages and connect them to your vault, using vertical tabs to navigate between web content and your notes.",
     "repo": "soundslikeinfo/obsidian-web-sidecar",
     "pr_number": 9404
+  },
+  {
+    "id": "threads-poster",
+    "name": "Threads Poster",
+    "author": "Anna Gavrilova",
+    "description": "Post to threads account directly from your vault with a single command.",
+    "repo": "anna-gavrilova/obisidan-to-threads-plugin",
+    "pr_number": 9464
   },
   {
     "id": "mutare",
@@ -1688,12 +1864,28 @@
     "pr_number": 9497
   },
   {
+    "id": "hevy",
+    "name": "Hevy",
+    "author": "0xv1n",
+    "description": "Track and visualize workout data from Hevy.",
+    "repo": "0xv1n/hevy-for-obsidian",
+    "pr_number": 9572
+  },
+  {
     "id": "text-color-tags",
     "name": "Text Color Tags",
     "author": "psyda",
     "description": "Simple and fast inline text coloring that feels native with $red, $#hex syntax. Clickable swatches, color picker, vault presets.",
     "repo": "psyda/obsidian-text-color-tags",
     "pr_number": 9590
+  },
+  {
+    "id": "until-today",
+    "name": "Until Today",
+    "author": "Wei Zhang",
+    "description": "Automatically open the current daily/weekly note or create a new one copying content from the previous one.",
+    "repo": "zwpaper/obsidian-until-today",
+    "pr_number": 9423
   },
   {
     "id": "infinite-notes",
@@ -1710,14 +1902,6 @@
     "description": "Create and take exams with multiple choice questions from your notes. Features scoring, timer, and review mode.",
     "repo": "iwanhoogendoorn/obsidian-exam-creator",
     "pr_number": 9579
-  },
-  {
-    "id": "until-today",
-    "name": "Until Today",
-    "author": "Wei Zhang",
-    "description": "Automatically open the current daily/weekly note or create a new one copying content from the previous one.",
-    "repo": "zwpaper/obsidian-until-today",
-    "pr_number": 9423
   },
   {
     "id": "code-import",
@@ -1752,6 +1936,14 @@
     "pr_number": 9535
   },
   {
+    "id": "stenotype",
+    "name": "Stenotype",
+    "author": "Ghanekar-codes",
+    "description": "Automatically adds apostrophes to common contractions as you type.",
+    "repo": "Ghanekar-codes/Stenotype",
+    "pr_number": 9430
+  },
+  {
     "id": "paragraph-copy",
     "name": "Paragraph Copy",
     "author": "Chaos",
@@ -1760,20 +1952,12 @@
     "pr_number": 9570
   },
   {
-    "id": "ssnippets",
-    "name": "Smart Snippets",
-    "author": "Zaki Ul Hassan",
-    "description": "Type shortcuts like /meeting or /todo and expand them into formatted templates with variables. Create custom snippets for any workflow.",
-    "repo": "zakiuhh/ssnippets-obsidian",
-    "pr_number": 9458
-  },
-  {
-    "id": "stenotype",
-    "name": "Stenotype",
-    "author": "Ghanekar-codes",
-    "description": "Automatically adds apostrophes to common contractions as you type.",
-    "repo": "Ghanekar-codes/Stenotype",
-    "pr_number": 9430
+    "id": "bible-hover",
+    "name": "Bible Hover",
+    "author": "npc203",
+    "description": "Displays Bible verses from bible markdowns on hover.",
+    "repo": "npc203/bible-hover",
+    "pr_number": 9512
   },
   {
     "id": "easyview",
@@ -1790,14 +1974,6 @@
     "description": "Bulk convert all tags in your vault to lowercase, verify stats, and generate tag lists.",
     "repo": "DuckTapeKiller/obsidian-bulk-tag-manager",
     "pr_number": 9568
-  },
-  {
-    "id": "bible-hover",
-    "name": "Bible Hover",
-    "author": "npc203",
-    "description": "Displays Bible verses from bible markdowns on hover.",
-    "repo": "npc203/bible-hover",
-    "pr_number": 9512
   },
   {
     "id": "book-search-plus",
@@ -1928,20 +2104,20 @@
     "pr_number": 9413
   },
   {
-    "id": "where-did-the-time-go",
-    "name": "Where Did The Time Go?",
-    "author": "Plattnum",
-    "description": "Visual time tracking with infinite-scroll timeline, hierarchical reports, and one-click invoicing. Data stays in your vault as markdown.",
-    "repo": "plattnum/where-did-the-time-go",
-    "pr_number": 9538
-  },
-  {
     "id": "valnote-calculator",
     "name": "Valnote Calculator",
     "author": "orenaksakal",
     "description": "Natural language calculator with unit conversions, currencies, dates, and more.",
     "repo": "orenaksakal/valnotecom-obsidian-plugin",
     "pr_number": 9496
+  },
+  {
+    "id": "where-did-the-time-go",
+    "name": "Where Did The Time Go?",
+    "author": "Plattnum",
+    "description": "Visual time tracking with infinite-scroll timeline, hierarchical reports, and one-click invoicing. Data stays in your vault as markdown.",
+    "repo": "plattnum/where-did-the-time-go",
+    "pr_number": 9538
   },
   {
     "id": "infographic",
@@ -1960,12 +2136,12 @@
     "pr_number": 9534
   },
   {
-    "id": "net-leonardopires-booker",
-    "name": "Booker",
-    "author": "Leonardo Pires",
-    "description": "A minimal/no-nonsense plugin to compile multiple Markdown files into a single document.",
-    "repo": "leonardopires/booker",
-    "pr_number": 9644
+    "id": "notelert",
+    "name": "Notelert",
+    "author": "Joaquim Frances",
+    "description": "Automates the creation of notifications for the Notelert mobile app by creating deeplinks of date and time or location.",
+    "repo": "Joaquim-Frances/obsidian-notelert-plugin",
+    "pr_number": 8640
   },
   {
     "id": "typst-ts-math",
@@ -1974,6 +2150,14 @@
     "description": "Typst rendering support for math blocks using Typst.ts.",
     "repo": "ohowe1/typst-ts-obsidian",
     "pr_number": 9532
+  },
+  {
+    "id": "net-leonardopires-booker",
+    "name": "Booker",
+    "author": "Leonardo Pires",
+    "description": "A minimal/no-nonsense plugin to compile multiple Markdown files into a single document.",
+    "repo": "leonardopires/booker",
+    "pr_number": 9644
   },
   {
     "id": "claude-terminal",
@@ -1992,20 +2176,20 @@
     "pr_number": 9319
   },
   {
-    "id": "flakepiles",
-    "name": "Flakepiles",
-    "author": "i'DLisT",
-    "description": "Put small stickies / cards in a dedicated file. Manage them in masonry layout.",
-    "repo": "idlist/flakepiles",
-    "pr_number": 9533
-  },
-  {
     "id": "weeknote",
     "name": "Weeknote",
     "author": "mori-shio",
     "description": "Manage weekly reports with tasks, memos, and calendar sync.",
     "repo": "mori-shio/obsidian-weeknote",
     "pr_number": 9293
+  },
+  {
+    "id": "flakepiles",
+    "name": "Flakepiles",
+    "author": "i'DLisT",
+    "description": "Put small stickies / cards in a dedicated file. Manage them in masonry layout.",
+    "repo": "idlist/flakepiles",
+    "pr_number": 9533
   },
   {
     "id": "reload-plugins",
@@ -2024,6 +2208,14 @@
     "pr_number": 9525
   },
   {
+    "id": "rtm-sync",
+    "name": "RTM Sync",
+    "author": "Osamu Kishiyama",
+    "description": "Sync Remember The Milk Task.",
+    "repo": "kissyjpf/rtm-sync",
+    "pr_number": 9248
+  },
+  {
     "id": "note-and-folder-state-icons",
     "name": "Note & Folder State Icons",
     "author": "swefpifh",
@@ -2032,12 +2224,20 @@
     "pr_number": 9523
   },
   {
-    "id": "rtm-sync",
-    "name": "RTM Sync",
-    "author": "Osamu Kishiyama",
-    "description": "Sync Remember The Milk Task.",
-    "repo": "kissyjpf/rtm-sync",
-    "pr_number": 9248
+    "id": "obs-projects-plus",
+    "name": "OBS Projects Plus",
+    "author": "Park Pavel",
+    "description": "Project management with visual calendar: timeline, multi-day events, boards, tables, galleries.",
+    "repo": "ParkPavel/obs-projects-plus",
+    "pr_number": 9826
+  },
+  {
+    "id": "obsidian-projects",
+    "name": "Projects",
+    "description": "Manage and visualize notes for project management.",
+    "author": "Marcus Olsson",
+    "repo": "marcusolsson/obsidian-projects",
+    "pr_number": 9826
   },
   {
     "id": "url-preview",
@@ -2064,36 +2264,28 @@
     "pr_number": 9494
   },
   {
-    "id": "obs-projects-plus",
-    "name": "OBS Projects Plus",
-    "author": "Park Pavel",
-    "description": "Project management with visual calendar: timeline, multi-day events, boards, tables, galleries.",
-    "repo": "ParkPavel/obs-projects-plus",
-    "pr_number": 9826
-  },
-  {
-    "id": "obsidian-projects",
-    "name": "Projects",
-    "description": "Manage and visualize notes for project management.",
-    "author": "Marcus Olsson",
-    "repo": "marcusolsson/obsidian-projects",
-    "pr_number": 9826
-  },
-  {
-    "id": "memmaster",
-    "name": "MemMaster — Spaced Repetition",
-    "author": "qoonmax",
-    "description": "A spaced repetition plugin that helps you remember your notes by scheduling them for review at the right time.",
-    "repo": "qoonmax/memmaster-obsidian-plugin",
-    "pr_number": 9420
-  },
-  {
     "id": "automatic-installation-of-plugins",
     "name": "Automatic Plugin Manager",
     "author": "Konstantin Volobuev",
     "description": "Automatically install, enable, and configure community plugins from a simple JSON file. Perfect for syncing plugin setups across devices or sharing vault configurations with predefined plugins and settings.",
     "repo": "Skilletron/obsidian-automatic-installation-of-plugins",
     "pr_number": 8671
+  },
+  {
+    "id": "ai-title-generator",
+    "name": "AI Title Generator",
+    "author": "Jeffrey Gu",
+    "description": "Quickly and easily title your notes using AI (OpenAI, DeepSeek, Claude, etc.)",
+    "repo": "jeffreyouni/obsidian-ai-title-generator",
+    "pr_number": 9204
+  },
+  {
+    "id": "vtt-display",
+    "name": "VTT Display",
+    "author": "Noah Schneider",
+    "description": "It shows maps on a second screen so you can easily manage your battle maps. It allows fog of war and grid overlay.",
+    "repo": "Noah-Retro/vtt-card-display",
+    "pr_number": 9182
   },
   {
     "id": "daily-review-auto-open",
@@ -2120,6 +2312,14 @@
     "pr_number": 9491
   },
   {
+    "id": "better-section-word-count",
+    "name": "Better Section Word Count",
+    "author": "Nysiades",
+    "description": "Counts the words of the current editing section in the editor.",
+    "repo": "Nysiades/better-section-word-count",
+    "pr_number": 9172
+  },
+  {
     "id": "json-collapsible",
     "name": "JSON Collapsible",
     "author": "Niaz Morshed",
@@ -2134,14 +2334,6 @@
     "description": "Fetch Kindle book information from share URLs and create notes with templates.",
     "repo": "mizuki-momose/obsidian-kindle-book-info",
     "pr_number": 9371
-  },
-  {
-    "id": "notelert",
-    "name": "Notelert",
-    "author": "Joaquim Frances",
-    "description": "Automates the creation of notifications for the Notelert mobile app by creating deeplinks of date and time or location.",
-    "repo": "Joaquim-Frances/obsidian-notelert-plugin",
-    "pr_number": 8640
   },
   {
     "id": "export-bases-files",
@@ -2160,12 +2352,12 @@
     "pr_number": 9466
   },
   {
-    "id": "quiz-blocks",
-    "name": "Quiz blocks",
-    "author": "Igor Strebz",
-    "description": "Render ```quiz code blocks into interactive multiple-choice quizzes. Pick an answer, check if you’re right, and see explanations right inside your notes.",
-    "repo": "xamgore/obsidian-quiz-blocks",
-    "pr_number": 9372
+    "id": "obsimap",
+    "name": "ObsiMap",
+    "author": "Creative781",
+    "description": "A powerful keyboard-centric mind map plugin with bi-directional link support.",
+    "repo": "Creative781/obsimap",
+    "pr_number": 9167
   },
   {
     "id": "kitty",
@@ -2174,6 +2366,22 @@
     "description": "A tiny kitty sprite that roams your panes.",
     "repo": "amilleah/obsidian-kitty-plugin",
     "pr_number": 9122
+  },
+  {
+    "id": "task-table",
+    "name": "Task Table",
+    "author": "Kanoa Lindiwe LLC",
+    "description": "Vault-wide table display of tasks from filtered notes.",
+    "repo": "cankanoa/obsidian-task-table",
+    "pr_number": 8618
+  },
+  {
+    "id": "quiz-blocks",
+    "name": "Quiz blocks",
+    "author": "Igor Strebz",
+    "description": "Render ```quiz code blocks into interactive multiple-choice quizzes. Pick an answer, check if you’re right, and see explanations right inside your notes.",
+    "repo": "xamgore/obsidian-quiz-blocks",
+    "pr_number": 9372
   },
   {
     "id": "semantic-json",
@@ -2200,20 +2408,12 @@
     "pr_number": 9453
   },
   {
-    "id": "task-table",
-    "name": "Task Table",
-    "author": "Kanoa Lindiwe LLC",
-    "description": "Vault-wide table display of tasks from filtered notes.",
-    "repo": "cankanoa/obsidian-task-table",
-    "pr_number": 8618
-  },
-  {
-    "id": "yearly-timeline",
-    "name": "Yearly Timeline",
-    "author": "Elaine Serrano",
-    "description": "Visualize your notes across a yearly view.",
-    "repo": "elaine2700/yearly-timeline-obsidian-plugin",
-    "pr_number": 9470
+    "id": "excalidraw-plotter",
+    "name": "Excalidraw Math Plotter",
+    "author": "Ahmed Dawoud",
+    "description": "Plot mathematical function graphs directly onto Excalidraw canvases.",
+    "repo": "AhmedDawoud3/obsidian-excalidraw-plotter",
+    "pr_number": 9153
   },
   {
     "id": "opentime-export",
@@ -2232,12 +2432,12 @@
     "pr_number": 9179
   },
   {
-    "id": "tag-for-everything",
-    "name": "Tag for Everything",
-    "author": "eflecto",
-    "description": "Mass tag management: add tags to all notes in a folder, find and organize untagged notes automatically.",
-    "repo": "eflecto/tag-for-everything",
-    "pr_number": 9462
+    "id": "yearly-timeline",
+    "name": "Yearly Timeline",
+    "author": "Elaine Serrano",
+    "description": "Visualize your notes across a yearly view.",
+    "repo": "elaine2700/yearly-timeline-obsidian-plugin",
+    "pr_number": 9470
   },
   {
     "id": "dot-any",
@@ -2248,20 +2448,28 @@
     "pr_number": 9368
   },
   {
-    "id": "excalidraw-plotter",
-    "name": "Excalidraw Math Plotter",
-    "author": "Ahmed Dawoud",
-    "description": "Plot mathematical function graphs directly onto Excalidraw canvases.",
-    "repo": "AhmedDawoud3/obsidian-excalidraw-plotter",
-    "pr_number": 9153
-  },
-  {
     "id": "flashtags",
     "name": "FlashTags",
     "author": "Roshians",
     "description": "Auto-generate tags and metadata using Google Gemini. Fast, intelligent organization for your vault.",
     "repo": "Roshians/obsidian-flashtags",
     "pr_number": 9152
+  },
+  {
+    "id": "tag-for-everything",
+    "name": "Tag for Everything",
+    "author": "eflecto",
+    "description": "Mass tag management: add tags to all notes in a folder, find and organize untagged notes automatically.",
+    "repo": "eflecto/tag-for-everything",
+    "pr_number": 9462
+  },
+  {
+    "id": "ollamark",
+    "name": "OllaMark",
+    "author": "Avni Badiwale",
+    "description": "Ollama + Markdown: Format and write with local LLMs directly in your notes.",
+    "repo": "Avni2000/OllaMark",
+    "pr_number": 9145
   },
   {
     "id": "teleprompter-plus",
@@ -2288,28 +2496,12 @@
     "pr_number": 9459
   },
   {
-    "id": "obsimap",
-    "name": "ObsiMap",
-    "author": "Creative781",
-    "description": "A powerful keyboard-centric mind map plugin with bi-directional link support.",
-    "repo": "Creative781/obsimap",
-    "pr_number": 9167
-  },
-  {
     "id": "pick-google-calendar",
     "name": "Pick Google Calendar",
     "author": "Rajeev Rajchal",
     "description": "Insert Google Calendar events in your notes by typing 'text: <query>'. Create new events and sync your schedule seamlessly.",
     "repo": "rajeevrajchal/pmc-google",
     "pr_number": 9260
-  },
-  {
-    "id": "vowel-chart",
-    "name": "Vowel Chart",
-    "author": "Maple Karine",
-    "description": "Generate IPA style vowel diagrams.",
-    "repo": "MapleKarine/obsidian-vowel-chart",
-    "pr_number": 9450
   },
   {
     "id": "auto-inline",
@@ -2320,20 +2512,12 @@
     "pr_number": 9138
   },
   {
-    "id": "year-glance",
-    "name": "Year Glance",
-    "author": "YY Ahn",
-    "description": "Render yearly calendar views with events marked and color-coded.",
-    "repo": "yy/obsidian-year-glance",
-    "pr_number": 9236
-  },
-  {
-    "id": "smart-spacing-chinese",
-    "name": "Smart Spacing for Chinese",
-    "author": "jy324",
-    "description": "Fix bold/italic spacing issues that Linter cannot handle. Removes internal spaces and adds proper external spaces.",
-    "repo": "jy324/obsidian-smart-spacing",
-    "pr_number": 9279
+    "id": "vowel-chart",
+    "name": "Vowel Chart",
+    "author": "Maple Karine",
+    "description": "Generate IPA style vowel diagrams.",
+    "repo": "MapleKarine/obsidian-vowel-chart",
+    "pr_number": 9450
   },
   {
     "id": "ai-digest",
@@ -2352,12 +2536,20 @@
     "pr_number": 9137
   },
   {
-    "id": "easy-ai-image-generator",
-    "name": "Easy AI Image Generator",
-    "author": "gprecious",
-    "description": "Generate AI images using Gemini or OpenAI. Features prompt history, auto Korean-to-English translation, and customizable settings.",
-    "repo": "gprecious/obsidian-ai-image-generator",
-    "pr_number": 9412
+    "id": "year-glance",
+    "name": "Year Glance",
+    "author": "YY Ahn",
+    "description": "Render yearly calendar views with events marked and color-coded.",
+    "repo": "yy/obsidian-year-glance",
+    "pr_number": 9236
+  },
+  {
+    "id": "smart-spacing-chinese",
+    "name": "Smart Spacing for Chinese",
+    "author": "jy324",
+    "description": "Fix bold/italic spacing issues that Linter cannot handle. Removes internal spaces and adds proper external spaces.",
+    "repo": "jy324/obsidian-smart-spacing",
+    "pr_number": 9279
   },
   {
     "id": "polinations-ai-chat",
@@ -2366,6 +2558,14 @@
     "description": "Chat with AI via Polinations API with saving messages to notes.",
     "repo": "Processori7/Polinations-AI-Chat",
     "pr_number": 9383
+  },
+  {
+    "id": "easy-ai-image-generator",
+    "name": "Easy AI Image Generator",
+    "author": "gprecious",
+    "description": "Generate AI images using Gemini or OpenAI. Features prompt history, auto Korean-to-English translation, and customizable settings.",
+    "repo": "gprecious/obsidian-ai-image-generator",
+    "pr_number": 9412
   },
   {
     "id": "selective-publisher",
@@ -2408,12 +2608,12 @@
     "pr_number": 9429
   },
   {
-    "id": "logos-references",
-    "name": "Logos References",
-    "author": "Michael Marvive",
-    "description": "Easily take references from Logos Bible Software and connect them within your notes.",
-    "repo": "Marvive/Logos-References",
-    "pr_number": 9216
+    "id": "rapture-inbox",
+    "name": "Rapture Inbox",
+    "author": "NoiseMeld",
+    "description": "Import Rapture voice notes from Google Drive. Uses a mailbox pattern: notes are downloaded and then removed from Drive.",
+    "repo": "NoiseMeldOrg/rapture-obsidian-plugin",
+    "pr_number": 9095
   },
   {
     "id": "mermaid-exporter",
@@ -2424,12 +2624,12 @@
     "pr_number": 9100
   },
   {
-    "id": "nextcloud-bridge",
-    "name": "Nextcloud Bridge",
-    "author": "mkshp",
-    "description": "Connects to Nextcloud via WebDAV to browse and insert links to your files.",
-    "repo": "mkshp-dev/obsidian-nextcloud-bridge",
-    "pr_number": 9419
+    "id": "logos-references",
+    "name": "Logos References",
+    "author": "Michael Marvive",
+    "description": "Easily take references from Logos Bible Software and connect them within your notes.",
+    "repo": "Marvive/Logos-References",
+    "pr_number": 9216
   },
   {
     "id": "wewrite-plus",
@@ -2438,6 +2638,30 @@
     "description": "Make a powerful workspace for writing and publishing articles to WeChat MP. Draft ahead of release.",
     "repo": "ryfineZ/wewrite",
     "pr_number": 9146
+  },
+  {
+    "id": "nextcloud-bridge",
+    "name": "Nextcloud Bridge",
+    "author": "mkshp",
+    "description": "Connects to Nextcloud via WebDAV to browse and insert links to your files.",
+    "repo": "mkshp-dev/obsidian-nextcloud-bridge",
+    "pr_number": 9419
+  },
+  {
+    "id": "solo-ttrpg-notation",
+    "name": "Solo TTRPG Notation",
+    "author": "Roberto Bisceglie",
+    "description": "A plugin for recording and tracking solo tabletop RPG sessions using a standardized notation system.",
+    "repo": "zeruhur/obsidian-solottrpgnotation",
+    "pr_number": 9187
+  },
+  {
+    "id": "modai",
+    "name": "Modai",
+    "author": "Hampus Adamsson",
+    "description": "Rewrite and optimize your notes using AI with role-based prompts and custom instructions.",
+    "repo": "hampusadamsson/modai",
+    "pr_number": 9212
   },
   {
     "id": "logically",
@@ -2456,30 +2680,6 @@
     "pr_number": 9418
   },
   {
-    "id": "ollamark",
-    "name": "OllaMark",
-    "author": "Avni Badiwale",
-    "description": "Ollama + Markdown: Format and write with local LLMs directly in your notes.",
-    "repo": "Avni2000/OllaMark",
-    "pr_number": 9145
-  },
-  {
-    "id": "modai",
-    "name": "Modai",
-    "author": "Hampus Adamsson",
-    "description": "Rewrite and optimize your notes using AI with role-based prompts and custom instructions.",
-    "repo": "hampusadamsson/modai",
-    "pr_number": 9212
-  },
-  {
-    "id": "solo-ttrpg-notation",
-    "name": "Solo TTRPG Notation",
-    "author": "Roberto Bisceglie",
-    "description": "A plugin for recording and tracking solo tabletop RPG sessions using a standardized notation system.",
-    "repo": "zeruhur/obsidian-solottrpgnotation",
-    "pr_number": 9187
-  },
-  {
     "id": "vale-linter",
     "name": "Vale Linter",
     "author": "Chris Chinchilla",
@@ -2496,20 +2696,20 @@
     "pr_number": 9391
   },
   {
-    "id": "upstack",
-    "name": "Upstack",
-    "author": "Michael Layug",
-    "description": "A 'copy for Substack' plugin. Exports your notes to Substack-compatible HTML with one click. Automatically converts Markdown, embeds images as base64, converts Mermaid charts, and handles callouts, footnotes, and more.",
-    "repo": "memmmmike/upstack",
-    "pr_number": 9414
-  },
-  {
     "id": "simple-progress-bar",
     "name": "Simple Progress Bar",
     "author": "Toby Chen",
     "description": "A minimal and elegant plugin that visualizes your checkbox completion with beautiful progress bars.",
     "repo": "pochihh/obsidian-simple-progress-bar",
     "pr_number": 9345
+  },
+  {
+    "id": "upstack",
+    "name": "Upstack",
+    "author": "Michael Layug",
+    "description": "A 'copy for Substack' plugin. Exports your notes to Substack-compatible HTML with one click. Automatically converts Markdown, embeds images as base64, converts Mermaid charts, and handles callouts, footnotes, and more.",
+    "repo": "memmmmike/upstack",
+    "pr_number": 9414
   },
   {
     "id": "insert-symbol",
@@ -2520,20 +2720,20 @@
     "pr_number": 9398
   },
   {
-    "id": "napkin-notes",
-    "name": "Napkin Notes",
-    "author": "Claire Froelich",
-    "description": "Turn handwritten notes, sketches, and whiteboard photos into PDF-style inline image carousels, with direct camera upload and searchable annotations.",
-    "repo": "clairefro/obsidian-plugin-napkin-notes",
-    "pr_number": 9564
-  },
-  {
     "id": "kobo-highlight-picker-inboxer",
     "name": "Kobo Highlight Picker & Inboxer",
     "author": "IVIX2020",
     "description": "Selectively import Kobo highlights into intermediate inbox notes and turn them into insight notes.",
     "repo": "IVIX2020/kobo-highlight-picker-inboxer",
     "pr_number": 9201
+  },
+  {
+    "id": "napkin-notes",
+    "name": "Napkin Notes",
+    "author": "Claire Froelich",
+    "description": "Turn handwritten notes, sketches, and whiteboard photos into PDF-style inline image carousels, with direct camera upload and searchable annotations.",
+    "repo": "clairefro/obsidian-plugin-napkin-notes",
+    "pr_number": 9564
   },
   {
     "id": "antv-infographic",
@@ -2584,14 +2784,6 @@
     "pr_number": 9214
   },
   {
-    "id": "rapture-inbox",
-    "name": "Rapture Inbox",
-    "author": "NoiseMeld",
-    "description": "Import Rapture voice notes from Google Drive. Uses a mailbox pattern: notes are downloaded and then removed from Drive.",
-    "repo": "NoiseMeldOrg/rapture-obsidian-plugin",
-    "pr_number": 9095
-  },
-  {
     "id": "lazy-sketch",
     "name": "Lazy Sketch",
     "author": "Jaroslaw Weber",
@@ -2624,20 +2816,20 @@
     "pr_number": 9393
   },
   {
-    "id": "toggle-read-source-preview",
-    "name": "Toggle Read-Source-Preview",
-    "author": "Maarten Struijk Wilbrink",
-    "description": "Adds a command and hotkey to toggle between Reading View, Source Mode, and Live Preview.",
-    "repo": "mrstruijk/toggle-read-source-preview",
-    "pr_number": 9386
-  },
-  {
     "id": "flow-tick",
     "name": "FlowTick",
     "author": "mmaoteacher",
     "description": "Auto-updating progress bar based on checkbox ratio using flowtick code blocks.",
     "repo": "dbachelor110/flow-tick",
     "pr_number": 9250
+  },
+  {
+    "id": "toggle-read-source-preview",
+    "name": "Toggle Read-Source-Preview",
+    "author": "Maarten Struijk Wilbrink",
+    "description": "Adds a command and hotkey to toggle between Reading View, Source Mode, and Live Preview.",
+    "repo": "mrstruijk/toggle-read-source-preview",
+    "pr_number": 9386
   },
   {
     "id": "lightbox",
@@ -2648,20 +2840,20 @@
     "pr_number": 9161
   },
   {
-    "id": "habitica-fullsync",
-    "name": "Habitica Full Sync",
-    "author": "MidwestGuru",
-    "description": "Sync Habitica tasks, score completed tasks, support group tasks, folder selection, automatic sync, device binding, and advanced options.",
-    "repo": "MidwestGuru/habitica-fullsync",
-    "pr_number": 9390
-  },
-  {
     "id": "monday-integration",
     "name": "Monday.com Integration",
     "author": "MA Frampton",
     "description": "View Monday.com boards and items directly in your notes and sidebar.",
     "repo": "nbDev99/obsidian-monday-integration",
     "pr_number": 9314
+  },
+  {
+    "id": "habitica-fullsync",
+    "name": "Habitica Full Sync",
+    "author": "MidwestGuru",
+    "description": "Sync Habitica tasks, score completed tasks, support group tasks, folder selection, automatic sync, device binding, and advanced options.",
+    "repo": "MidwestGuru/habitica-fullsync",
+    "pr_number": 9390
   },
   {
     "id": "redirect-link-https-to-local",
@@ -2672,12 +2864,12 @@
     "pr_number": 9385
   },
   {
-    "id": "md-beautify",
-    "name": "MD Beautify",
-    "author": "qingu-x",
-    "description": "An elegant Markdown beautifier for WeChat and other platforms.",
-    "repo": "qingu-x/obsidian-md-beautify-plugin",
-    "pr_number": 9379
+    "id": "copy-document-to-mp",
+    "name": "copy-to-mp",
+    "author": "feiyu",
+    "description": "Copy the current document to a WeChat Official Account article, including images, charts, and other embedded content.",
+    "repo": "Spute/obsidian-copy-to-mp",
+    "pr_number": 9062
   },
   {
     "id": "arabic-transliteration",
@@ -2688,12 +2880,12 @@
     "pr_number": 9102
   },
   {
-    "id": "require-final-newline",
-    "name": "Require Final Newline",
-    "author": "Noodles!",
-    "description": "Ensure files end with a newline.",
-    "repo": "nnoodle/obsidian-require-final-newline",
-    "pr_number": 9374
+    "id": "md-beautify",
+    "name": "MD Beautify",
+    "author": "qingu-x",
+    "description": "An elegant Markdown beautifier for WeChat and other platforms.",
+    "repo": "qingu-x/obsidian-md-beautify-plugin",
+    "pr_number": 9379
   },
   {
     "id": "ghosty-posty",
@@ -2704,12 +2896,12 @@
     "pr_number": 9196
   },
   {
-    "id": "tag-counter-dashboard",
-    "name": "Tag Counter Dashboard",
-    "author": "MA Frampton",
-    "description": "Embed a dashboard in your notes showing counts of priority tags. Perfect for task lists with #Urgent, #Medium, #Low tags.",
-    "repo": "nbDev99/tag-counter-dashboard",
-    "pr_number": 9313
+    "id": "require-final-newline",
+    "name": "Require Final Newline",
+    "author": "Noodles!",
+    "description": "Ensure files end with a newline.",
+    "repo": "nnoodle/obsidian-require-final-newline",
+    "pr_number": 9374
   },
   {
     "id": "dayble-calendar",
@@ -2720,20 +2912,20 @@
     "pr_number": 9159
   },
   {
+    "id": "tag-counter-dashboard",
+    "name": "Tag Counter Dashboard",
+    "author": "MA Frampton",
+    "description": "Embed a dashboard in your notes showing counts of priority tags. Perfect for task lists with #Urgent, #Medium, #Low tags.",
+    "repo": "nbDev99/tag-counter-dashboard",
+    "pr_number": 9313
+  },
+  {
     "id": "immich-picker",
     "name": "Immich Picker",
     "author": "Eiko Wagenknecht",
     "description": "Insert images from a self-hosted Immich photo server.",
     "repo": "eikowagenknecht/obsidian-immich-picker",
     "pr_number": 9367
-  },
-  {
-    "id": "love-linker-publisher",
-    "name": "Love Linker Publisher",
-    "author": "erokin",
-    "description": "创建并推送 Love Linker 里程碑到 WebDAV.",
-    "repo": "EROQIN/love-linker-obsidian-plugin",
-    "pr_number": 9365
   },
   {
     "id": "writing-dashboard",
@@ -2744,12 +2936,28 @@
     "pr_number": 9096
   },
   {
+    "id": "love-linker-publisher",
+    "name": "Love Linker Publisher",
+    "author": "erokin",
+    "description": "创建并推送 Love Linker 里程碑到 WebDAV.",
+    "repo": "EROQIN/love-linker-obsidian-plugin",
+    "pr_number": 9365
+  },
+  {
     "id": "latex-extended",
     "name": "LaTeX Extended",
     "author": "BIRSAx2",
     "description": "Extends LaTeX support with additional commands like \\llbracket, \\rrbracket, and more.",
     "repo": "BIRSAx2/obsidian-latex-extended",
     "pr_number": 9349
+  },
+  {
+    "id": "bases-kanban",
+    "name": "Bases Kanban",
+    "author": "ewerx",
+    "description": "Adds a kanban layout to Bases.",
+    "repo": "ewerx/obsidian-bases-kanban",
+    "pr_number": 9048
   },
   {
     "id": "tasks-mcp",
@@ -2768,20 +2976,20 @@
     "pr_number": 9213
   },
   {
-    "id": "copy-document-to-mp",
-    "name": "copy-to-mp",
-    "author": "feiyu",
-    "description": "Copy the current document to a WeChat Official Account article, including images, charts, and other embedded content.",
-    "repo": "Spute/obsidian-copy-to-mp",
-    "pr_number": 9062
-  },
-  {
     "id": "github-api-sync",
     "name": "GitHub API Sync",
     "author": "Nathan Ling",
     "description": "Bidirectional sync for journals via GitHub API.",
     "repo": "FreezingGod/obsidian-github-api-sync",
     "pr_number": 9355
+  },
+  {
+    "id": "punctuation-converter",
+    "name": "Punctuation Converter",
+    "author": "fuzhumc",
+    "description": "自动将中文标点转化为对应的英文标点.",
+    "repo": "fuzhumc/obsidian-punctuation-converter",
+    "pr_number": 9034
   },
   {
     "id": "aparatus",
@@ -2840,14 +3048,6 @@
     "pr_number": 9088
   },
   {
-    "id": "bases-kanban",
-    "name": "Bases Kanban",
-    "author": "ewerx",
-    "description": "Adds a kanban layout to Bases.",
-    "repo": "ewerx/obsidian-bases-kanban",
-    "pr_number": 9048
-  },
-  {
     "id": "instagram-reel-downloader",
     "name": "Instagram Reel Downloader",
     "author": "Christen Blom-Dahl",
@@ -2856,20 +3056,20 @@
     "pr_number": 9237
   },
   {
-    "id": "dashboard",
-    "name": "Dashboard",
-    "author": "Eladio Caritos",
-    "description": "Extensible dashboard for visualizing vault analytics.",
-    "repo": "caritos/obsidian-dashboard",
-    "pr_number": 9235
-  },
-  {
     "id": "reverse-complement",
     "name": "Reverse Complement",
     "author": "BjornFJohansson",
     "description": "Right-click menu to convert selected DNA to its reverse complement.",
     "repo": "BjornFJohansson/reverse-complement",
     "pr_number": 9116
+  },
+  {
+    "id": "dashboard",
+    "name": "Dashboard",
+    "author": "Eladio Caritos",
+    "description": "Extensible dashboard for visualizing vault analytics.",
+    "repo": "caritos/obsidian-dashboard",
+    "pr_number": 9235
   },
   {
     "id": "comments-plus-plus",
@@ -2888,20 +3088,20 @@
     "pr_number": 9274
   },
   {
-    "id": "briefmaker",
-    "name": "Briefmaker",
-    "author": "Eugeny Dementev",
-    "description": "Generate AI agent briefs from the current note using path-based templates and task extraction.",
-    "repo": "eugeny-dementev/briefmaker",
-    "pr_number": 9340
-  },
-  {
     "id": "recursive-note-deleter",
     "name": "Recursive Note Deleter",
     "author": "Felix Queisler",
     "description": "When run in an open note this plugin will recursively find all linked notes from that note, all following notes, including attachments. Then it will list them and delete them after prompting you.",
     "repo": "felixqueisler/Obsidian-RecursiveDelete-Plugin",
     "pr_number": 9258
+  },
+  {
+    "id": "briefmaker",
+    "name": "Briefmaker",
+    "author": "Eugeny Dementev",
+    "description": "Generate AI agent briefs from the current note using path-based templates and task extraction.",
+    "repo": "eugeny-dementev/briefmaker",
+    "pr_number": 9340
   },
   {
     "id": "journal-bundle",
@@ -2920,6 +3120,14 @@
     "pr_number": 9350
   },
   {
+    "id": "iconocolor",
+    "name": "Iconocolor",
+    "author": "Gavin Picard",
+    "description": "An all-in-one plugin for folder icons and coloring featuring auto-gradients.",
+    "repo": "gavinpicard/iconocolor",
+    "pr_number": 9065
+  },
+  {
     "id": "git-heatmap",
     "name": "GitHeat",
     "author": "boerduoss",
@@ -2934,14 +3142,6 @@
     "description": "Sync your vault with knox portal.",
     "repo": "trinitytime/knox-sync-plugin",
     "pr_number": 9333
-  },
-  {
-    "id": "iconocolor",
-    "name": "Iconocolor",
-    "author": "Gavin Picard",
-    "description": "An all-in-one plugin for folder icons and coloring featuring auto-gradients.",
-    "repo": "gavinpicard/iconocolor",
-    "pr_number": 9065
   },
   {
     "id": "emacs-isearch-mark",
@@ -2984,20 +3184,20 @@
     "pr_number": 9264
   },
   {
-    "id": "archive-manager",
-    "name": "Archive Manager",
-    "author": "Theo Gregory",
-    "description": "Archive and unarchive files/folders with automatic metadata tracking.",
-    "repo": "tjmgregory/obsidian-archive-manager",
-    "pr_number": 9308
-  },
-  {
     "id": "image-manager",
     "name": "Image Manager",
     "author": "David V. Kimball",
     "description": "Insert, rename, and sort images within your notes.",
     "repo": "davidvkimball/obsidian-image-manager",
     "pr_number": 9276
+  },
+  {
+    "id": "archive-manager",
+    "name": "Archive Manager",
+    "author": "Theo Gregory",
+    "description": "Archive and unarchive files/folders with automatic metadata tracking.",
+    "repo": "tjmgregory/obsidian-archive-manager",
+    "pr_number": 9308
   },
   {
     "id": "ide-style-preview",
@@ -3024,6 +3224,14 @@
     "pr_number": 9074
   },
   {
+    "id": "termux-bridge",
+    "name": "Termux Bridge",
+    "author": "abduznik",
+    "description": "Execute Termux commands directly via a local HTTP bridge.",
+    "repo": "abduznik/obsidian-shell-termux",
+    "pr_number": 9043
+  },
+  {
     "id": "random-picker",
     "name": "Random Picker",
     "author": "Fabian Schlager",
@@ -3040,28 +3248,12 @@
     "pr_number": 9309
   },
   {
-    "id": "termux-bridge",
-    "name": "Termux Bridge",
-    "author": "abduznik",
-    "description": "Execute Termux commands directly via a local HTTP bridge.",
-    "repo": "abduznik/obsidian-shell-termux",
-    "pr_number": 9043
-  },
-  {
     "id": "todo-collector",
     "name": "TODO Collector",
     "author": "CharlesSOo",
     "description": "Collects all unchecked tasks into one file with time-based sections and drag-and-drop.",
     "repo": "CharlesSOo/obsidian-TODO-Collector",
     "pr_number": 9027
-  },
-  {
-    "id": "text-class",
-    "name": "Text Class",
-    "author": "Elling",
-    "description": "Apply custom CSS classes to selected text. Manage styles in settings and apply them via right-click context menu.",
-    "repo": "elling19/obsidian-text-class",
-    "pr_number": 9301
   },
   {
     "id": "nether-portal",
@@ -3078,6 +3270,14 @@
     "description": "Count tasks in notes and save result to properties.",
     "repo": "anareaty/task-count",
     "pr_number": 9134
+  },
+  {
+    "id": "text-class",
+    "name": "Text Class",
+    "author": "Elling",
+    "description": "Apply custom CSS classes to selected text. Manage styles in settings and apply them via right-click context menu.",
+    "repo": "elling19/obsidian-text-class",
+    "pr_number": 9301
   },
   {
     "id": "copilot-llm",
@@ -3136,12 +3336,20 @@
     "pr_number": 9246
   },
   {
-    "id": "punctuation-converter",
-    "name": "Punctuation Converter",
-    "author": "fuzhumc",
-    "description": "自动将中文标点转化为对应的英文标点.",
-    "repo": "fuzhumc/obsidian-punctuation-converter",
-    "pr_number": 9034
+    "id": "bases-improvements",
+    "name": "Bases Improvements",
+    "author": "Real1tyy",
+    "description": "Enhances Bases by adding dynamic search filtering to base code blocks.",
+    "repo": "Real1tyy/BasesImprovements",
+    "pr_number": 8997
+  },
+  {
+    "id": "life-tracker",
+    "name": "Life Tracker",
+    "author": "Sébastien Dubois",
+    "description": "Capture and visualize the data that matters in your life.",
+    "repo": "dsebastien/obsidian-life-tracker-base-view",
+    "pr_number": 8930
   },
   {
     "id": "map-tips",
@@ -3150,14 +3358,6 @@
     "description": "Interactive map annotation tool for marking locations and creating routes.",
     "repo": "tom143tc/map-tips",
     "pr_number": 9277
-  },
-  {
-    "id": "bases-improvements",
-    "name": "Bases Improvements",
-    "author": "Real1tyy",
-    "description": "Enhances Bases by adding dynamic search filtering to base code blocks.",
-    "repo": "Real1tyy/BasesImprovements",
-    "pr_number": 8997
   },
   {
     "id": "creation-ledger",
@@ -3184,14 +3384,6 @@
     "pr_number": 9051
   },
   {
-    "id": "octo",
-    "name": "Octo",
-    "author": "HenryZ",
-    "description": "Zero effort naming, tagging, and filing your Notes with AI.",
-    "repo": "nodewee/obsidian-octo-plugin",
-    "pr_number": 9254
-  },
-  {
     "id": "document-exporter",
     "name": "Document Exporter",
     "author": "Codelink",
@@ -3200,12 +3392,12 @@
     "pr_number": 9080
   },
   {
-    "id": "life-tracker",
-    "name": "Life Tracker",
-    "author": "Sébastien Dubois",
-    "description": "Capture and visualize the data that matters in your life.",
-    "repo": "dsebastien/obsidian-life-tracker-base-view",
-    "pr_number": 8930
+    "id": "octo",
+    "name": "Octo",
+    "author": "HenryZ",
+    "description": "Zero effort naming, tagging, and filing your Notes with AI.",
+    "repo": "nodewee/obsidian-octo-plugin",
+    "pr_number": 9254
   },
   {
     "id": "nice-gallery",
@@ -3224,12 +3416,12 @@
     "pr_number": 9070
   },
   {
-    "id": "calendar-for-daily-notes",
-    "name": "Calendar for Daily Notes",
-    "author": "xRyul",
-    "description": "Calendar for daily notes with grouped lists, created-on-day notes and attachments, color tags, custom titles, and optional gemma3 title generation.",
-    "repo": "xRyul/calendar-for-daily-notes",
-    "pr_number": 9241
+    "id": "anki-flashcards",
+    "name": "Anki Flashcards",
+    "author": "becknik",
+    "description": "Generate & sync Anki flashcards from explicitly marked sections of your notes.",
+    "repo": "becknik/obsidian-anki-flashcards",
+    "pr_number": 8397
   },
   {
     "id": "bible-portal",
@@ -3240,12 +3432,20 @@
     "pr_number": 9199
   },
   {
-    "id": "anki-flashcards",
-    "name": "Anki Flashcards",
-    "author": "becknik",
-    "description": "Generate & sync Anki flashcards from explicitly marked sections of your notes.",
-    "repo": "becknik/obsidian-anki-flashcards",
-    "pr_number": 8397
+    "id": "calendar-for-daily-notes",
+    "name": "Calendar for Daily Notes",
+    "author": "xRyul",
+    "description": "Calendar for daily notes with grouped lists, created-on-day notes and attachments, color tags, custom titles, and optional gemma3 title generation.",
+    "repo": "xRyul/calendar-for-daily-notes",
+    "pr_number": 9241
+  },
+  {
+    "id": "supernote-companion",
+    "name": "Supernote Companion",
+    "author": "dpshade",
+    "description": "Import Supernote .note files as PDFs via the device's Browse & Access feature.",
+    "repo": "dpshade/supernote-companion",
+    "pr_number": 8895
   },
   {
     "id": "vault-backup",
@@ -3264,12 +3464,12 @@
     "pr_number": 9205
   },
   {
-    "id": "supernote-companion",
-    "name": "Supernote Companion",
-    "author": "dpshade",
-    "description": "Import Supernote .note files as PDFs via the device's Browse & Access feature.",
-    "repo": "dpshade/supernote-companion",
-    "pr_number": 8895
+    "id": "quizzator",
+    "name": "Quizzator",
+    "author": "Robin",
+    "description": "Create and take interactive quizzes with AI-powered evaluation. Supports multiple question types: free text, MCQ, sliders, and true/false.",
+    "repo": "Robin-BRG/Obsidian-Quizzator",
+    "pr_number": 9083
   },
   {
     "id": "leetcode-template",
@@ -3280,14 +3480,6 @@
     "pr_number": 9232
   },
   {
-    "id": "quizzator",
-    "name": "Quizzator",
-    "author": "Robin",
-    "description": "Create and take interactive quizzes with AI-powered evaluation. Supports multiple question types: free text, MCQ, sliders, and true/false.",
-    "repo": "Robin-BRG/Obsidian-Quizzator",
-    "pr_number": 9083
-  },
-  {
     "id": "knosi-sync",
     "name": "Knosi",
     "author": "Knosi",
@@ -3296,28 +3488,20 @@
     "pr_number": 9173
   },
   {
-    "id": "attachment-organizer",
-    "name": "Attachment Organizer",
-    "author": "Kirun",
-    "description": "Automatically organize attachments into zone-based folders with conflict detection and batch operations.",
-    "repo": "Kiteruunner/obsidian-attachment-organizer",
-    "pr_number": 9219
-  },
-  {
-    "id": "ai-title-generator",
-    "name": "AI Title Generator",
-    "author": "Jeffrey Gu",
-    "description": "Quickly and easily title your notes using AI (OpenAI, DeepSeek, Claude, etc.)",
-    "repo": "jeffreyouni/obsidian-ai-title-generator",
-    "pr_number": 9204
-  },
-  {
     "id": "tidle-sidebar",
     "name": "Tidle",
     "author": "Tidle",
     "description": "Tidle sidebar panel.",
     "repo": "odesa-llc/tidle-sidebar",
     "pr_number": 9049
+  },
+  {
+    "id": "attachment-organizer",
+    "name": "Attachment Organizer",
+    "author": "Kirun",
+    "description": "Automatically organize attachments into zone-based folders with conflict detection and batch operations.",
+    "repo": "Kiteruunner/obsidian-attachment-organizer",
+    "pr_number": 9219
   },
   {
     "id": "milestone-timeline",
@@ -3336,6 +3520,14 @@
     "pr_number": 9234
   },
   {
+    "id": "tooltip-note",
+    "name": "Tooltip Note",
+    "author": "Phuoc Huynh",
+    "description": "A personal tooltip that can be easily looked-up from within your notes.",
+    "repo": "hnp180493/obsidian-tooltip",
+    "pr_number": 8856
+  },
+  {
     "id": "spotify-controller",
     "name": "Spotify Controller",
     "author": "Affaf Ahmed",
@@ -3352,12 +3544,20 @@
     "pr_number": 9186
   },
   {
-    "id": "tile-line-base",
-    "name": "TileLineBase",
-    "author": "Campfirium",
-    "description": "Build multidimensional tables (Tables, Kanban, Gallery, Slides) directly from plain text. Zero Frontmatter. Zero code.",
-    "repo": "campfirium/obsidian-tile-line-base",
-    "pr_number": 9518
+    "id": "broken-links-cleaner",
+    "name": "Broken Links Cleaner",
+    "author": "Sarwar Kaiser",
+    "description": "Remove broken/empty wikilinks from your vault while keeping valid links intact.",
+    "repo": "sarwarkaiser/obsidian-broken-links-cleaner",
+    "pr_number": 8865
+  },
+  {
+    "id": "chordgrid",
+    "name": "Chord Grid With Rhythmic Notation",
+    "author": "Mathieu CONAN",
+    "description": "Displays chord grids with rhythmic notation from a simple syntax.",
+    "repo": "MathieuCGit/ChordGrid_for_Obsidian",
+    "pr_number": 9016
   },
   {
     "id": "note-wars",
@@ -3368,28 +3568,12 @@
     "pr_number": 9031
   },
   {
-    "id": "broken-links-cleaner",
-    "name": "Broken Links Cleaner",
-    "author": "Sarwar Kaiser",
-    "description": "Remove broken/empty wikilinks from your vault while keeping valid links intact.",
-    "repo": "sarwarkaiser/obsidian-broken-links-cleaner",
-    "pr_number": 8865
-  },
-  {
     "id": "dayspark",
     "name": "DaySpark",
     "author": "Stephanie Frantz",
     "description": "A digital almanac for daily notes. Injects ICS calendars, sun/moon phases, celestial conjunctions, meteor showers, weather, and historical context.",
     "repo": "thehandsomezebra/DaySpark",
     "pr_number": 9104
-  },
-  {
-    "id": "slides-studio",
-    "name": "Slides Studio",
-    "author": "Jonathan Wood",
-    "description": "Sync Reveal.js slides and Open Broadcast Studio (OBS) scene changes.",
-    "repo": "UUoocl/slides-studio-plugin",
-    "pr_number": 9063
   },
   {
     "id": "periodix-planner",
@@ -3400,12 +3584,20 @@
     "pr_number": 8920
   },
   {
-    "id": "chordgrid",
-    "name": "Chord Grid With Rhythmic Notation",
-    "author": "Mathieu CONAN",
-    "description": "Displays chord grids with rhythmic notation from a simple syntax.",
-    "repo": "MathieuCGit/ChordGrid_for_Obsidian",
-    "pr_number": 9016
+    "id": "tile-line-base",
+    "name": "TileLineBase",
+    "author": "Campfirium",
+    "description": "Build multidimensional tables (Tables, Kanban, Gallery, Slides) directly from plain text. Zero Frontmatter. Zero code.",
+    "repo": "campfirium/obsidian-tile-line-base",
+    "pr_number": 9518
+  },
+  {
+    "id": "slides-studio",
+    "name": "Slides Studio",
+    "author": "Jonathan Wood",
+    "description": "Sync Reveal.js slides and Open Broadcast Studio (OBS) scene changes.",
+    "repo": "UUoocl/slides-studio-plugin",
+    "pr_number": 9063
   },
   {
     "id": "one-step-uploader",
@@ -3424,12 +3616,12 @@
     "pr_number": 9209
   },
   {
-    "id": "tooltip-note",
-    "name": "Tooltip Note",
-    "author": "Phuoc Huynh",
-    "description": "A personal tooltip that can be easily looked-up from within your notes.",
-    "repo": "hnp180493/obsidian-tooltip",
-    "pr_number": 8856
+    "id": "gemini-helper",
+    "name": "Gemini Helper",
+    "author": "takeshy",
+    "description": "AI-powered assistant using Google Gemini with File Search RAG capabilities.",
+    "repo": "takeshy/obsidian-gemini-helper",
+    "pr_number": 8953
   },
   {
     "id": "personal-finance-manager",
@@ -3438,14 +3630,6 @@
     "description": "Helps you to manage your personal finances, by creating local .md files with financial information.",
     "repo": "lucasluc4/personal-finance-manager",
     "pr_number": 9194
-  },
-  {
-    "id": "gemini-helper",
-    "name": "Gemini Helper",
-    "author": "takeshy",
-    "description": "AI-powered assistant using Google Gemini with File Search RAG capabilities.",
-    "repo": "takeshy/obsidian-gemini-helper",
-    "pr_number": 8953
   },
   {
     "id": "embed-metadata",
@@ -3464,20 +3648,20 @@
     "pr_number": 9191
   },
   {
-    "id": "stt-llm",
-    "name": "STT & LLM",
-    "author": "kevinraymond",
-    "description": "Local speech-to-text transcription and LLM-powered text operations (summarize, auto-tag, custom prompts).",
-    "repo": "kevinraymond/obsidian-stt-llm",
-    "pr_number": 9203
-  },
-  {
     "id": "snippetbase",
     "name": "SnippetBase",
     "author": "Matthew Briel",
     "description": "Vault-wide database UI for fenced code snippets: search, filter, preview, copy.",
     "repo": "brielms/SnippetBase",
     "pr_number": 9060
+  },
+  {
+    "id": "stt-llm",
+    "name": "STT & LLM",
+    "author": "kevinraymond",
+    "description": "Local speech-to-text transcription and LLM-powered text operations (summarize, auto-tag, custom prompts).",
+    "repo": "kevinraymond/obsidian-stt-llm",
+    "pr_number": 9203
   },
   {
     "id": "sentence-enhancers",
@@ -3504,20 +3688,20 @@
     "pr_number": 9158
   },
   {
-    "id": "multi-column-layout",
-    "name": "Multi-Column Layout",
-    "author": "Zheyuan (Max) Kong",
-    "description": "Multi-column layouts with quick insert templates. Supports nested columns and rich text.",
-    "repo": "MaxMiksa/Obsidian-MultiColumn-Layout",
-    "pr_number": 9163
-  },
-  {
     "id": "fast-callout",
     "name": "Fast Callout",
     "author": "Vikramadhitya Kalahasthi",
     "description": "Lets you create callouts faster.",
     "repo": "vkalahas/fast-callout",
     "pr_number": 9054
+  },
+  {
+    "id": "multi-column-layout",
+    "name": "Multi-Column Layout",
+    "author": "Zheyuan (Max) Kong",
+    "description": "Multi-column layouts with quick insert templates. Supports nested columns and rich text.",
+    "repo": "MaxMiksa/Obsidian-MultiColumn-Layout",
+    "pr_number": 9163
   },
   {
     "id": "vocab-ankisync-ai-translate",
@@ -3544,14 +3728,6 @@
     "pr_number": 9190
   },
   {
-    "id": "vtt-display",
-    "name": "VTT Display",
-    "author": "Noah Schneider",
-    "description": "It shows maps on a second screen so you can easily manage your battle maps. It allows fog of war and grid overlay.",
-    "repo": "Noah-Retro/vtt-card-display",
-    "pr_number": 9182
-  },
-  {
     "id": "telegram-notifier",
     "name": "Telegram Notifier",
     "author": "ADEMSU",
@@ -3560,12 +3736,12 @@
     "pr_number": 8996
   },
   {
-    "id": "vaultconnect",
-    "name": "VaultConnect",
-    "author": "VaultConnect",
-    "description": "Real-time sync for your vault with VaultConnect platform. Keep your notes synchronized across devices with conflict resolution and version history.",
-    "repo": "BenJaminBMorin/obsidian-vaultconnect",
-    "pr_number": 9124
+    "id": "frontmatter-to-html-attributes",
+    "name": "Frontmatter to HTML Attributes",
+    "author": "Tarek Saier",
+    "description": "Makes YAML frontmatter available as data-* attributes in HTML, enabling metadata based CSS styling.",
+    "repo": "IllDepence/obsidian-frontmatter-to-html-attributes",
+    "pr_number": 7818
   },
   {
     "id": "miller-nav",
@@ -3584,6 +3760,14 @@
     "pr_number": 8939
   },
   {
+    "id": "vaultconnect",
+    "name": "VaultConnect",
+    "author": "VaultConnect",
+    "description": "Real-time sync for your vault with VaultConnect platform. Keep your notes synchronized across devices with conflict resolution and version history.",
+    "repo": "BenJaminBMorin/obsidian-vaultconnect",
+    "pr_number": 9124
+  },
+  {
     "id": "custom-views",
     "name": "Custom Views",
     "author": "Anup Chavan",
@@ -3598,14 +3782,6 @@
     "description": "Event notification system using emoji-based task syntax for reminders and recurring events.",
     "repo": "maceternal/obsidian-notify",
     "pr_number": 9170
-  },
-  {
-    "id": "better-section-word-count",
-    "name": "Better Section Word Count",
-    "author": "Nysiades",
-    "description": "Counts the words of the current editing section in the editor.",
-    "repo": "Nysiades/better-section-word-count",
-    "pr_number": 9172
   },
   {
     "id": "vault-intelligence",
@@ -3632,14 +3808,6 @@
     "pr_number": 9150
   },
   {
-    "id": "frontmatter-to-html-attributes",
-    "name": "Frontmatter to HTML Attributes",
-    "author": "Tarek Saier",
-    "description": "Makes YAML frontmatter available as data-* attributes in HTML, enabling metadata based CSS styling.",
-    "repo": "IllDepence/obsidian-frontmatter-to-html-attributes",
-    "pr_number": 7818
-  },
-  {
     "id": "embedded-notes",
     "name": "Embedded Notes",
     "author": "huidev2025",
@@ -3656,12 +3824,28 @@
     "pr_number": 8899
   },
   {
+    "id": "days-left-timer",
+    "name": "Days Left Timer",
+    "author": "Ayyan-j",
+    "description": "Visual countdown timers for your status bar and notes.",
+    "repo": "Ayyan-j/obsidian-days-left-timer",
+    "pr_number": 8788
+  },
+  {
     "id": "snipsidian",
     "name": "Snipsy",
     "author": "Dimagious",
     "description": "Snipsy adds hotstrings/text expansion to the editor — folders, bulk editing, and Espanso-compatible packs.",
     "repo": "Dimagious/snipsidian",
     "pr_number": 9013
+  },
+  {
+    "id": "logos-link",
+    "name": "Logos Link",
+    "author": "David Troyer",
+    "description": "Make linking to Logos Bible Software easy.",
+    "repo": "david-troyer/logos-link",
+    "pr_number": 8812
   },
   {
     "id": "btw",
@@ -3678,14 +3862,6 @@
     "description": "Edit codeblocks of Markdown documents with external editors to get autocompletion, indentation, LSP capabilities of your favourite editor (Neovim, VSCode, etc).",
     "repo": "glebglazov/obsidian-external-codeblock-editor",
     "pr_number": 9151
-  },
-  {
-    "id": "logos-link",
-    "name": "Logos Link",
-    "author": "David Troyer",
-    "description": "Make linking to Logos Bible Software easy.",
-    "repo": "david-troyer/logos-link",
-    "pr_number": 8812
   },
   {
     "id": "pomokanban",
@@ -3728,36 +3904,12 @@
     "pr_number": 9126
   },
   {
-    "id": "days-left-timer",
-    "name": "Days Left Timer",
-    "author": "Ayyan-j",
-    "description": "Visual countdown timers for your status bar and notes.",
-    "repo": "Ayyan-j/obsidian-days-left-timer",
-    "pr_number": 8788
-  },
-  {
     "id": "tab-swap",
     "name": "Tab Swap",
     "author": "masaki39",
     "description": "Swap the active tab left or right.",
     "repo": "masaki39/tab-swap",
     "pr_number": 8983
-  },
-  {
-    "id": "memopad",
-    "name": "Memopad",
-    "author": "char",
-    "description": "A quick capture modal that standardizes your scratchpad into a single inbox file.",
-    "repo": "name/memopad",
-    "pr_number": 9118
-  },
-  {
-    "id": "git-sync-vault-or-folder",
-    "name": "Git Vault/Folder Sync",
-    "author": "solowey",
-    "description": "Synchronize your vault / folder with GitHub repository. Auto-resolve conflicts, track changes, and keep your notes safe.",
-    "repo": "solowey1/obsidian-git-sync",
-    "pr_number": 8979
   },
   {
     "id": "emoticon-picker",
@@ -3768,12 +3920,28 @@
     "pr_number": 8793
   },
   {
+    "id": "git-sync-vault-or-folder",
+    "name": "Git Vault/Folder Sync",
+    "author": "solowey",
+    "description": "Synchronize your vault / folder with GitHub repository. Auto-resolve conflicts, track changes, and keep your notes safe.",
+    "repo": "solowey1/obsidian-git-sync",
+    "pr_number": 8979
+  },
+  {
     "id": "wysimark-editor",
     "name": "Wysimark Editor",
     "author": "takeshy",
     "description": "A modern WYSIWYG Markdown editor. Edit your notes with a rich text interface while keeping pure Markdown.",
     "repo": "takeshy/obsidian-wysimark",
     "pr_number": 8889
+  },
+  {
+    "id": "memopad",
+    "name": "Memopad",
+    "author": "char",
+    "description": "A quick capture modal that standardizes your scratchpad into a single inbox file.",
+    "repo": "name/memopad",
+    "pr_number": 9118
   },
   {
     "id": "game-backlog",
@@ -3784,20 +3952,20 @@
     "pr_number": 8970
   },
   {
-    "id": "marp-extended",
-    "name": "Marp Extended",
-    "description": "Edit and navigate Marp files with ease and use extended features.",
-    "author": "JichouP, Mathias Henze & Claude",
-    "repo": "mhenze-exaring/marp-extended-plugin",
-    "pr_number": 9082
-  },
-  {
     "id": "the-widget",
     "name": "The Widget",
     "author": "FabianIsaac",
     "description": "A plugin to add customizable widgets.",
     "repo": "FabianIsaac/the-widget",
     "pr_number": 8963
+  },
+  {
+    "id": "marp-extended",
+    "name": "Marp Extended",
+    "description": "Edit and navigate Marp files with ease and use extended features.",
+    "author": "JichouP, Mathias Henze & Claude",
+    "repo": "mhenze-exaring/marp-extended-plugin",
+    "pr_number": 9082
   },
   {
     "id": "privacy-screen",
@@ -3822,6 +3990,14 @@
     "description": "Think. Plan. Do. Integrate your notes with Vibe Kanban for AI-powered task execution.",
     "repo": "mac-tron/kando",
     "pr_number": 8852
+  },
+  {
+    "id": "researcher-library",
+    "name": "Researcher Library",
+    "author": "Vladislav Guzey",
+    "description": "A plugin to help researchers manage their literature.",
+    "repo": "proflead/obsidian-researcher-library",
+    "pr_number": 8647
   },
   {
     "id": "flip-clock",
@@ -3864,12 +4040,12 @@
     "pr_number": 9103
   },
   {
-    "id": "researcher-library",
-    "name": "Researcher Library",
-    "author": "Vladislav Guzey",
-    "description": "A plugin to help researchers manage their literature.",
-    "repo": "proflead/obsidian-researcher-library",
-    "pr_number": 8647
+    "id": "memento-mori",
+    "name": "Memento Mori",
+    "author": "avicenna",
+    "description": "A life calendar following the memento mori concept.",
+    "repo": "dadaev732/memento-mori",
+    "pr_number": 8843
   },
   {
     "id": "wiki-2-note",
@@ -3880,28 +4056,12 @@
     "pr_number": 9097
   },
   {
-    "id": "memento-mori",
-    "name": "Memento Mori",
-    "author": "avicenna",
-    "description": "A life calendar following the memento mori concept.",
-    "repo": "dadaev732/memento-mori",
-    "pr_number": 8843
-  },
-  {
-    "id": "letterboxd-mirror",
-    "name": "Letterboxd Mirror",
-    "author": "Diego Vicente",
-    "description": "Sync your Letterboxd diary as notes.",
-    "repo": "diego-vicente/obsidian-letterboxd-mirror-plugin",
-    "pr_number": 9098
-  },
-  {
-    "id": "auto-tags",
-    "name": "Auto Tags",
-    "description": "分析并一键为笔记生成标签，提升笔记组织效率。\nAnalyze and tag your document with one click for efficient note organization using AI.",
-    "author": "li-xiu-qi",
-    "repo": "li-xiu-qi/obsidian-auto-tags",
-    "pr_number": 9269
+    "id": "fast-note-sync",
+    "name": "Fast Note Sync",
+    "author": "HaierKeys",
+    "description": "Privately deployable real-time multi-device note synchronization, supporting desktop and mobile devices.",
+    "repo": "haierkeys/obsidian-fast-note-sync",
+    "pr_number": 8560
   },
   {
     "id": "remember-code-block-lang",
@@ -3912,12 +4072,28 @@
     "pr_number": 8871
   },
   {
+    "id": "letterboxd-mirror",
+    "name": "Letterboxd Mirror",
+    "author": "Diego Vicente",
+    "description": "Sync your Letterboxd diary as notes.",
+    "repo": "diego-vicente/obsidian-letterboxd-mirror-plugin",
+    "pr_number": 9098
+  },
+  {
     "id": "gym-buddy",
     "name": "Gym Buddy",
     "author": "Amil Masic",
     "description": "Log workouts with lightning-fast mobile UX. Markdown-native storage with Dataview compatibility and progress visualization.",
     "repo": "AmilMasic/gym-buddy",
     "pr_number": 9094
+  },
+  {
+    "id": "auto-tags",
+    "name": "Auto Tags",
+    "description": "分析并一键为笔记生成标签，提升笔记组织效率。\nAnalyze and tag your document with one click for efficient note organization using AI.",
+    "author": "li-xiu-qi",
+    "repo": "li-xiu-qi/obsidian-auto-tags",
+    "pr_number": 9269
   },
   {
     "id": "smart-link-decorator",
@@ -3936,22 +4112,6 @@
     "pr_number": 8674
   },
   {
-    "id": "nanobanana-pro",
-    "name": "NanoBanana PRO",
-    "author": "NanoBanana",
-    "description": "Generate Knowledge Posters (infographics) from your notes using AI. Supports OpenAI, Gemini, Anthropic, and xAI.",
-    "repo": "reallygood83/nanobanana-pro-obsidian",
-    "pr_number": 8875
-  },
-  {
-    "id": "fast-note-sync",
-    "name": "Fast Note Sync",
-    "author": "HaierKeys",
-    "description": "Privately deployable real-time multi-device note synchronization, supporting desktop and mobile devices.",
-    "repo": "haierkeys/obsidian-fast-note-sync",
-    "pr_number": 8560
-  },
-  {
     "id": "anki-helper",
     "name": "Anki Helper",
     "author": "Dusk",
@@ -3960,12 +4120,44 @@
     "pr_number": 7409
   },
   {
+    "id": "nanobanana-pro",
+    "name": "NanoBanana PRO",
+    "author": "NanoBanana",
+    "description": "Generate Knowledge Posters (infographics) from your notes using AI. Supports OpenAI, Gemini, Anthropic, and xAI.",
+    "repo": "reallygood83/nanobanana-pro-obsidian",
+    "pr_number": 8875
+  },
+  {
+    "id": "vinaya-bookshelf",
+    "name": "Vinaya Bookshelf",
+    "author": "Khemarato Bhikkhu",
+    "description": "Download and sync resources for studying the Buddhist Monastic rules.",
+    "repo": "obu-labs/vinaya-bookshelf",
+    "pr_number": 7247
+  },
+  {
+    "id": "sindhu-indic-script-converter",
+    "name": "Sindhu (Indic Script Converter)",
+    "author": "Anant Upadhyayula",
+    "description": "Transforms Sanskrit and other Indic scripts from one to another, with elegance and control.",
+    "repo": "sasiperi/sindhu-indic-script-converter",
+    "pr_number": 7208
+  },
+  {
     "id": "singularity-app",
     "name": "Singularity App Integration",
     "author": "Vladislav Samorodov",
     "description": "Integrates Singularity App tasks. Renders task links as interactive badges and syncs note URLs back to Singularity.",
     "repo": "SVS696/obsidian-singularity",
     "pr_number": 9084
+  },
+  {
+    "id": "periodic-notes-calendar",
+    "name": "Periodic notes calendar",
+    "author": "Luis Cadillo",
+    "description": "Organize periodic notes from daily to yearly with a calendar interface. Navigate and summarize entries using stickers in the calendar view.",
+    "repo": "luiisca/obsidian-periodic-notes-calendar",
+    "pr_number": 7573
   },
   {
     "id": "attachment-sidecar",
@@ -3992,52 +4184,12 @@
     "pr_number": 8724
   },
   {
-    "id": "periodic-notes-calendar",
-    "name": "Periodic notes calendar",
-    "author": "Luis Cadillo",
-    "description": "Organize periodic notes from daily to yearly with a calendar interface. Navigate and summarize entries using stickers in the calendar view.",
-    "repo": "luiisca/obsidian-periodic-notes-calendar",
-    "pr_number": 7573
-  },
-  {
     "id": "format4linkedin",
     "name": "Format4LinkedIn",
     "author": "Marian Stancik",
     "description": "Formats markdown content for LinkedIn posts.",
     "repo": "gitNetw0rk/format4linkedin",
     "pr_number": 9059
-  },
-  {
-    "id": "pinbox-syncer",
-    "name": "Pinbox Syncer",
-    "author": "gnuhpc",
-    "description": "Sync your Pinbox bookmarks to your vault.",
-    "repo": "gnuhpc/obsidian-pinbox-syncer",
-    "pr_number": 8700
-  },
-  {
-    "id": "claude-sidebar",
-    "name": "Claude Sidebar",
-    "author": "Derek Larson",
-    "description": "Run Claude Code in your sidebar.",
-    "repo": "derek-larson14/obsidian-claude-sidebar",
-    "pr_number": 9002
-  },
-  {
-    "id": "archive-file",
-    "name": "Archive File",
-    "author": "greetclammy",
-    "description": "Move the current file to an archive folder.",
-    "repo": "greetclammy/archive-file",
-    "pr_number": 8835
-  },
-  {
-    "id": "vps-publish",
-    "name": "Publish to VPS",
-    "author": "JRouquette",
-    "description": "Publish selected vault folders to your personal VPS with property-based filtering and remote upload.",
-    "repo": "JoRouquette/obsidian-vps-publish",
-    "pr_number": 8834
   },
   {
     "id": "stomp",
@@ -4048,20 +4200,36 @@
     "pr_number": 7294
   },
   {
-    "id": "athena",
-    "name": "Athena AI",
-    "author": "DevFortress",
-    "description": "Chat with your notes using AI.",
-    "repo": "DevFortress-Inc/Athena--Obsidian-Plugin",
-    "pr_number": 8811
+    "id": "pinbox-syncer",
+    "name": "Pinbox Syncer",
+    "author": "gnuhpc",
+    "description": "Sync your Pinbox bookmarks to your vault.",
+    "repo": "gnuhpc/obsidian-pinbox-syncer",
+    "pr_number": 8700
   },
   {
-    "id": "colorful-heading-underlines",
-    "name": "Colorful Heading Underlines",
+    "id": "archive-file",
+    "name": "Archive File",
     "author": "greetclammy",
-    "description": "Add colorful underlines to identify heading levels.",
-    "repo": "greetclammy/colorful-heading-underlines",
-    "pr_number": 8820
+    "description": "Move the current file to an archive folder.",
+    "repo": "greetclammy/archive-file",
+    "pr_number": 8835
+  },
+  {
+    "id": "claude-sidebar",
+    "name": "Claude Sidebar",
+    "author": "Derek Larson",
+    "description": "Run Claude Code in your sidebar.",
+    "repo": "derek-larson14/obsidian-claude-sidebar",
+    "pr_number": 9002
+  },
+  {
+    "id": "vps-publish",
+    "name": "Publish to VPS",
+    "author": "JRouquette",
+    "description": "Publish selected vault folders to your personal VPS with property-based filtering and remote upload.",
+    "repo": "JoRouquette/obsidian-vps-publish",
+    "pr_number": 8834
   },
   {
     "id": "pochoir",
@@ -4072,20 +4240,68 @@
     "pr_number": 7252
   },
   {
+    "id": "decks",
+    "name": "Decks",
+    "author": "Xherdi Lika",
+    "description": "Decks - Spaced repetition flashcards plugin with FSRS algorithm.",
+    "repo": "dscherdi/decks",
+    "pr_number": 7348
+  },
+  {
+    "id": "athena",
+    "name": "Athena AI",
+    "author": "DevFortress",
+    "description": "Chat with your notes using AI.",
+    "repo": "DevFortress-Inc/Athena--Obsidian-Plugin",
+    "pr_number": 8811
+  },
+  {
+    "id": "floating-note",
+    "name": "Floating Note",
+    "author": "elkraps",
+    "description": "Open your notes in always-on-top floating windows, perfect for taking notes while watching videos, reading, or working with multiple monitors.",
+    "repo": "elkraps/obsidian-floating-note",
+    "pr_number": 8454
+  },
+  {
+    "id": "adopt-orphan",
+    "name": "Adopt Orphan",
+    "author": "LuLaValva",
+    "description": "Find all unresolved links (orphans) and list them in a sidebar for fast file creation.",
+    "repo": "LuLaValva/obsidian-adopt-orphan",
+    "pr_number": 6707
+  },
+  {
+    "id": "colorful-heading-underlines",
+    "name": "Colorful Heading Underlines",
+    "author": "greetclammy",
+    "description": "Add colorful underlines to identify heading levels.",
+    "repo": "greetclammy/colorful-heading-underlines",
+    "pr_number": 8820
+  },
+  {
+    "id": "anti-ephemeral-state",
+    "name": "Anti-Ephemeral State",
+    "author": "Ivan Mezentsev",
+    "description": "Per-note state persistence: scroll, cursor, and view mode memory.",
+    "repo": "ivan-mezentsev/anti-ephemeral-state",
+    "pr_number": 7293
+  },
+  {
+    "id": "emera",
+    "name": "Emera",
+    "author": "OlegWock",
+    "description": "Enables you to use custom React components and inline JavaScript, kinda like MDX.",
+    "repo": "OlegWock/obsidian-emera",
+    "pr_number": 7293
+  },
+  {
     "id": "meetingmind",
     "name": "MeetingMind",
     "author": "Patrick Tumbucon",
     "description": "Import meeting transcripts with AI summaries, action items, and auto-linking to your vault.",
     "repo": "pattynextdoor/meetingmind",
     "pr_number": 9011
-  },
-  {
-    "id": "auto-git-commit",
-    "name": "Auto Git Commit",
-    "author": "small",
-    "description": "Automatically commit vault changes to git with customizable triggers and templates.",
-    "repo": "whtiehack/obsidian-git-auto-commit",
-    "pr_number": 9038
   },
   {
     "id": "wpm-reading-time",
@@ -4128,6 +4344,14 @@
     "pr_number": 7315
   },
   {
+    "id": "auto-git-commit",
+    "name": "Auto Git Commit",
+    "author": "small",
+    "description": "Automatically commit vault changes to git with customizable triggers and templates.",
+    "repo": "whtiehack/obsidian-git-auto-commit",
+    "pr_number": 9038
+  },
+  {
     "id": "smart-ai-assistant",
     "name": "Smart AI Assistant",
     "author": "Rerowros",
@@ -4152,20 +4376,28 @@
     "pr_number": 7360
   },
   {
-    "id": "today-pane",
-    "name": "Today Pane",
-    "author": "imaikosuke",
-    "description": "Always display today's daily note in a side panel.",
-    "repo": "imaikosuke/obsidian-today-pane",
-    "pr_number": 8770
-  },
-  {
     "id": "bytegrid",
     "name": "ByteGrid",
     "author": "waaraawa",
     "description": "Visualize binary data and C struct memory layouts.",
     "repo": "waaraawa/ByteGrid",
     "pr_number": 8479
+  },
+  {
+    "id": "inline-ai",
+    "name": "Inline AI",
+    "author": "Maxime Fournes",
+    "description": "Add AI capabilities directly into your notes using simple tags. Write questions, save the file, get AI responses inline.",
+    "repo": "Maximophone/obsidian-ai-plugin",
+    "pr_number": 8947
+  },
+  {
+    "id": "today-pane",
+    "name": "Today Pane",
+    "author": "imaikosuke",
+    "description": "Always display today's daily note in a side panel.",
+    "repo": "imaikosuke/obsidian-today-pane",
+    "pr_number": 8770
   },
   {
     "id": "github-projects",
@@ -4192,14 +4424,6 @@
     "pr_number": 8713
   },
   {
-    "id": "decks",
-    "name": "Decks",
-    "author": "Xherdi Lika",
-    "description": "Decks - Spaced repetition flashcards plugin with FSRS algorithm.",
-    "repo": "dscherdi/decks",
-    "pr_number": 7348
-  },
-  {
     "id": "rp-jalali",
     "name": "Rp Jalali",
     "author": "RezaParsian",
@@ -4224,14 +4448,6 @@
     "pr_number": 7667
   },
   {
-    "id": "auto-index",
-    "name": "Auto Index",
-    "author": "RakushkaTOP",
-    "description": "Automatically generates index notes for specified folders, listing files and subfolders recursively.",
-    "repo": "RakushkaTOP/obsidian-auto-index",
-    "pr_number": 9052
-  },
-  {
     "id": "right-side-daily-notes",
     "name": "Right Side Daily Notes",
     "author": "Grey Cardinal",
@@ -4248,12 +4464,12 @@
     "pr_number": 7413
   },
   {
-    "id": "extensionless",
-    "name": "Extensionless Links",
-    "author": "Camaendir",
-    "description": "Overwrites the Default Link Resolver to allow for links without extensions.",
-    "repo": "Camaendir/extensionless",
-    "pr_number": 9004
+    "id": "auto-index",
+    "name": "Auto Index",
+    "author": "RakushkaTOP",
+    "description": "Automatically generates index notes for specified folders, listing files and subfolders recursively.",
+    "repo": "RakushkaTOP/obsidian-auto-index",
+    "pr_number": 9052
   },
   {
     "id": "spaceforge",
@@ -4264,52 +4480,12 @@
     "pr_number": 7275
   },
   {
-    "id": "writetex",
-    "name": "WriteTex",
-    "author": "jacklitstar",
-    "description": "Use WriteTex to write math on tablet.",
-    "repo": "jacklitstar/writetex-obsidian",
-    "pr_number": 9026
-  },
-  {
-    "id": "tasks-all-in-one",
-    "name": "Tasks All In One",
-    "author": "hotee11",
-    "description": "An all-in-one task management plugin featuring Calendar, Eisenhower Matrix, and Inbox views.",
-    "repo": "hotee11/obsidian-tasks-all-in-one",
-    "pr_number": 8644
-  },
-  {
-    "id": "conditional-marker",
-    "name": "Conditional Marker",
-    "author": "Remy Honig",
-    "description": "Add visual indicators to files in the file explorer based on configurable rules. Perfect for GTD workflows, project management, and task tracking.",
-    "repo": "remyhonig/obsidian-conditional-marker",
-    "pr_number": 9037
-  },
-  {
-    "id": "save-modified-times",
-    "name": "Save Modified Times (mtime)",
-    "author": "Mikael Klasson",
-    "description": "Save and restore notes' last modified times (mtime).",
-    "repo": "emklasson/obsidian-save-modified-times",
-    "pr_number": 8684
-  },
-  {
-    "id": "memories",
-    "name": "Memories",
-    "author": "DIMFLIX",
-    "description": "Display media galleries with images, videos, and audio directly in notes.",
-    "repo": "DIMFLIX/obsidian-memories",
-    "pr_number": 8389
-  },
-  {
-    "id": "inline-ai",
-    "name": "Inline AI",
-    "author": "Maxime Fournes",
-    "description": "Add AI capabilities directly into your notes using simple tags. Write questions, save the file, get AI responses inline.",
-    "repo": "Maximophone/obsidian-ai-plugin",
-    "pr_number": 8947
+    "id": "extensionless",
+    "name": "Extensionless Links",
+    "author": "Camaendir",
+    "description": "Overwrites the Default Link Resolver to allow for links without extensions.",
+    "repo": "Camaendir/extensionless",
+    "pr_number": 9004
   },
   {
     "id": "unembed-link",
@@ -4320,6 +4496,54 @@
     "pr_number": 7306
   },
   {
+    "id": "tasks-all-in-one",
+    "name": "Tasks All In One",
+    "author": "hotee11",
+    "description": "An all-in-one task management plugin featuring Calendar, Eisenhower Matrix, and Inbox views.",
+    "repo": "hotee11/obsidian-tasks-all-in-one",
+    "pr_number": 8644
+  },
+  {
+    "id": "google-drive-sync-peng",
+    "name": "Google Drive Sync Enhanced",
+    "description": "Enhanced Google Drive sync with intelligent file scanning, conflict resolution, and custom server support. Bidirectional sync across multiple devices.",
+    "author": "Peng",
+    "repo": "bosong2/GoogleDriveSync-ObsidianPlugin",
+    "pr_number": 8286
+  },
+  {
+    "id": "writetex",
+    "name": "WriteTex",
+    "author": "jacklitstar",
+    "description": "Use WriteTex to write math on tablet.",
+    "repo": "jacklitstar/writetex-obsidian",
+    "pr_number": 9026
+  },
+  {
+    "id": "memories",
+    "name": "Memories",
+    "author": "DIMFLIX",
+    "description": "Display media galleries with images, videos, and audio directly in notes.",
+    "repo": "DIMFLIX/obsidian-memories",
+    "pr_number": 8389
+  },
+  {
+    "id": "save-modified-times",
+    "name": "Save Modified Times (mtime)",
+    "author": "Mikael Klasson",
+    "description": "Save and restore notes' last modified times (mtime).",
+    "repo": "emklasson/obsidian-save-modified-times",
+    "pr_number": 8684
+  },
+  {
+    "id": "conditional-marker",
+    "name": "Conditional Marker",
+    "author": "Remy Honig",
+    "description": "Add visual indicators to files in the file explorer based on configurable rules. Perfect for GTD workflows, project management, and task tracking.",
+    "repo": "remyhonig/obsidian-conditional-marker",
+    "pr_number": 9037
+  },
+  {
     "id": "docscribe",
     "name": "DocScribe",
     "author": "Colin Klich",
@@ -4328,12 +4552,12 @@
     "pr_number": 8347
   },
   {
-    "id": "web-llmate",
-    "name": "WebLLMate",
-    "author": "Lumos",
-    "description": "Embed AI chat Web Homepages.",
-    "repo": "LumosLovegood/obsidian-webllmate",
-    "pr_number": 8864
+    "id": "feed-bases",
+    "name": "Feed Bases",
+    "author": "Edrick Leong",
+    "description": "Adds a feed layout to bases so you can display notes with their content in an editable feed view.",
+    "repo": "edrickleong/obsidian-feed-bases",
+    "pr_number": 8274
   },
   {
     "id": "time-tracker-plus",
@@ -4352,12 +4576,28 @@
     "pr_number": 8386
   },
   {
+    "id": "flashly",
+    "name": "Flashly",
+    "author": "Maws",
+    "description": "Create and review spaced repetition flashcards with FSRS algorithm. Supports multiple formats, AI-powered quiz generation, and comprehensive progress tracking.",
+    "repo": "Maws7140/Flashly",
+    "pr_number": 8417
+  },
+  {
     "id": "latex-formula-support",
     "name": "LaTeX Formula Support",
     "author": "YumeAyai",
     "description": "Render LaTeX formulas in edit mode with KaTeX. Supports \\( ... \\) and \\[ ... \\] syntax with live preview.",
     "repo": "YumeAyai/LaTeX-Formula-Support",
     "pr_number": 8510
+  },
+  {
+    "id": "web-llmate",
+    "name": "WebLLMate",
+    "author": "Lumos",
+    "description": "Embed AI chat Web Homepages.",
+    "repo": "LumosLovegood/obsidian-webllmate",
+    "pr_number": 8864
   },
   {
     "id": "notion-like-tables",
@@ -4376,14 +4616,6 @@
     "pr_number": 8606
   },
   {
-    "id": "flashly",
-    "name": "Flashly",
-    "author": "Maws",
-    "description": "Create and review spaced repetition flashcards with FSRS algorithm. Supports multiple formats, AI-powered quiz generation, and comprehensive progress tracking.",
-    "repo": "Maws7140/Flashly",
-    "pr_number": 8417
-  },
-  {
     "id": "eof-stats",
     "name": "EOF Stats",
     "author": "Hayato Yamamoto",
@@ -4400,36 +4632,12 @@
     "pr_number": 9017
   },
   {
-    "id": "lighthouse",
-    "name": "Lighthouse",
-    "author": "benjamin cassidy",
-    "description": "Project-based writing. Manage multiple writing projects with word counts, filtered views, and distraction-free writing.",
-    "repo": "benjamincassidy/lighthouse",
-    "pr_number": 9554
-  },
-  {
-    "id": "google-drive-sync-peng",
-    "name": "Google Drive Sync Enhanced",
-    "description": "Enhanced Google Drive sync with intelligent file scanning, conflict resolution, and custom server support. Bidirectional sync across multiple devices.",
-    "author": "Peng",
-    "repo": "bosong2/GoogleDriveSync-ObsidianPlugin",
-    "pr_number": 8286
-  },
-  {
-    "id": "bases-paginator",
-    "name": "Bases Paginator",
-    "author": "sean2077",
-    "description": "Adds a paginated table view with quick filtering to Bases. Features include pagination controls, global search, click-to-filter, and filter presets.",
-    "repo": "sean2077/obsidian-bases-paginator",
-    "pr_number": 9018
-  },
-  {
-    "id": "taskchute-plus",
-    "name": "TaskChute Plus",
-    "author": "Hiroya Iizuka",
-    "description": "Execute TaskChute that slots today's tasks, tracks projects, adds comments, and keeps you focused on now.",
-    "repo": "hiroyaiizuka/taskchute-for-obsidian",
-    "pr_number": 8815
+    "id": "ai-actions",
+    "name": "AI Actions",
+    "author": "Ivan Mezentsev",
+    "description": "Integrates AI actions into your note-taking workflow.",
+    "repo": "ivan-mezentsev/obsidian-ai-actions",
+    "pr_number": 6837
   },
   {
     "id": "syncthing-manager",
@@ -4440,20 +4648,20 @@
     "pr_number": 8645
   },
   {
-    "id": "webdav-image-hosting",
-    "name": "WebDAV Image Hosting",
-    "author": "ZzzzRyan",
-    "description": "Upload images to WebDAV servers like Nextcloud, 123pan, or Synology with AI-assisted renaming and custom URL support.",
-    "repo": "ZzzzRyan/obsidian-webdav-image-hosting",
-    "pr_number": 8992
+    "id": "taskchute-plus",
+    "name": "TaskChute Plus",
+    "author": "Hiroya Iizuka",
+    "description": "Execute TaskChute that slots today's tasks, tracks projects, adds comments, and keeps you focused on now.",
+    "repo": "hiroyaiizuka/taskchute-for-obsidian",
+    "pr_number": 8815
   },
   {
-    "id": "modal-keys-remapper",
-    "name": "Modal Keys Remapper",
-    "author": "Naoki Mizuno",
-    "description": "Customize keyboard shortcuts for navigating modal dialogs and suggestion lists.",
-    "repo": "naoki-mizuno/obsidian-modal-keys",
-    "pr_number": 9010
+    "id": "bases-paginator",
+    "name": "Bases Paginator",
+    "author": "sean2077",
+    "description": "Adds a paginated table view with quick filtering to Bases. Features include pagination controls, global search, click-to-filter, and filter presets.",
+    "repo": "sean2077/obsidian-bases-paginator",
+    "pr_number": 9018
   },
   {
     "id": "pairwise-elo-ranking",
@@ -4464,20 +4672,20 @@
     "pr_number": 7765
   },
   {
-    "id": "ai-actions",
-    "name": "AI Actions",
-    "author": "Ivan Mezentsev",
-    "description": "Integrates AI actions into your note-taking workflow.",
-    "repo": "ivan-mezentsev/obsidian-ai-actions",
-    "pr_number": 6837
+    "id": "webdav-image-hosting",
+    "name": "WebDAV Image Hosting",
+    "author": "ZzzzRyan",
+    "description": "Upload images to WebDAV servers like Nextcloud, 123pan, or Synology with AI-assisted renaming and custom URL support.",
+    "repo": "ZzzzRyan/obsidian-webdav-image-hosting",
+    "pr_number": 8992
   },
   {
-    "id": "daily-notes-sorter",
-    "name": "Daily notes sorter",
-    "author": "Nick",
-    "description": "Automatically sort daily notes and files by date in the file explorer. Supports multiple date formats (YYYY-MM-DD, DD.MM.YYYY, DD.MM.YY, MM/DD/YYYY) and flexible folder configuration.",
-    "repo": "Reifat/daily-notes-sorter",
-    "pr_number": 8452
+    "id": "redplanethq-core",
+    "name": "CORE Sync",
+    "author": "redplanethq",
+    "description": "Sync your notes with CORE and get relevant results in the sidebar.",
+    "repo": "redplanethq/core-obsidian",
+    "pr_number": 7683
   },
   {
     "id": "agentmode",
@@ -4488,60 +4696,28 @@
     "pr_number": 7375
   },
   {
-    "id": "countdown-timer",
-    "name": "Countdown Timer",
-    "author": "Chris Krueger",
-    "description": "Embed countdown timers for tracking vacations, deadlines, and due dates.",
-    "repo": "thenewhobbyist/obsidian-countdown-timer",
-    "pr_number": 9001
+    "id": "modal-keys-remapper",
+    "name": "Modal Keys Remapper",
+    "author": "Naoki Mizuno",
+    "description": "Customize keyboard shortcuts for navigating modal dialogs and suggestion lists.",
+    "repo": "naoki-mizuno/obsidian-modal-keys",
+    "pr_number": 9010
   },
   {
-    "id": "activity-graph",
-    "name": "Activity Graph",
-    "author": "Dis_Bro",
-    "description": "GitHub-style activity graph that visualizes your writing activity or completed tasks as a heatmap.",
-    "repo": "DispenserBro/obsidian-activity-graph",
-    "pr_number": 8995
+    "id": "lighthouse",
+    "name": "Lighthouse",
+    "author": "benjamin cassidy",
+    "description": "Project-based writing. Manage multiple writing projects with word counts, filtered views, and distraction-free writing.",
+    "repo": "benjamincassidy/lighthouse",
+    "pr_number": 9554
   },
   {
-    "id": "merge-references-markdown-note",
-    "name": "Merge MD by Wiki Link",
-    "author": "xuetengfei",
-    "description": "Recursively merge the content of Wiki links in Markdown files into the current file.",
-    "repo": "xuetengfei/Obsidian-Plugin-Merge-References-Markdown-Wiki-Link",
-    "pr_number": 8714
-  },
-  {
-    "id": "tables",
-    "name": "Tables",
-    "author": "aztekgold",
-    "description": "Create and manage interactive tables with multiple column types, sorting, filtering, and more.",
-    "repo": "aztekgold/obsidian-tables",
-    "pr_number": 8313
-  },
-  {
-    "id": "speaknote",
-    "name": "SpeakNote",
-    "author": "Heni Wael",
-    "description": "Record voice notes and auto-transcribe them to markdown using Deepgram, AssemblyAI, or OpenAI Whisper.",
-    "repo": "waheni/obsidian-speaknote",
-    "pr_number": 8993
-  },
-  {
-    "id": "anti-ephemeral-state",
-    "name": "Anti-Ephemeral State",
-    "author": "Ivan Mezentsev",
-    "description": "Per-note state persistence: scroll, cursor, and view mode memory.",
-    "repo": "ivan-mezentsev/anti-ephemeral-state",
-    "pr_number": 7293
-  },
-  {
-    "id": "emera",
-    "name": "Emera",
-    "author": "OlegWock",
-    "description": "Enables you to use custom React components and inline JavaScript, kinda like MDX.",
-    "repo": "OlegWock/obsidian-emera",
-    "pr_number": 7293
+    "id": "daily-notes-sorter",
+    "name": "Daily notes sorter",
+    "author": "Nick",
+    "description": "Automatically sort daily notes and files by date in the file explorer. Supports multiple date formats (YYYY-MM-DD, DD.MM.YYYY, DD.MM.YY, MM/DD/YYYY) and flexible folder configuration.",
+    "repo": "Reifat/daily-notes-sorter",
+    "pr_number": 8452
   },
   {
     "id": "moc-blocks",
@@ -4560,20 +4736,60 @@
     "pr_number": 7813
   },
   {
+    "id": "tables",
+    "name": "Tables",
+    "author": "aztekgold",
+    "description": "Create and manage interactive tables with multiple column types, sorting, filtering, and more.",
+    "repo": "aztekgold/obsidian-tables",
+    "pr_number": 8313
+  },
+  {
+    "id": "countdown-timer",
+    "name": "Countdown Timer",
+    "author": "Chris Krueger",
+    "description": "Embed countdown timers for tracking vacations, deadlines, and due dates.",
+    "repo": "thenewhobbyist/obsidian-countdown-timer",
+    "pr_number": 9001
+  },
+  {
+    "id": "merge-references-markdown-note",
+    "name": "Merge MD by Wiki Link",
+    "author": "xuetengfei",
+    "description": "Recursively merge the content of Wiki links in Markdown files into the current file.",
+    "repo": "xuetengfei/Obsidian-Plugin-Merge-References-Markdown-Wiki-Link",
+    "pr_number": 8714
+  },
+  {
+    "id": "activity-graph",
+    "name": "Activity Graph",
+    "author": "Dis_Bro",
+    "description": "GitHub-style activity graph that visualizes your writing activity or completed tasks as a heatmap.",
+    "repo": "DispenserBro/obsidian-activity-graph",
+    "pr_number": 8995
+  },
+  {
+    "id": "speaknote",
+    "name": "SpeakNote",
+    "author": "Heni Wael",
+    "description": "Record voice notes and auto-transcribe them to markdown using Deepgram, AssemblyAI, or OpenAI Whisper.",
+    "repo": "waheni/obsidian-speaknote",
+    "pr_number": 8993
+  },
+  {
+    "id": "project-management",
+    "name": "Project Management",
+    "author": "JacooGamer",
+    "description": "Manage portfolios and projects all within a series of views. Included views: today, dashboard, progress, weekly, timeline, resources.",
+    "repo": "jacoogamer/project-management",
+    "pr_number": 7516
+  },
+  {
     "id": "webdav-explorer",
     "name": "WebDAV Explorer",
     "author": "蓝星晓夜",
     "description": "WebDAV Explorer: Connect to WebDAV server, preview files directly in web view, and generate links through simple drag-and-drop.",
     "repo": "sunmagicshow/obsidian-webdav",
     "pr_number": 8432
-  },
-  {
-    "id": "things3-workflow",
-    "name": "Things3 Workflow",
-    "author": "Sean Humbarger",
-    "description": "Import your things3 tasks into your notes.",
-    "repo": "seanhumbarger/things3-workflow",
-    "pr_number": 8961
   },
   {
     "id": "yandex-calendar-integration",
@@ -4584,20 +4800,28 @@
     "pr_number": 8697
   },
   {
-    "id": "tidy-md",
-    "name": "Tidy",
-    "author": "Pratik Munot",
-    "description": "Tidies the list formatting copied from LLM outputs when pasted.",
-    "repo": "pratik-m/obsidian-tidy",
-    "pr_number": 8998
+    "id": "things3-workflow",
+    "name": "Things3 Workflow",
+    "author": "Sean Humbarger",
+    "description": "Import your things3 tasks into your notes.",
+    "repo": "seanhumbarger/things3-workflow",
+    "pr_number": 8961
   },
   {
-    "id": "floating-note",
-    "name": "Floating Note",
-    "author": "elkraps",
-    "description": "Open your notes in always-on-top floating windows, perfect for taking notes while watching videos, reading, or working with multiple monitors.",
-    "repo": "elkraps/obsidian-floating-note",
-    "pr_number": 8454
+    "id": "mermaid-icons",
+    "name": "Mermaid Icons",
+    "author": "toshs",
+    "description": "Use Font Awesome and other icon sets within your Mermaid diagrams.",
+    "repo": "toshs/obsidian-mermaid-icons",
+    "pr_number": 7531
+  },
+  {
+    "id": "para-archive",
+    "name": "PARA Archive",
+    "author": "Ben Pearson",
+    "description": "Archive files and folders using the PARA method with configurable archive strategies.",
+    "repo": "hoombar/parastale",
+    "pr_number": 8189
   },
   {
     "id": "dynamic-theme-background",
@@ -4608,20 +4832,12 @@
     "pr_number": 7359
   },
   {
-    "id": "soundify",
-    "name": "Soundify",
-    "author": "Solomonarul",
-    "description": "Allows for sounds to play on specific events.",
-    "repo": "solomonarul/soundify",
-    "pr_number": 8990
-  },
-  {
-    "id": "role-switch",
-    "name": "Role Switch",
-    "author": "Zafrem",
-    "description": "Switch between different work roles (developer, writer, researcher, etc.) with intentional transitions and session tracking.",
-    "repo": "zafrem/obsidian-role-switch",
-    "pr_number": 8253
+    "id": "tidy-md",
+    "name": "Tidy",
+    "author": "Pratik Munot",
+    "description": "Tidies the list formatting copied from LLM outputs when pasted.",
+    "repo": "pratik-m/obsidian-tidy",
+    "pr_number": 8998
   },
   {
     "id": "agenda-tasks",
@@ -4632,6 +4848,22 @@
     "pr_number": 7717
   },
   {
+    "id": "role-switch",
+    "name": "Role Switch",
+    "author": "Zafrem",
+    "description": "Switch between different work roles (developer, writer, researcher, etc.) with intentional transitions and session tracking.",
+    "repo": "zafrem/obsidian-role-switch",
+    "pr_number": 8253
+  },
+  {
+    "id": "sourcemode-styling",
+    "name": "Source Mode Styling",
+    "author": "Chris Howard",
+    "description": "Provides a customisable raw look in source mode using a monospace font to clearly differentiate from Live Preview.",
+    "repo": "chrishoward-projects/sourcemode-styling",
+    "pr_number": 7466
+  },
+  {
     "id": "glsl-viewer",
     "name": "GLSL Viewer",
     "author": "iY0Yi",
@@ -4640,12 +4872,12 @@
     "pr_number": 6737
   },
   {
-    "id": "sonigraph",
-    "name": "Sonigraph",
-    "author": "banisterious",
-    "description": "Transform your knowledge graph into music. Maps nodes and connections to musical parameters, allowing you to hear the relationships and complexity of your ideas.",
-    "repo": "banisterious/obsidian-sonigraph",
-    "pr_number": 8036
+    "id": "nldates-redux",
+    "name": "Natural Language Dates Redux",
+    "author": "Tommy Bergeron",
+    "description": "Insert timestamps and cross-link your notes with the flexibility of natural language. Now with Notion-like behavior!",
+    "repo": "tbergeron/obsidian-nldates-redux",
+    "pr_number": 5319
   },
   {
     "id": "locksidian",
@@ -4656,12 +4888,36 @@
     "pr_number": 7389
   },
   {
-    "id": "nldates-redux",
-    "name": "Natural Language Dates Redux",
-    "author": "Tommy Bergeron",
-    "description": "Insert timestamps and cross-link your notes with the flexibility of natural language. Now with Notion-like behavior!",
-    "repo": "tbergeron/obsidian-nldates-redux",
-    "pr_number": 5319
+    "id": "soundify",
+    "name": "Soundify",
+    "author": "Solomonarul",
+    "description": "Allows for sounds to play on specific events.",
+    "repo": "solomonarul/soundify",
+    "pr_number": 8990
+  },
+  {
+    "id": "sonigraph",
+    "name": "Sonigraph",
+    "author": "banisterious",
+    "description": "Transform your knowledge graph into music. Maps nodes and connections to musical parameters, allowing you to hear the relationships and complexity of your ideas.",
+    "repo": "banisterious/obsidian-sonigraph",
+    "pr_number": 8036
+  },
+  {
+    "id": "speech-to-text",
+    "name": "Speech to Text",
+    "author": "Taesun Lee",
+    "description": "Convert audio recordings to text using multiple AI providers (OpenAI Whisper, Deepgram)",
+    "repo": "asyouplz/SpeechNote",
+    "pr_number": 8004
+  },
+  {
+    "id": "handlebars-dynamic",
+    "name": "Handlebars Dynamic Templating",
+    "author": "Hide_D",
+    "description": "Handlebars dynamic templating. Define template files and use them dynamically via hb blocks. Template recursion is also possible.",
+    "repo": "hided62/obsidian-handlebars-dynamic",
+    "pr_number": 8079
   },
   {
     "id": "notehelper",
@@ -4680,44 +4936,12 @@
     "pr_number": 8907
   },
   {
-    "id": "speech-to-text",
-    "name": "Speech to Text",
-    "author": "Taesun Lee",
-    "description": "Convert audio recordings to text using multiple AI providers (OpenAI Whisper, Deepgram)",
-    "repo": "asyouplz/SpeechNote",
-    "pr_number": 8004
-  },
-  {
     "id": "bases-lock",
     "name": "Bases Lock",
     "author": "tcyeee",
     "description": "Hides the action bar at the top of the Bases view.",
     "repo": "tcyeee/obsidian-bases-lock",
     "pr_number": 8740
-  },
-  {
-    "id": "codeblock-highlighter",
-    "name": "Codeblock Highlighter",
-    "author": "kosei28",
-    "description": "Highlights codeblocks using Shiki. Works seamlessly in all view modes.",
-    "repo": "kosei28/obsidian-codeblock-highlighter",
-    "pr_number": 8981
-  },
-  {
-    "id": "kanban-with-notes",
-    "name": "Kanban with Notes",
-    "author": "Mark Lifson",
-    "description": "Create markdown-backed Kanban boards with inline board notes. Enhanced fork of Kanban plugin by mgmeyers.",
-    "repo": "MALathon/obsidian-kanban-with-notes",
-    "pr_number": 8934
-  },
-  {
-    "id": "graphene",
-    "name": "Graphene",
-    "author": "Stephanie Yao",
-    "description": "Creates a semantic graph based on content similarity using vector embeddings.",
-    "repo": "suniyao/obsidian-graphene",
-    "pr_number": 8783
   },
   {
     "id": "language-recall",
@@ -4728,12 +4952,52 @@
     "pr_number": 8364
   },
   {
+    "id": "vault-mcp",
+    "name": "Vault MCP",
+    "description": "Allow an AI to interact with your vault's notes through a self-contained MCP server.",
+    "author": "jlevere",
+    "repo": "jlevere/obsidian-mcp-plugin",
+    "pr_number": 6355
+  },
+  {
+    "id": "graphene",
+    "name": "Graphene",
+    "author": "Stephanie Yao",
+    "description": "Creates a semantic graph based on content similarity using vector embeddings.",
+    "repo": "suniyao/obsidian-graphene",
+    "pr_number": 8783
+  },
+  {
+    "id": "kanban-with-notes",
+    "name": "Kanban with Notes",
+    "author": "Mark Lifson",
+    "description": "Create markdown-backed Kanban boards with inline board notes. Enhanced fork of Kanban plugin by mgmeyers.",
+    "repo": "MALathon/obsidian-kanban-with-notes",
+    "pr_number": 8934
+  },
+  {
+    "id": "codeblock-highlighter",
+    "name": "Codeblock Highlighter",
+    "author": "kosei28",
+    "description": "Highlights codeblocks using Shiki. Works seamlessly in all view modes.",
+    "repo": "kosei28/obsidian-codeblock-highlighter",
+    "pr_number": 8981
+  },
+  {
     "id": "kavita-sync",
     "name": "Kavita Sync",
     "author": "David Bowman",
     "description": "Sync annotations and highlights from your Kavita server to your vault.",
     "repo": "davidlbowman/kavita-to-obsidian",
     "pr_number": 8903
+  },
+  {
+    "id": "ms-people-sync",
+    "name": "Microsoft People Sync",
+    "author": "tararesearch",
+    "description": "Sync contacts from Microsoft Graph into People notes with configurable minimal templates.",
+    "repo": "tararesearch/Obsidian-MSPeopleSync",
+    "pr_number": 8634
   },
   {
     "id": "file-auto-upload",
@@ -4752,20 +5016,12 @@
     "pr_number": 8732
   },
   {
-    "id": "ms-people-sync",
-    "name": "Microsoft People Sync",
-    "author": "tararesearch",
-    "description": "Sync contacts from Microsoft Graph into People notes with configurable minimal templates.",
-    "repo": "tararesearch/Obsidian-MSPeopleSync",
-    "pr_number": 8634
-  },
-  {
-    "id": "vault-mcp",
-    "name": "Vault MCP",
-    "description": "Allow an AI to interact with your vault's notes through a self-contained MCP server.",
-    "author": "jlevere",
-    "repo": "jlevere/obsidian-mcp-plugin",
-    "pr_number": 6355
+    "id": "better-properties",
+    "name": "Better Properties",
+    "author": "Unxok",
+    "description": "Adds new property types and other property-related upgrades and features.",
+    "repo": "unxok/obsidian-better-properties",
+    "pr_number": 8049
   },
   {
     "id": "task-aggregation-with-ai",
@@ -4792,44 +5048,20 @@
     "pr_number": 8964
   },
   {
-    "id": "run-script-on-property-edit",
-    "name": "Run Script on Property Edit",
-    "author": "David Whittam",
-    "description": "Detects when YAML frontmatter properties are edited and runs supplied scripts.",
-    "repo": "OneAutumnMango/run-script-on-property-edit",
-    "pr_number": 8974
-  },
-  {
-    "id": "sourcemode-styling",
-    "name": "Source Mode Styling",
-    "author": "Chris Howard",
-    "description": "Provides a customisable raw look in source mode using a monospace font to clearly differentiate from Live Preview.",
-    "repo": "chrishoward-projects/sourcemode-styling",
-    "pr_number": 7466
-  },
-  {
-    "id": "llm-session-launcher",
-    "name": "LLM Session Launcher",
-    "author": "Oratta",
-    "description": "Launch LLM sessions (Claude Code, etc.) in external terminal.",
-    "repo": "oratta/obsidian-llm-session",
-    "pr_number": 8991
-  },
-  {
-    "id": "image-flow",
-    "name": "Image Flow",
-    "author": "chillcharlie357",
-    "description": "A plugin that streamlines how images are pasted, stored, and uploaded.",
-    "repo": "chillcharlie357/obsidian-image-flow",
-    "pr_number": 8972
-  },
-  {
     "id": "nova",
     "name": "Nova",
     "author": "Shawn Duggan",
     "description": "Your AI writing partner that edits exactly where you want - select text and transform, or chat at cursor position.",
     "repo": "shawnduggan/nova",
     "pr_number": 6955
+  },
+  {
+    "id": "run-script-on-property-edit",
+    "name": "Run Script on Property Edit",
+    "author": "David Whittam",
+    "description": "Detects when YAML frontmatter properties are edited and runs supplied scripts.",
+    "repo": "OneAutumnMango/run-script-on-property-edit",
+    "pr_number": 8974
   },
   {
     "id": "audio-pluglist",
@@ -4840,28 +5072,28 @@
     "pr_number": 7490
   },
   {
+    "id": "image-flow",
+    "name": "Image Flow",
+    "author": "chillcharlie357",
+    "description": "A plugin that streamlines how images are pasted, stored, and uploaded.",
+    "repo": "chillcharlie357/obsidian-image-flow",
+    "pr_number": 8972
+  },
+  {
+    "id": "llm-session-launcher",
+    "name": "LLM Session Launcher",
+    "author": "Oratta",
+    "description": "Launch LLM sessions (Claude Code, etc.) in external terminal.",
+    "repo": "oratta/obsidian-llm-session",
+    "pr_number": 8991
+  },
+  {
     "id": "calendar-bases",
     "name": "Calendar Bases",
     "author": "Edrick Leong",
     "description": "Adds a calendar layout to bases so you can display notes with dates in an interactive calendar view.",
     "repo": "edrickleong/obsidian-calendar-bases",
     "pr_number": 8024
-  },
-  {
-    "id": "feed-bases",
-    "name": "Feed Bases",
-    "author": "Edrick Leong",
-    "description": "Adds a feed layout to bases so you can display notes with their content in an editable feed view.",
-    "repo": "edrickleong/obsidian-feed-bases",
-    "pr_number": 8274
-  },
-  {
-    "id": "table-click-toggle",
-    "name": "Table Click Toggle",
-    "author": "caffetsong",
-    "description": "In a MarkDown table, toggle the symbol (✅/❌) by clicking.在MarkDown表格中，通过点击切换符号（✅/❌）.",
-    "repo": "caffetsong/obsidian-table-toggle",
-    "pr_number": 8921
   },
   {
     "id": "mcp-server",
@@ -4872,6 +5104,14 @@
     "pr_number": 8298
   },
   {
+    "id": "tasks-enhancer",
+    "name": "Tasks Enhancer",
+    "author": "bvn13",
+    "description": "Enhances Tasks plugin",
+    "repo": "bvn13/obsidian-tasks-enhancer",
+    "pr_number": 7992
+  },
+  {
     "id": "cf-imagebed",
     "name": "CF ImageBed",
     "author": "fantasy-ke",
@@ -4880,12 +5120,12 @@
     "pr_number": 8222
   },
   {
-    "id": "strudel-repl",
-    "name": "Strudel REPL",
-    "author": "Anton Duda",
-    "description": "Live-coding music environment — Strudel REPL integrated into your vault.",
-    "repo": "dudaanton/obsidian-strudel-plugin",
-    "pr_number": 8270
+    "id": "table-click-toggle",
+    "name": "Table Click Toggle",
+    "author": "caffetsong",
+    "description": "In a MarkDown table, toggle the symbol (✅/❌) by clicking.在MarkDown表格中，通过点击切换符号（✅/❌）.",
+    "repo": "caffetsong/obsidian-table-toggle",
+    "pr_number": 8921
   },
   {
     "id": "color-master",
@@ -4896,28 +5136,12 @@
     "pr_number": 7546
   },
   {
-    "id": "kanban-plus",
-    "name": "Kanban Plus",
-    "author": "geetduggal",
-    "description": "Enhanced Kanban boards with cross-file card movement, calendar integration, and advanced workflow features.",
-    "repo": "geetduggal/obsidian-kanban",
-    "pr_number": 8441
-  },
-  {
-    "id": "better-properties",
-    "name": "Better Properties",
-    "author": "Unxok",
-    "description": "Adds new property types and other property-related upgrades and features.",
-    "repo": "unxok/obsidian-better-properties",
-    "pr_number": 8049
-  },
-  {
-    "id": "remarkable-sync",
-    "name": "ReMarkable Sync",
-    "author": "mightytreefolk",
-    "description": "Sync handwritten notes and PDF annotations from your ReMarkable tablet to users vault as Excalidraw drawings.",
-    "repo": "mightytreefolk/ReMarkSync",
-    "pr_number": 8931
+    "id": "strudel-repl",
+    "name": "Strudel REPL",
+    "author": "Anton Duda",
+    "description": "Live-coding music environment — Strudel REPL integrated into your vault.",
+    "repo": "dudaanton/obsidian-strudel-plugin",
+    "pr_number": 8270
   },
   {
     "id": "countcraft",
@@ -4928,20 +5152,44 @@
     "pr_number": 7731
   },
   {
-    "id": "easy-link",
-    "name": "Easy Link",
-    "author": "poenl",
-    "description": "Automatically formats pasted URLs into titled links, image links, or applies them to selected text.",
-    "repo": "poenl/easy-link-obsidian",
-    "pr_number": 8809
-  },
-  {
     "id": "inline-local-graph",
     "name": "Inline Local Graph",
     "author": "TKOxff",
     "description": "Visualize the local graph inline within your notes.",
     "repo": "TKOxff/obsidian-inline-local-graph",
     "pr_number": 7210
+  },
+  {
+    "id": "kanban-plus",
+    "name": "Kanban Plus",
+    "author": "geetduggal",
+    "description": "Enhanced Kanban boards with cross-file card movement, calendar integration, and advanced workflow features.",
+    "repo": "geetduggal/obsidian-kanban",
+    "pr_number": 8441
+  },
+  {
+    "id": "remarkable-sync",
+    "name": "ReMarkable Sync",
+    "author": "mightytreefolk",
+    "description": "Sync handwritten notes and PDF annotations from your ReMarkable tablet to users vault as Excalidraw drawings.",
+    "repo": "mightytreefolk/ReMarkSync",
+    "pr_number": 8931
+  },
+  {
+    "id": "atlassian-jira-auto-linker",
+    "name": "Atlassian Jira Auto-Linker",
+    "author": "Kevin Woblick",
+    "description": "Automatically create links to Jira from issue IDs like APP-1426.",
+    "repo": "Kovah/obsidian-jira-auto-linker",
+    "pr_number": 6294
+  },
+  {
+    "id": "easy-link",
+    "name": "Easy Link",
+    "author": "poenl",
+    "description": "Automatically formats pasted URLs into titled links, image links, or applies them to selected text.",
+    "repo": "poenl/easy-link-obsidian",
+    "pr_number": 8809
   },
   {
     "id": "rumdl",
@@ -4968,28 +5216,12 @@
     "pr_number": 8368
   },
   {
-    "id": "attachment-renamer",
-    "name": "Attachment Renamer",
-    "author": "bwpge",
-    "description": "Rename pasted, drag-and-dropped, and existing attachments in your vault with template syntax.",
-    "repo": "bwpge/obsidian-attachment-renamer",
-    "pr_number": 8839
-  },
-  {
     "id": "hide-wikilink-brackets",
     "name": "Hide Wikilink Brackets",
     "author": "Ming",
     "description": "Hides wikilink brackets in search results, backlinks, and task lists for a cleaner reading experience.",
     "repo": "hillsmao/Obsidian-Hide-Wikilink-Brackets",
     "pr_number": 8305
-  },
-  {
-    "id": "atlassian-jira-auto-linker",
-    "name": "Atlassian Jira Auto-Linker",
-    "author": "Kevin Woblick",
-    "description": "Automatically create links to Jira from issue IDs like APP-1426.",
-    "repo": "Kovah/obsidian-jira-auto-linker",
-    "pr_number": 6294
   },
   {
     "id": "color-table-cells",
@@ -5000,12 +5232,12 @@
     "pr_number": 8428
   },
   {
-    "id": "easy-codeblock",
-    "name": "Easy Codeblock",
-    "author": "MatseVH",
-    "description": "Insert code blocks quick and easily.",
-    "repo": "Matse2005/obsidian-easy-codeblock",
-    "pr_number": 8933
+    "id": "attachment-renamer",
+    "name": "Attachment Renamer",
+    "author": "bwpge",
+    "description": "Rename pasted, drag-and-dropped, and existing attachments in your vault with template syntax.",
+    "repo": "bwpge/obsidian-attachment-renamer",
+    "pr_number": 8839
   },
   {
     "id": "intelligence-assistant",
@@ -5016,12 +5248,12 @@
     "pr_number": 8579
   },
   {
-    "id": "goboard-viewer",
-    "name": "Go Board Viewer",
-    "author": "j2masamitu",
-    "description": "Displays Go (Weiqi/Baduk) SGF files and code blocks as interactive Go boards with playback controls for desktop and mobile.",
-    "repo": "j2masamitu/obsidian-goboard-viewer",
-    "pr_number": 8463
+    "id": "easy-codeblock",
+    "name": "Easy Codeblock",
+    "author": "MatseVH",
+    "description": "Insert code blocks quick and easily.",
+    "repo": "Matse2005/obsidian-easy-codeblock",
+    "pr_number": 8933
   },
   {
     "id": "bases-timeline-view",
@@ -5032,12 +5264,20 @@
     "pr_number": 8300
   },
   {
-    "id": "pdf-embed",
-    "name": "PDF Embed",
-    "author": "Shaun Dunmall and Mark Price",
-    "description": "A plugin to embed PDF documents into markdown notes.",
-    "repo": "pricem72/PDF-Embed",
-    "pr_number": 8362
+    "id": "goboard-viewer",
+    "name": "Go Board Viewer",
+    "author": "j2masamitu",
+    "description": "Displays Go (Weiqi/Baduk) SGF files and code blocks as interactive Go boards with playback controls for desktop and mobile.",
+    "repo": "j2masamitu/obsidian-goboard-viewer",
+    "pr_number": 8463
+  },
+  {
+    "id": "lock-n-find",
+    "name": "Lock & Find (Privacy)",
+    "author": "Zafrem",
+    "description": "Helps you quickly locate and lock content within your notes.",
+    "repo": "zafrem/obsidian-lock-n-find",
+    "pr_number": 7722
   },
   {
     "id": "auto-editing-mode",
@@ -5048,12 +5288,12 @@
     "pr_number": 7941
   },
   {
-    "id": "lock-n-find",
-    "name": "Lock & Find (Privacy)",
-    "author": "Zafrem",
-    "description": "Helps you quickly locate and lock content within your notes.",
-    "repo": "zafrem/obsidian-lock-n-find",
-    "pr_number": 7722
+    "id": "pdf-embed",
+    "name": "PDF Embed",
+    "author": "Shaun Dunmall and Mark Price",
+    "description": "A plugin to embed PDF documents into markdown notes.",
+    "repo": "pricem72/PDF-Embed",
+    "pr_number": 8362
   },
   {
     "id": "prisma-calendar",
@@ -5072,22 +5312,6 @@
     "pr_number": 6825
   },
   {
-    "id": "album-search",
-    "name": "Album Search",
-    "author": "Max Choi",
-    "description": "Search for albums using the Spotify API and create notes with a custom template.",
-    "repo": "kudosmax/obsidian-album-search-plugin",
-    "pr_number": 8918
-  },
-  {
-    "id": "the-scripture-injector",
-    "name": "The Scripture Injector",
-    "author": "jArchitect",
-    "description": "Seamlessly integrate Bible verses into your notes with support for multiple translations.",
-    "repo": "jarchitect1/The-Scripture-Injector",
-    "pr_number": 8916
-  },
-  {
     "id": "saving-md-via-telegram",
     "name": "Saving md via telegram",
     "author": "KKittyCatik",
@@ -5096,20 +5320,12 @@
     "pr_number": 8427
   },
   {
-    "id": "auto-math",
-    "name": "Auto Math",
-    "author": "Vladislav Sorokin",
-    "description": "Auto-expands LaTeX snippets. External rules with live reload, Custom Rules Editor, and default math pack.",
-    "repo": "loglux/auto-math-for-obsidian",
-    "pr_number": 8470
-  },
-  {
-    "id": "hover-annotations",
-    "name": "Hover Annotations",
-    "author": "Zheyuan (Max) Kong",
-    "description": "Enable text annotations, display content upon mouse hover (or: show hover text/tooltips), and support both Reading Mode and Real-time Preview Mode.",
-    "repo": "MaxMiksa/Obsidian-Hover-Annotations",
-    "pr_number": 8598
+    "id": "album-search",
+    "name": "Album Search",
+    "author": "Max Choi",
+    "description": "Search for albums using the Spotify API and create notes with a custom template.",
+    "repo": "kudosmax/obsidian-album-search-plugin",
+    "pr_number": 8918
   },
   {
     "id": "clean-lists",
@@ -5120,12 +5336,28 @@
     "pr_number": 7422
   },
   {
-    "id": "markdown-copy-helper",
-    "name": "Markdown Copy Helper",
-    "author": "lybtt",
-    "description": "Copy markdown content with automatic base64 image conversion. Supports ![[wikilink]] format, ignores YAML front matter, and seamlessly integrates with attachment folder settings.",
-    "repo": "lybtt/markdown-copy-helper",
-    "pr_number": 8911
+    "id": "the-scripture-injector",
+    "name": "The Scripture Injector",
+    "author": "jArchitect",
+    "description": "Seamlessly integrate Bible verses into your notes with support for multiple translations.",
+    "repo": "jarchitect1/The-Scripture-Injector",
+    "pr_number": 8916
+  },
+  {
+    "id": "auto-math",
+    "name": "Auto Math",
+    "author": "Vladislav Sorokin",
+    "description": "Auto-expands LaTeX snippets. External rules with live reload, Custom Rules Editor, and default math pack.",
+    "repo": "loglux/auto-math-for-obsidian",
+    "pr_number": 8470
+  },
+  {
+    "id": "youtube-annotator",
+    "name": "youtube-annotator",
+    "author": "Anant Upadhyayula",
+    "description": "Watch; Annotate; Remember — All in one place.",
+    "repo": "sasiperi/youtube-annotator",
+    "pr_number": 7663
   },
   {
     "id": "bases-kanban-view",
@@ -5134,6 +5366,14 @@
     "description": "A Kanban view for Bases.",
     "repo": "EthanMerrill/bases-kanban-view",
     "pr_number": 8331
+  },
+  {
+    "id": "hover-annotations",
+    "name": "Hover Annotations",
+    "author": "Zheyuan (Max) Kong",
+    "description": "Enable text annotations, display content upon mouse hover (or: show hover text/tooltips), and support both Reading Mode and Real-time Preview Mode.",
+    "repo": "MaxMiksa/Obsidian-Hover-Annotations",
+    "pr_number": 8598
   },
   {
     "id": "open-in-ide",
@@ -5152,12 +5392,12 @@
     "pr_number": 8577
   },
   {
-    "id": "youtube-annotator",
-    "name": "youtube-annotator",
-    "author": "Anant Upadhyayula",
-    "description": "Watch; Annotate; Remember — All in one place.",
-    "repo": "sasiperi/youtube-annotator",
-    "pr_number": 7663
+    "id": "markdown-copy-helper",
+    "name": "Markdown Copy Helper",
+    "author": "lybtt",
+    "description": "Copy markdown content with automatic base64 image conversion. Supports ![[wikilink]] format, ignores YAML front matter, and seamlessly integrates with attachment folder settings.",
+    "repo": "lybtt/markdown-copy-helper",
+    "pr_number": 8911
   },
   {
     "id": "n-brace",
@@ -5168,14 +5408,6 @@
     "pr_number": 8367
   },
   {
-    "id": "share-to-pdf",
-    "name": "Share to PDF",
-    "description": "Convert and save your notes as beautifully formatted PDFs with full markdown support. Works on desktop and mobile with native sharing.",
-    "author": "bodfather",
-    "repo": "bodfather/obsidian-share-pdf",
-    "pr_number": 8365
-  },
-  {
     "id": "tiktoker",
     "name": "TikToker",
     "author": "ameyxd",
@@ -5184,12 +5416,20 @@
     "pr_number": 7766
   },
   {
-    "id": "google-drive-synced-vault",
-    "name": "Google Drive Synced Vault",
-    "author": "diogopalhais",
-    "description": "Advanced two-way Google Drive with automatic sync, conflict resolution, and support for all file types.",
-    "repo": "diogopalhais/obsidian-google-drive-synced-vault",
-    "pr_number": 8273
+    "id": "share-to-pdf",
+    "name": "Share to PDF",
+    "description": "Convert and save your notes as beautifully formatted PDFs with full markdown support. Works on desktop and mobile with native sharing.",
+    "author": "bodfather",
+    "repo": "bodfather/obsidian-share-pdf",
+    "pr_number": 8365
+  },
+  {
+    "id": "repertoire",
+    "name": "Repertoire",
+    "author": "Samuel Beard",
+    "description": "Helps musicians manage their music with chord sheets and automatic transposing.",
+    "repo": "samuelbeard/obsidian-repertoire-plugin",
+    "pr_number": 8346
   },
   {
     "id": "inline-translator",
@@ -5214,14 +5454,6 @@
     "description": "Timeline-Renderer für Calendarium-Frontmatter (fc-date/fc-end). 200×315 Bild, Callout-Stil, native Popover, mobilfreundlich.",
     "repo": "jareika/simple-timeline",
     "pr_number": 8580
-  },
-  {
-    "id": "repertoire",
-    "name": "Repertoire",
-    "author": "Samuel Beard",
-    "description": "Helps musicians manage their music with chord sheets and automatic transposing.",
-    "repo": "samuelbeard/obsidian-repertoire-plugin",
-    "pr_number": 8346
   },
   {
     "id": "rolldeo-roller",
@@ -5256,14 +5488,6 @@
     "pr_number": 8571
   },
   {
-    "id": "scatter-chart-bases",
-    "name": "Scatter Plot for Bases",
-    "author": "Martin Seeler",
-    "description": "Visualize notes as points on a 2D chart using any numeric properties. Find patterns, spot outliers, prioritize visually.",
-    "repo": "MartinSeeler/obsidian-scatter",
-    "pr_number": 8845
-  },
-  {
     "id": "combine-markdown",
     "name": "Combine Markdown Files",
     "author": "Hugh Coleman",
@@ -5272,12 +5496,44 @@
     "pr_number": 8190
   },
   {
+    "id": "scatter-chart-bases",
+    "name": "Scatter Plot for Bases",
+    "author": "Martin Seeler",
+    "description": "Visualize notes as points on a 2D chart using any numeric properties. Find patterns, spot outliers, prioritize visually.",
+    "repo": "MartinSeeler/obsidian-scatter",
+    "pr_number": 8845
+  },
+  {
+    "id": "virtual-cursor",
+    "name": "Virtual Cursor",
+    "author": "RieN7",
+    "description": "Adds a virtual cursor overlay to editor.",
+    "repo": "rien7/obsidian-virtual-cursor",
+    "pr_number": 7983
+  },
+  {
     "id": "line-count-display",
     "name": "Line Count",
     "author": "Leonardo Laurindo",
     "description": "Adds the number of lines in active document to status bar.",
     "repo": "leolaurindo/line-count-obsidian-plugin",
     "pr_number": 8844
+  },
+  {
+    "id": "equation-citator",
+    "name": "Equation Citator",
+    "author": "Fried Parrot",
+    "description": "A powerful LaTeX-like Academic Citation Tool for equations, figures, and more.",
+    "repo": "FRIEDparrot/obsidian-equation-citator",
+    "pr_number": 7298
+  },
+  {
+    "id": "omi-conversations",
+    "name": "Omi",
+    "author": "Salman M.",
+    "description": "Sync your Omi AI conversation memories into organized markdown files.",
+    "repo": "smian1/obsidian-omi",
+    "pr_number": 8003
   },
   {
     "id": "regex-replace",
@@ -5296,14 +5552,6 @@
     "pr_number": 8877
   },
   {
-    "id": "virtual-cursor",
-    "name": "Virtual Cursor",
-    "author": "RieN7",
-    "description": "Adds a virtual cursor overlay to editor.",
-    "repo": "rien7/obsidian-virtual-cursor",
-    "pr_number": 7983
-  },
-  {
     "id": "kenku-fm-soundboards",
     "name": "Kenku FM Soundboards",
     "author": "ratokuzmanic",
@@ -5318,14 +5566,6 @@
     "description": "在粘贴图片时自动上传到 Cloudflare R2，并插入链接.",
     "repo": "zivenday/upload-image-cloudflare-obsidian",
     "pr_number": 8814
-  },
-  {
-    "id": "omi-conversations",
-    "name": "Omi",
-    "author": "Salman M.",
-    "description": "Sync your Omi AI conversation memories into organized markdown files.",
-    "repo": "smian1/obsidian-omi",
-    "pr_number": 8003
   },
   {
     "id": "ink-buddy",
@@ -5344,52 +5584,12 @@
     "pr_number": 8874
   },
   {
-    "id": "equation-citator",
-    "name": "Equation Citator",
-    "author": "Fried Parrot",
-    "description": "A powerful LaTeX-like Academic Citation Tool for equations, figures, and more.",
-    "repo": "FRIEDparrot/obsidian-equation-citator",
-    "pr_number": 7298
-  },
-  {
     "id": "priority-matrix",
     "name": "Priority Matrix",
     "author": "MurtazaHere",
     "description": "Create and manage priority matrix notes with auto detection of tasks from your vault.",
     "repo": "MurtazaRaza/prioritymatrix-obsidian",
     "pr_number": 8681
-  },
-  {
-    "id": "negative-heading",
-    "name": "Negative Heading",
-    "author": "Ashan Devine",
-    "description": "Render Discord-style \"-#\" lines as compact headings in reading view and the editor.",
-    "repo": "cyne-wulf/obsidian-negative-heading",
-    "pr_number": 8478
-  },
-  {
-    "id": "tracker-habits-metrics",
-    "name": "Tracker: habits and metrics",
-    "author": "Vlad Ross",
-    "description": "A tracker for habits and metrics. Features heatmaps, charts, and streaks while keeping your data in pure Markdown files. No hidden databases.",
-    "repo": "justrelaxdc/tracker-habits-metrics",
-    "pr_number": 8823
-  },
-  {
-    "id": "project-management",
-    "name": "Project Management",
-    "author": "JacooGamer",
-    "description": "Manage portfolios and projects all within a series of views. Included views: today, dashboard, progress, weekly, timeline, resources.",
-    "repo": "jacoogamer/project-management",
-    "pr_number": 7516
-  },
-  {
-    "id": "chord-transposer",
-    "name": "Chord Transposer",
-    "author": "tunewriter",
-    "description": "Automatically detect and transpose song chords in notes without needing special formatting.",
-    "repo": "tunewriter/obsidian-chord-transposer",
-    "pr_number": 8849
   },
   {
     "id": "claude-docs",
@@ -5400,12 +5600,28 @@
     "pr_number": 7494
   },
   {
+    "id": "negative-heading",
+    "name": "Negative Heading",
+    "author": "Ashan Devine",
+    "description": "Render Discord-style \"-#\" lines as compact headings in reading view and the editor.",
+    "repo": "cyne-wulf/obsidian-negative-heading",
+    "pr_number": 8478
+  },
+  {
     "id": "better-tables",
     "name": "Better Tables",
     "author": "EntchenEric",
     "description": "Create Enhanced, Excel like Tables.",
     "repo": "EntchenEric/obsidian-better-tables",
     "pr_number": 7918
+  },
+  {
+    "id": "tracker-habits-metrics",
+    "name": "Tracker: habits and metrics",
+    "author": "Vlad Ross",
+    "description": "A tracker for habits and metrics. Features heatmaps, charts, and streaks while keeping your data in pure Markdown files. No hidden databases.",
+    "repo": "justrelaxdc/tracker-habits-metrics",
+    "pr_number": 8823
   },
   {
     "id": "zenboard",
@@ -5416,12 +5632,12 @@
     "pr_number": 7467
   },
   {
-    "id": "stormlight-icons",
-    "name": "Stormlight RPG Icons",
-    "author": "Eonfuzz",
-    "description": "Displays Stormlight RPG Icons.",
-    "repo": "Eonfuzz/stormlight-actions",
-    "pr_number": 8929
+    "id": "chord-transposer",
+    "name": "Chord Transposer",
+    "author": "tunewriter",
+    "description": "Automatically detect and transpose song chords in notes without needing special formatting.",
+    "repo": "tunewriter/obsidian-chord-transposer",
+    "pr_number": 8849
   },
   {
     "id": "tab-numbers",
@@ -5432,20 +5648,12 @@
     "pr_number": 8535
   },
   {
-    "id": "board-view",
-    "name": "Board View",
-    "author": "Seventh",
-    "description": "Interactive board view for bases, use as Kanban or Gallery, with grouping for rows and columns.",
-    "repo": "seventhxiv/obsidian-board-view",
-    "pr_number": 8723
-  },
-  {
-    "id": "sindhu-indic-script-converter",
-    "name": "Sindhu (Indic Script Converter)",
-    "author": "Anant Upadhyayula",
-    "description": "Transforms Sanskrit and other Indic scripts from one to another, with elegance and control.",
-    "repo": "sasiperi/sindhu-indic-script-converter",
-    "pr_number": 7208
+    "id": "stormlight-icons",
+    "name": "Stormlight RPG Icons",
+    "author": "Eonfuzz",
+    "description": "Displays Stormlight RPG Icons.",
+    "repo": "Eonfuzz/stormlight-actions",
+    "pr_number": 8929
   },
   {
     "id": "typst-mate",
@@ -5456,12 +5664,20 @@
     "pr_number": 7577
   },
   {
-    "id": "handlebars-dynamic",
-    "name": "Handlebars Dynamic Templating",
-    "author": "Hide_D",
-    "description": "Handlebars dynamic templating. Define template files and use them dynamically via `hb` blocks. Template recursion is also possible.",
-    "repo": "hided62/obsidian-handlebars-dynamic",
-    "pr_number": 8079
+    "id": "smooth-explorer",
+    "name": "Smooth Explorer",
+    "author": "Michael Schrauzer",
+    "description": "Smoothly browse the file explorer with arrow keys, opening files as they are selected.",
+    "repo": "gasparschott/smooth-explorer",
+    "pr_number": 6103
+  },
+  {
+    "id": "board-view",
+    "name": "Board View",
+    "author": "Seventh",
+    "description": "Interactive board view for bases, use as Kanban or Gallery, with grouping for rows and columns.",
+    "repo": "seventhxiv/obsidian-board-view",
+    "pr_number": 8723
   },
   {
     "id": "smart-selection",
@@ -5472,28 +5688,20 @@
     "pr_number": 8103
   },
   {
-    "id": "discord-webhooks",
-    "name": "Discord Webhooks",
-    "author": "ratokuzmanic",
-    "description": "Send selected text or preset messages using saved Discord webhooks.",
-    "repo": "ratokuzmanic/obsidian-discord-webhooks",
-    "pr_number": 8846
-  },
-  {
-    "id": "smooth-explorer",
-    "name": "Smooth Explorer",
-    "author": "Michael Schrauzer",
-    "description": "Smoothly browse the file explorer with arrow keys, opening files as they are selected.",
-    "repo": "gasparschott/smooth-explorer",
-    "pr_number": 6103
-  },
-  {
     "id": "style-tags-in-search-results",
     "name": "Style Tags in Search Results",
     "author": "Fanis Hatzidakis",
     "description": "Decorates tags in search results with a CSS class. Optionally it one-click hides them using injected CSS.",
     "repo": "fanis/obsidian-style-tags-in-search-results",
     "pr_number": 7861
+  },
+  {
+    "id": "discord-webhooks",
+    "name": "Discord Webhooks",
+    "author": "ratokuzmanic",
+    "description": "Send selected text or preset messages using saved Discord webhooks.",
+    "repo": "ratokuzmanic/obsidian-discord-webhooks",
+    "pr_number": 8846
   },
   {
     "id": "coherence-wizard",
@@ -5512,12 +5720,12 @@
     "pr_number": 8068
   },
   {
-    "id": "wucai-thino-sync",
-    "name": "Wucai Thino Sync",
-    "author": "Asxing",
-    "description": "Sync personal insights from Wucai Daily Notes to Thino format.",
-    "repo": "Asxing/wucai-thino-sync",
-    "pr_number": 8818
+    "id": "context-workspaces",
+    "name": "Context Workspaces",
+    "author": "Jinmu Go",
+    "description": "A workspace toolkit to build focused, clutter-free zones for every task.",
+    "repo": "JinmuGo/obsidian-context-workspaces",
+    "pr_number": 8534
   },
   {
     "id": "snippet-groups",
@@ -5528,6 +5736,14 @@
     "pr_number": 8787
   },
   {
+    "id": "wucai-thino-sync",
+    "name": "Wucai Thino Sync",
+    "author": "Asxing",
+    "description": "Sync personal insights from Wucai Daily Notes to Thino format.",
+    "repo": "Asxing/wucai-thino-sync",
+    "pr_number": 8818
+  },
+  {
     "id": "ttrpg-soundboard",
     "name": "TTRPG Soundboard",
     "author": "Jareika",
@@ -5536,12 +5752,12 @@
     "pr_number": 8583
   },
   {
-    "id": "context-workspaces",
-    "name": "Context Workspaces",
-    "author": "Jinmu Go",
-    "description": "A workspace toolkit to build focused, clutter-free zones for every task.",
-    "repo": "JinmuGo/obsidian-context-workspaces",
-    "pr_number": 8534
+    "id": "loud-thoughts",
+    "name": "LoudThoughts",
+    "author": "Jonas Haefele",
+    "description": "Multi-service voice note sync with support for AudioPen, VoiceNotes, Alfie and future voice note platforms.",
+    "repo": "jonashaefele/loud-thoughts",
+    "pr_number": 7493
   },
   {
     "id": "cloudflare-image-auto-uploader",
@@ -5560,14 +5776,6 @@
     "pr_number": 8806
   },
   {
-    "id": "loud-thoughts",
-    "name": "LoudThoughts",
-    "author": "Jonas Haefele",
-    "description": "Multi-service voice note sync with support for AudioPen, VoiceNotes, Alfie and future voice note platforms.",
-    "repo": "jonashaefele/loud-thoughts",
-    "pr_number": 7493
-  },
-  {
     "id": "memo-ai",
     "name": "Memo AI",
     "author": "Jiawei Yang",
@@ -5584,28 +5792,12 @@
     "pr_number": 8435
   },
   {
-    "id": "vinaya-bookshelf",
-    "name": "Vinaya Bookshelf",
-    "author": "Khemarato Bhikkhu",
-    "description": "Download and sync resources for studying the Buddhist Monastic rules.",
-    "repo": "obu-labs/vinaya-bookshelf",
-    "pr_number": 7247
-  },
-  {
     "id": "smart-export",
     "name": "Smart Export",
     "author": "Iván Sotillo",
     "description": "Plugin that follows wikilinks to a configurable depth, joining the notes into a single export.",
     "repo": "LittleHaku/obsidian-smart-export",
     "pr_number": 8408
-  },
-  {
-    "id": "adopt-orphan",
-    "name": "Adopt Orphan",
-    "author": "LuLaValva",
-    "description": "Find all unresolved links (orphans) and list them in a sidebar for fast file creation.",
-    "repo": "LuLaValva/obsidian-adopt-orphan",
-    "pr_number": 6707
   },
   {
     "id": "graphic-organizer",
@@ -5616,14 +5808,6 @@
     "pr_number": 7678
   },
   {
-    "id": "template-forms",
-    "name": "Template Forms",
-    "author": "stbn1699",
-    "description": "A form-based templating plugin for notes creation.",
-    "repo": "stbn1699/obsidian-template-forms",
-    "pr_number": 8824
-  },
-  {
     "id": "synaptic-view",
     "name": "Synaptic View",
     "author": "Yongmini",
@@ -5632,28 +5816,20 @@
     "pr_number": 8252
   },
   {
+    "id": "template-forms",
+    "name": "Template Forms",
+    "author": "stbn1699",
+    "description": "A form-based templating plugin for notes creation.",
+    "repo": "stbn1699/obsidian-template-forms",
+    "pr_number": 8824
+  },
+  {
     "id": "sidecards",
     "name": "SideCards",
     "author": "Kazi Aidah Haque",
     "description": "Quickly create cards in your sidebar, color, tag, and drag them straight into your notes.",
     "repo": "Kazi-Aidah/sidecards",
     "pr_number": 8429
-  },
-  {
-    "id": "cli-ai-chat",
-    "name": "CLI AI Chat",
-    "author": "kngzzz",
-    "description": "Chat with Claude Code CLI from a side pane. Features streaming responses, model selector, markdown rendering, and @ mention file autocomplete.",
-    "repo": "kngzzz/cli-ai-chat",
-    "pr_number": 8786
-  },
-  {
-    "id": "line-capitalizer",
-    "name": "Line Capitalizer",
-    "author": "Daniele Secondi",
-    "description": "Automatically capitalize the first letter of each line as you type.",
-    "repo": "daniti/obsidian-line-capitalizer",
-    "pr_number": 8813
   },
   {
     "id": "new-line-within-table-cell",
@@ -5672,12 +5848,44 @@
     "pr_number": 7685
   },
   {
+    "id": "cli-ai-chat",
+    "name": "CLI AI Chat",
+    "author": "kngzzz",
+    "description": "Chat with Claude Code CLI from a side pane. Features streaming responses, model selector, markdown rendering, and @ mention file autocomplete.",
+    "repo": "kngzzz/cli-ai-chat",
+    "pr_number": 8786
+  },
+  {
+    "id": "line-capitalizer",
+    "name": "Line Capitalizer",
+    "author": "Daniele Secondi",
+    "description": "Automatically capitalize the first letter of each line as you type.",
+    "repo": "daniti/obsidian-line-capitalizer",
+    "pr_number": 8813
+  },
+  {
     "id": "ulysses-style-splits",
     "name": "Ulysses-style splits",
     "author": "Austen Tucker",
     "description": "Split the current markdown note at the cursor into a new note, Ulysses-style.",
     "repo": "Arcadesys/splitter",
     "pr_number": 8220
+  },
+  {
+    "id": "semantic-vault-mcp",
+    "name": "Semantic Notes Vault MCP",
+    "author": "Aaron Bockelie",
+    "description": "Semantic MCP server providing AI tools with direct vault access via HTTP transport.",
+    "repo": "aaronsb/obsidian-mcp-plugin",
+    "pr_number": 6991
+  },
+  {
+    "id": "bookmark",
+    "name": "Bookmark",
+    "author": "Alexander Kucera",
+    "description": "Add bookmarks to your notes for quick navigation. Click the bookmark icon in the note header to set a bookmark, click again to jump back to it.",
+    "repo": "AlexKucera/bookmark",
+    "pr_number": 7922
   },
   {
     "id": "previous-river",
@@ -5696,30 +5904,6 @@
     "pr_number": 8805
   },
   {
-    "id": "bookmark",
-    "name": "Bookmark",
-    "author": "Alexander Kucera",
-    "description": "Add bookmarks to your notes for quick navigation. Click the bookmark icon in the note header to set a bookmark, click again to jump back to it.",
-    "repo": "AlexKucera/bookmark",
-    "pr_number": 7922
-  },
-  {
-    "id": "mermaid-icons",
-    "name": "Mermaid Icons",
-    "author": "toshs",
-    "description": "Use Font Awesome and other icon sets within your Mermaid diagrams.",
-    "repo": "toshs/obsidian-mermaid-icons",
-    "pr_number": 7531
-  },
-  {
-    "id": "semantic-vault-mcp",
-    "name": "Semantic Notes Vault MCP",
-    "author": "Aaron Bockelie",
-    "description": "Semantic MCP server providing AI tools with direct vault access via HTTP transport.",
-    "repo": "aaronsb/obsidian-mcp-plugin",
-    "pr_number": 6991
-  },
-  {
     "id": "md-image-embed",
     "name": "MD Image Embed",
     "author": "mengzhishanghun",
@@ -5728,20 +5912,20 @@
     "pr_number": 8277
   },
   {
-    "id": "contexts",
-    "name": "Contexts",
-    "author": "ba2slk",
-    "description": "Save and switch between different working contexts. Manages groups of tabs including Markdown, PDF, Canvas, and Images.",
-    "repo": "ba2slk/obsidian-contexts",
-    "pr_number": 8781
-  },
-  {
     "id": "static-graph-nodes",
     "name": "Static Graph Nodes",
     "author": "Alexander Richter",
     "description": "Allows you to pin selected nodes of the global graph, making them static.",
     "repo": "RichterAlexander/static-graph-nodes",
     "pr_number": 8196
+  },
+  {
+    "id": "contexts",
+    "name": "Contexts",
+    "author": "ba2slk",
+    "description": "Save and switch between different working contexts. Manages groups of tabs including Markdown, PDF, Canvas, and Images.",
+    "repo": "ba2slk/obsidian-contexts",
+    "pr_number": 8781
   },
   {
     "id": "card-forge",
@@ -5760,14 +5944,6 @@
     "pr_number": 8380
   },
   {
-    "id": "task-zero",
-    "name": "Task Zero",
-    "author": "Alan Grainger",
-    "description": "A keyboard-first GTD task management system.",
-    "repo": "alangrainger/obsidian-task-zero",
-    "pr_number": 8800
-  },
-  {
     "id": "archivist-importer",
     "name": "Archivist Importer",
     "author": "Archivist AI",
@@ -5782,6 +5958,22 @@
     "description": "Store file name history into the aliases property of your notes.",
     "repo": "davidvkimball/obsidian-alias-file-name-history",
     "pr_number": 7757
+  },
+  {
+    "id": "task-zero",
+    "name": "Task Zero",
+    "author": "Alan Grainger",
+    "description": "A keyboard-first GTD task management system.",
+    "repo": "alangrainger/obsidian-task-zero",
+    "pr_number": 8800
+  },
+  {
+    "id": "knowledge-ark-diagnostic-center",
+    "name": "Knowledge Ark Diagnostic Center",
+    "author": "Chailet",
+    "description": "A set of intelligent diagnostic and optimization tools, helping to transform knowledge base into structured, computable training and fine-tuning data that can seamlessly collaborate with future AI.",
+    "repo": "fengfeng799/knowledge-ark-diagnostic-center",
+    "pr_number": 7278
   },
   {
     "id": "ctrl-click-links",
@@ -5800,28 +5992,12 @@
     "pr_number": 8797
   },
   {
-    "id": "knowledge-ark-diagnostic-center",
-    "name": "Knowledge Ark Diagnostic Center",
-    "author": "Chailet",
-    "description": "A set of intelligent diagnostic and optimization tools, helping to transform knowledge base into structured, computable training and fine-tuning data that can seamlessly collaborate with future AI.",
-    "repo": "fengfeng799/knowledge-ark-diagnostic-center",
-    "pr_number": 7278
-  },
-  {
     "id": "sync-embeds",
     "name": "Sync Embeds",
     "author": "uthvah",
     "description": "Create fully editable, live-synced note embeds.",
     "repo": "uthvah/sync-embeds",
     "pr_number": 7923
-  },
-  {
-    "id": "vaultmind",
-    "name": "VaultMind",
-    "author": "Shameem Reza",
-    "description": "AI-powered task management, goal tracking, and intelligent assistant for your vault. Features smart scheduling, multiple AI providers, and an interactive dashboard.",
-    "repo": "shameemreza/vaultmind",
-    "pr_number": 8716
   },
   {
     "id": "pandoc-extended-markdown",
@@ -5840,6 +6016,14 @@
     "pr_number": 6288
   },
   {
+    "id": "vaultmind",
+    "name": "VaultMind",
+    "author": "Shameem Reza",
+    "description": "AI-powered task management, goal tracking, and intelligent assistant for your vault. Features smart scheduling, multiple AI providers, and an interactive dashboard.",
+    "repo": "shameemreza/vaultmind",
+    "pr_number": 8716
+  },
+  {
     "id": "datablock",
     "name": "DataBlock",
     "author": "majd3000",
@@ -5856,20 +6040,20 @@
     "pr_number": 7517
   },
   {
-    "id": "mdx-support",
-    "name": "MDX Support",
-    "author": "David Dunnock",
-    "description": "Render MDX files with interactive React components and Storybook support.",
-    "repo": "ddunnock/mdx-support",
-    "pr_number": 8466
-  },
-  {
     "id": "wallabag-sync",
     "name": "Wallabag Sync",
     "author": "Ansel Halliburton",
     "description": "Sync articles from Wallabag to your vault.",
     "repo": "anseljh/obsidian-wallabag-sync",
     "pr_number": 7512
+  },
+  {
+    "id": "mdx-support",
+    "name": "MDX Support",
+    "author": "David Dunnock",
+    "description": "Render MDX files with interactive React components and Storybook support.",
+    "repo": "ddunnock/mdx-support",
+    "pr_number": 8466
   },
   {
     "id": "song-of-the-day",
@@ -5888,14 +6072,6 @@
     "pr_number": 8154
   },
   {
-    "id": "redplanethq-core",
-    "name": "CORE Sync",
-    "author": "redplanethq",
-    "description": "Sync your notes with CORE and get relevant results in the sidebar.",
-    "repo": "redplanethq/core-obsidian",
-    "pr_number": 7683
-  },
-  {
     "id": "latex-snippets",
     "name": "LaTeX Snippets",
     "author": "mzhyui",
@@ -5912,14 +6088,6 @@
     "pr_number": 8749
   },
   {
-    "id": "lowlight",
-    "name": "Lowlight",
-    "author": "stikypiston",
-    "description": "A simple plugin allowing you to highlight text in different colours using span tags.",
-    "repo": "stikypiston/lowlight",
-    "pr_number": 8570
-  },
-  {
     "id": "github-stars-manager",
     "name": "GitHub Stars Manager",
     "author": "EmberSparks",
@@ -5928,12 +6096,12 @@
     "pr_number": 7700
   },
   {
-    "id": "para-archive",
-    "name": "PARA Archive",
-    "author": "Ben Pearson",
-    "description": "Archive files and folders using the PARA method with configurable archive strategies.",
-    "repo": "hoombar/parastale",
-    "pr_number": 8189
+    "id": "lowlight",
+    "name": "Lowlight",
+    "author": "stikypiston",
+    "description": "A simple plugin allowing you to highlight text in different colours using span tags.",
+    "repo": "stikypiston/lowlight",
+    "pr_number": 8570
   },
   {
     "id": "leetfetch",
@@ -5976,14 +6144,6 @@
     "pr_number": 8727
   },
   {
-    "id": "h2-word-count",
-    "name": "H2 Word Count",
-    "author": "ideo2004-afk",
-    "description": "Displays word and character counts next to H1-H3 headers.",
-    "repo": "ideo2004-afk/Obsidian-H2-Word-Count",
-    "pr_number": 9005
-  },
-  {
     "id": "paste-image-as-webp",
     "name": "Paste Image as WebP",
     "author": "CocoaAI-IT",
@@ -5992,12 +6152,20 @@
     "pr_number": 8556
   },
   {
-    "id": "file-property-note-archiver",
-    "name": "Note Archiver (File Property)",
-    "author": "Daniel Haven",
-    "description": "Provides a shortcut for archiving notes via adding a configurable \"archived_at\" property.",
-    "repo": "danielh-official/obsidian-note-archiver",
-    "pr_number": 8531
+    "id": "h2-word-count",
+    "name": "H2 Word Count",
+    "author": "ideo2004-afk",
+    "description": "Displays word and character counts next to H1-H3 headers.",
+    "repo": "ideo2004-afk/Obsidian-H2-Word-Count",
+    "pr_number": 9005
+  },
+  {
+    "id": "tag-badges",
+    "name": "Tag-Badges",
+    "author": "Garin Wally",
+    "description": "Render frontmatter tags as customizable badges.",
+    "repo": "WindfallLabs/tag-badges",
+    "pr_number": 7843
   },
   {
     "id": "segerlab",
@@ -6008,12 +6176,12 @@
     "pr_number": 8323
   },
   {
-    "id": "tag-badges",
-    "name": "Tag-Badges",
-    "author": "Garin Wally",
-    "description": "Render frontmatter tags as customizable badges.",
-    "repo": "WindfallLabs/tag-badges",
-    "pr_number": 7843
+    "id": "file-property-note-archiver",
+    "name": "Note Archiver (File Property)",
+    "author": "Daniel Haven",
+    "description": "Provides a shortcut for archiving notes via adding a configurable \"archived_at\" property.",
+    "repo": "danielh-official/obsidian-note-archiver",
+    "pr_number": 8531
   },
   {
     "id": "capitaliser",
@@ -6064,12 +6232,12 @@
     "pr_number": 8523
   },
   {
-    "id": "tasks-enhancer",
-    "name": "Tasks Enhancer",
-    "author": "bvn13",
-    "description": "Enhances Tasks plugin",
-    "repo": "bvn13/obsidian-tasks-enhancer",
-    "pr_number": 7992
+    "id": "alyok-autotag",
+    "name": "Alyok Autotag",
+    "author": "24tiy",
+    "description": "Automatically adds tags to notes when created or moved into specific folders.",
+    "repo": "24tiy/Alyok-Autotag",
+    "pr_number": 7483
   },
   {
     "id": "mermaid-elk",
@@ -6104,14 +6272,6 @@
     "pr_number": 8669
   },
   {
-    "id": "alyok-autotag",
-    "name": "Alyok Autotag",
-    "author": "24tiy",
-    "description": "Automatically adds tags to notes when created or moved into specific folders.",
-    "repo": "24tiy/Alyok-Autotag",
-    "pr_number": 7483
-  },
-  {
     "id": "double-click-image-opener",
     "name": "Double-Click Image Opener",
     "author": "atman",
@@ -6128,20 +6288,20 @@
     "pr_number": 7011
   },
   {
+    "id": "latex-equation-references",
+    "name": "Latex Equation References",
+    "author": "Georg Rasumov",
+    "description": "Automatically numerates equations using labels.",
+    "repo": "GeorgRasumov/Obsidian-Latex-Equation-References",
+    "pr_number": 7601
+  },
+  {
     "id": "bible-callout",
     "name": "Bible Callout",
     "author": "Stephen Ullom",
     "description": "Insert Bible verse callouts.",
     "repo": "stephen-ullom/obsidian-bible-callout",
     "pr_number": 8652
-  },
-  {
-    "id": "dnd-name-generator",
-    "name": "DnD Name Generator",
-    "author": "Drunkfailure",
-    "description": "Insert a fantasy name, choose between human, elf, dwarf, orc, tiefling, dragonborn, goblin.",
-    "repo": "Drunkfailure/DnD-name-gen",
-    "pr_number": 9030
   },
   {
     "id": "code-scanner-ver2",
@@ -6152,12 +6312,12 @@
     "pr_number": 8494
   },
   {
-    "id": "latex-equation-references",
-    "name": "Latex Equation References",
-    "author": "Georg Rasumov",
-    "description": "Automatically numerates equations using labels.",
-    "repo": "GeorgRasumov/Obsidian-Latex-Equation-References",
-    "pr_number": 7601
+    "id": "smart-linker",
+    "name": "Smart Linker",
+    "author": "Erunay",
+    "description": "Find semantically related notes and insert [[smart links]] with one click.",
+    "repo": "erunay/obsidian-smart-linker",
+    "pr_number": 7827
   },
   {
     "id": "notion-paste-links",
@@ -6176,20 +6336,20 @@
     "pr_number": 8650
   },
   {
+    "id": "dnd-name-generator",
+    "name": "DnD Name Generator",
+    "author": "Drunkfailure",
+    "description": "Insert a fantasy name, choose between human, elf, dwarf, orc, tiefling, dragonborn, goblin.",
+    "repo": "Drunkfailure/DnD-name-gen",
+    "pr_number": 9030
+  },
+  {
     "id": "beastvault",
     "name": "BeastVault",
     "author": "Lyova Potyomkin",
     "description": "Adversary and environment stat blocks for Daggerheart TTRPG.",
     "repo": "ly0va/beastvault",
     "pr_number": 8542
-  },
-  {
-    "id": "smart-linker",
-    "name": "Smart Linker",
-    "author": "Erunay",
-    "description": "Find semantically related notes and insert [[smart links]] with one click.",
-    "repo": "erunay/obsidian-smart-linker",
-    "pr_number": 7827
   },
   {
     "id": "default-zoom-fixer",
@@ -6208,6 +6368,14 @@
     "pr_number": 8639
   },
   {
+    "id": "ticktick-today",
+    "name": "TickTick Today",
+    "author": "wudanyang27",
+    "description": "Display TickTick today's tasks in a sidebar panel.",
+    "repo": "wudanyang27/ticktick-today",
+    "pr_number": 7207
+  },
+  {
     "id": "unofficial-trackbear-sync",
     "name": "Unofficial TrackBear Sync",
     "author": "Meadow",
@@ -6216,12 +6384,12 @@
     "pr_number": 8561
   },
   {
-    "id": "ticktick-today",
-    "name": "TickTick Today",
-    "author": "wudanyang27",
-    "description": "Display TickTick today's tasks in a sidebar panel.",
-    "repo": "wudanyang27/ticktick-today",
-    "pr_number": 7207
+    "id": "latex-autocomplete-customizable",
+    "name": "Customizable LaTeX Autocomplete",
+    "author": "aiksxd",
+    "description": "Build a personalized autocomplete list for any LaTeX formula.",
+    "repo": "aiksxd/latex-autocomplete",
+    "pr_number": 7184
   },
   {
     "id": "synaptic-hatch",
@@ -6240,12 +6408,12 @@
     "pr_number": 8070
   },
   {
-    "id": "latex-autocomplete-customizable",
-    "name": "Customizable LaTeX Autocomplete",
-    "author": "aiksxd",
-    "description": "Build a personalized autocomplete list for any LaTeX formula.",
-    "repo": "aiksxd/latex-autocomplete",
-    "pr_number": 7184
+    "id": "smart-fold",
+    "name": "Smart Fold",
+    "author": "Mariano Montoya",
+    "description": "Fold lists and headings from anywhere.",
+    "repo": "MarianoMMQ/obsidian-smart-fold",
+    "pr_number": 7626
   },
   {
     "id": "content-addressed-attachments",
@@ -6256,28 +6424,20 @@
     "pr_number": 8507
   },
   {
-    "id": "daily-activity-calendar",
-    "name": "Daily Activity Calendar",
-    "author": "MrHouston",
-    "description": "View created and updated notes for any specific date via a calendar interface.",
-    "repo": "MrHoustonOff/daily-activity-calendar",
-    "pr_number": 8597
-  },
-  {
-    "id": "smart-fold",
-    "name": "Smart Fold",
-    "author": "Mariano Montoya",
-    "description": "Fold lists and headings from anywhere.",
-    "repo": "MarianoMMQ/obsidian-smart-fold",
-    "pr_number": 7626
-  },
-  {
     "id": "ytextract",
     "name": "YouTube Transcript Extractor",
     "author": "Michael Loh",
     "description": "Extract YouTube transcripts and generate AI-powered summaries using cloud or local LLMs.",
     "repo": "mwkloh/ytextract",
     "pr_number": 8422
+  },
+  {
+    "id": "daily-activity-calendar",
+    "name": "Daily Activity Calendar",
+    "author": "MrHouston",
+    "description": "View created and updated notes for any specific date via a calendar interface.",
+    "repo": "MrHoustonOff/daily-activity-calendar",
+    "pr_number": 8597
   },
   {
     "id": "bases-cms",
@@ -6294,6 +6454,14 @@
     "description": "Bullet journal–inspired task manager with a focus on top-task productivity. Configurable. Simple. Fast.",
     "repo": "bfloydd/ontask",
     "pr_number": 8559
+  },
+  {
+    "id": "python-bridge",
+    "name": "Python Bridge",
+    "description": "🐍 A plugin that lets you write plugins in Python! Yes, it's as crazy as it sounds!",
+    "author": "mathe00",
+    "repo": "mathe00/obsidian-plugin-python-bridge",
+    "pr_number": 6315
   },
   {
     "id": "centralized-edit-history",
@@ -6328,14 +6496,6 @@
     "pr_number": 8585
   },
   {
-    "id": "python-bridge",
-    "name": "Python Bridge",
-    "description": "🐍 A plugin that lets you write plugins in Python! Yes, it's as crazy as it sounds!",
-    "author": "mathe00",
-    "repo": "mathe00/obsidian-plugin-python-bridge",
-    "pr_number": 6315
-  },
-  {
     "id": "bases-charts",
     "name": "Bases Charts",
     "author": "Moritz Jung",
@@ -6352,20 +6512,20 @@
     "pr_number": 7768
   },
   {
-    "id": "journalistic-importer",
-    "name": "Journalistic Importer",
-    "author": "Homero Kemmerich",
-    "description": "Import your Journalistic exported entries.",
-    "repo": "HomeroKemmerich/journalistic-importer",
-    "pr_number": 8525
-  },
-  {
     "id": "pdf-scroll-lock",
     "name": "PDF Scroll Lock",
     "author": "Divyanshu",
     "description": "Lock the pdfs from scrolling.",
     "repo": "divyanshu9821/pdf-scroll-lock",
     "pr_number": 8344
+  },
+  {
+    "id": "journalistic-importer",
+    "name": "Journalistic Importer",
+    "author": "Homero Kemmerich",
+    "description": "Import your Journalistic exported entries.",
+    "repo": "HomeroKemmerich/journalistic-importer",
+    "pr_number": 8525
   },
   {
     "id": "url-enricher",
@@ -6384,20 +6544,20 @@
     "pr_number": 8324
   },
   {
-    "id": "media-layout",
-    "name": "Media Layout",
-    "author": "Hanblade",
-    "description": "Drag, resize, and arrange media elements with floating notes and presets.",
-    "repo": "hanblade67-cloud/media-layout",
-    "pr_number": 8473
-  },
-  {
     "id": "koreader-sync",
     "name": "Koreader Sync",
     "author": "Breno Santos",
     "description": "A plugin that acts as a web server, allowing KOReader to send your reading highlights and notes directly into your vault.",
     "repo": "breno5g/koreader-sync",
     "pr_number": 8322
+  },
+  {
+    "id": "media-layout",
+    "name": "Media Layout",
+    "author": "Hanblade",
+    "description": "Drag, resize, and arrange media elements with floating notes and presets.",
+    "repo": "hanblade67-cloud/media-layout",
+    "pr_number": 8473
   },
   {
     "id": "grid-note",
@@ -6416,14 +6576,6 @@
     "pr_number": 8538
   },
   {
-    "id": "screvi",
-    "name": "Screvi Sync",
-    "author": "Screvi Team",
-    "description": "Import highlights and sources from Screvi.",
-    "repo": "pedroaraujo74/screvi-obsidian-plugin",
-    "pr_number": 8532
-  },
-  {
     "id": "expand-selection",
     "name": "Expand Selection",
     "author": "Alex Tait",
@@ -6432,20 +6584,28 @@
     "pr_number": 8310
   },
   {
-    "id": "windows-file-explorer-links",
-    "name": "Open in File Explorer",
-    "description": "Convert links to local Windows filesystem so they can be opened in File Explorer.",
-    "author": "disciple-dev",
-    "repo": "disciple-dev/obsidian-plugin-open-file-explorer",
-    "pr_number": 8548
-  },
-  {
     "id": "heading-handler",
     "name": "Heading Handler",
     "author": "Malte Henriksson",
     "description": "Smart heading commands that respect document hierarchy and indentation.",
     "repo": "goopii/heading-handler",
     "pr_number": 8307
+  },
+  {
+    "id": "screvi",
+    "name": "Screvi Sync",
+    "author": "Screvi Team",
+    "description": "Import highlights and sources from Screvi.",
+    "repo": "pedroaraujo74/screvi-obsidian-plugin",
+    "pr_number": 8532
+  },
+  {
+    "id": "windows-file-explorer-links",
+    "name": "Open in File Explorer",
+    "description": "Convert links to local Windows filesystem so they can be opened in File Explorer.",
+    "author": "disciple-dev",
+    "repo": "disciple-dev/obsidian-plugin-open-file-explorer",
+    "pr_number": 8548
   },
   {
     "id": "sider-copilot",
@@ -6480,14 +6640,6 @@
     "pr_number": 8539
   },
   {
-    "id": "title-sync",
-    "name": "Title Sync",
-    "author": "Artem Sapegin",
-    "description": "Updates first-level heading in Markdown when file is renamed.",
-    "repo": "sapegin/obsidian-title-sync",
-    "pr_number": 8537
-  },
-  {
     "id": "timestamp",
     "name": "Timestamp",
     "author": "Jesús",
@@ -6496,12 +6648,12 @@
     "pr_number": 8280
   },
   {
-    "id": "zenny-task-manager",
-    "name": "Zenny Task Manager",
-    "author": "Tejas H",
-    "description": "Comprehensive task management system with time tracking, Pomodoro timer, focus sessions, and backend sync. Integrates seamlessly with markdown structure.",
-    "repo": "proximity-tech/obsidian-zenny-task-management",
-    "pr_number": 8418
+    "id": "title-sync",
+    "name": "Title Sync",
+    "author": "Artem Sapegin",
+    "description": "Updates first-level heading in Markdown when file is renamed.",
+    "repo": "sapegin/obsidian-title-sync",
+    "pr_number": 8537
   },
   {
     "id": "select-random-line",
@@ -6510,6 +6662,14 @@
     "author": "Freddy Ouellette",
     "repo": "freddyouellette/select-random-line",
     "pr_number": 8215
+  },
+  {
+    "id": "zenny-task-manager",
+    "name": "Zenny Task Manager",
+    "author": "Tejas H",
+    "description": "Comprehensive task management system with time tracking, Pomodoro timer, focus sessions, and backend sync. Integrates seamlessly with markdown structure.",
+    "repo": "proximity-tech/obsidian-zenny-task-management",
+    "pr_number": 8418
   },
   {
     "id": "obsidian-pocket",
@@ -6584,20 +6744,20 @@
     "pr_number": 8497
   },
   {
-    "id": "underscore-italics",
-    "name": "Underscore Italics",
-    "author": "Ian Franklin",
-    "description": "Enables setting the preferred syntax for italic formatting to use underscores as opposed to asterisks by default.",
-    "repo": "ianaf100/obsidian-underscore-italics",
-    "pr_number": 8517
-  },
-  {
     "id": "github-publisher",
     "name": "GitHub Publisher",
     "author": "cyprieng",
     "description": "Push selected notes and folders directly to a GitHub repository.",
     "repo": "cyprieng/obsidian-github-publisher",
     "pr_number": 7492
+  },
+  {
+    "id": "underscore-italics",
+    "name": "Underscore Italics",
+    "author": "Ian Franklin",
+    "description": "Enables setting the preferred syntax for italic formatting to use underscores as opposed to asterisks by default.",
+    "repo": "ianaf100/obsidian-underscore-italics",
+    "pr_number": 8517
   },
   {
     "id": "lighterpack-importer",
@@ -6680,6 +6840,14 @@
     "pr_number": 8484
   },
   {
+    "id": "obsicard",
+    "name": "ObsiCard",
+    "author": "Arda Erkan",
+    "description": "AI-powered flashcard generator with optional Anki Desktop synchronization.",
+    "repo": "aerkn1/ObsiCard",
+    "pr_number": 8243
+  },
+  {
     "id": "tables-plus",
     "name": "Tables Plus",
     "author": "Hanblade",
@@ -6694,14 +6862,6 @@
     "description": "Displaying 3D objects directly in a note.",
     "repo": "hanblade67-cloud/3d-viewer",
     "pr_number": 8476
-  },
-  {
-    "id": "obsicard",
-    "name": "ObsiCard",
-    "author": "Arda Erkan",
-    "description": "AI-powered flashcard generator with optional Anki Desktop synchronization.",
-    "repo": "aerkn1/ObsiCard",
-    "pr_number": 8243
   },
   {
     "id": "custom-cursor",
@@ -6792,14 +6952,6 @@
     "pr_number": 8403
   },
   {
-    "id": "lofi-focus",
-    "name": "Lofi Focus",
-    "author": "Jatin Shihora",
-    "description": "Focus better with lofi vibes and Pomodoro sessions. Stream radio or play your music library, all within your vault.",
-    "repo": "Jatin-Shihora/Obsidian-lofi-plugin",
-    "pr_number": 8404
-  },
-  {
     "id": "calendar-period-week-notes",
     "name": "Calendar Period Week Notes",
     "author": "Tim Williams",
@@ -6816,12 +6968,12 @@
     "pr_number": 6667
   },
   {
-    "id": "task-chat",
-    "name": "Task Chat",
-    "author": "wenlzhang",
-    "description": "AI-powered task assistant. Natural language queries, customizable scoring, and intelligent recommendations. Datacore for vault-wide task indexing.",
-    "repo": "wenlzhang/obsidian-task-chat",
-    "pr_number": 8412
+    "id": "lofi-focus",
+    "name": "Lofi Focus",
+    "author": "Jatin Shihora",
+    "description": "Focus better with lofi vibes and Pomodoro sessions. Stream radio or play your music library, all within your vault.",
+    "repo": "Jatin-Shihora/Obsidian-lofi-plugin",
+    "pr_number": 8404
   },
   {
     "id": "frontmatter-image",
@@ -6830,6 +6982,14 @@
     "description": "Automatically displays images using URLs stored in your frontmatter, with no manual image embedding required.",
     "repo": "ezramarks/obsidian-frontmatter-image",
     "pr_number": 7842
+  },
+  {
+    "id": "task-chat",
+    "name": "Task Chat",
+    "author": "wenlzhang",
+    "description": "AI-powered task assistant. Natural language queries, customizable scoring, and intelligent recommendations. Datacore for vault-wide task indexing.",
+    "repo": "wenlzhang/obsidian-task-chat",
+    "pr_number": 8412
   },
   {
     "id": "design-project-and-weekly-planner",
@@ -6952,20 +7112,20 @@
     "pr_number": 7735
   },
   {
-    "id": "furigana-generator",
-    "name": "Furigana Generator",
-    "author": "Atacan Süder",
-    "description": "Automatically generates furigana for Japanese characters.",
-    "repo": "atacansuder/obsidian-furigana-generator",
-    "pr_number": 8176
-  },
-  {
     "id": "blueprint",
     "name": "Blueprint",
     "author": "François Vaux",
     "description": "Write once, update everywhere - note templates that pull from Properties",
     "repo": "madx/blueprint-obsidian-plugin",
     "pr_number": 7687
+  },
+  {
+    "id": "furigana-generator",
+    "name": "Furigana Generator",
+    "author": "Atacan Süder",
+    "description": "Automatically generates furigana for Japanese characters.",
+    "repo": "atacansuder/obsidian-furigana-generator",
+    "pr_number": 8176
   },
   {
     "id": "ember",
@@ -7056,20 +7216,20 @@
     "pr_number": 8100
   },
   {
-    "id": "canvas-mindmap-keyboard",
-    "name": "canvas-mindmap-keyboard",
-    "author": "tonghejiao",
-    "description": "MindMap for Canvas: Tab/Enter/Arrow driven, auto-layout and auto-size.",
-    "repo": "tonghejiao/canvas-mindmap-keyboard",
-    "pr_number": 7840
-  },
-  {
     "id": "favorites",
     "name": "Favorites",
     "author": "4Source",
     "description": "Store and manage a global favorites list of plugins and themes, keeping them accessible across all your vaults.",
     "repo": "4Source/favorites-obsidian-plugin",
     "pr_number": 7461
+  },
+  {
+    "id": "canvas-mindmap-keyboard",
+    "name": "canvas-mindmap-keyboard",
+    "author": "tonghejiao",
+    "description": "MindMap for Canvas: Tab/Enter/Arrow driven, auto-layout and auto-size.",
+    "repo": "tonghejiao/canvas-mindmap-keyboard",
+    "pr_number": 7840
   },
   {
     "id": "recurring-task-archiver",
@@ -7104,20 +7264,20 @@
     "pr_number": 7996
   },
   {
-    "id": "fix-tab-size",
-    "name": "Fix Tab Size",
-    "author": "mnaoumov",
-    "description": "Fixes tab size according to the settings.",
-    "repo": "mnaoumov/obsidian-fix-tab-size",
-    "pr_number": 8000
-  },
-  {
     "id": "life-grid",
     "name": "Life Grid",
     "author": "F. Javier R. Donado",
     "description": "Visualize your entire life as an interactive grid, where each dot represents a day. Highlight notes, life periods, and milestones to reflect on your past, track your present, and plan your future.",
     "repo": "mrdonado/obsidian-life-grid",
     "pr_number": 6754
+  },
+  {
+    "id": "fix-tab-size",
+    "name": "Fix Tab Size",
+    "author": "mnaoumov",
+    "description": "Fixes tab size according to the settings.",
+    "repo": "mnaoumov/obsidian-fix-tab-size",
+    "pr_number": 8000
   },
   {
     "id": "jessiecode",
