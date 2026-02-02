@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-        name: Update pending plugin data
+      - name: Update pending plugin data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./fetch-pending-plugins.sh
