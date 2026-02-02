@@ -6,7 +6,7 @@ layout: home
 # Obsidian Unofficial Plugins
 
 <div>
-    <span class="pending" title="This value is updated every few days and only includes plugin submissions that have passed validation.">Currently <span>{{ site.data.pending-plugins | size }}</span> plugins pending review
+    <span class="pending" title="This value is updated daily at midnight UTC and only includes plugin submissions that have passed validation.">Currently <span>{{ site.data.pending-plugins | size }}</span> plugins pending review
         <svg width="14" viewBox="0 0 24 24" aria-hidden="true"><use href="#svg-info"></use></svg>
     </span>
     <div class="text-grey-dk-000"><i>Last updated: {{ "now" | date: "%b %d, %Y" }}</i></div>
