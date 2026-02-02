@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Update pending plugin data
+        run: ./fetch-pending-plugins.sh
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
