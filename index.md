@@ -43,6 +43,7 @@ layout: home
     <div>{{plugin.description | escape }}</div>
     <div class="spacer"></div>
     <span class="toolbar d-flex flex-justify-end gap-4">
+        <a style="margin-right: auto;" target="_blank" href="https://github.com/obsidianmd/obsidian-releases/pull/{{ plugin.pr_number }}">Status</a>
         <a target="_blank" href="{{ plugin_url }}">Learn more</a>
         <a href="#" data-url="{{ plugin_url }}">Copy link</a>
     </span>
