@@ -193,72 +193,75 @@ echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skippe
 echo ""
 echo "=== Step 5: Creating final output ==="
 
-# Deduplicate and fix PR numbers by matching repo owner to PR headRepositoryOwner
-# When an owner has multiple PRs, fuzzy match plugin name against PR title
-# Fallback to name-based matching across all PRs if no owner match
-# Output warnings for unmatched plugins
+  # Deduplicate and fix PR numbers by matching repo owner to PR headRepositoryOwner
+  # When an owner has multiple PRs, fuzzy match plugin name against PR title
+  # Fallback to name-based matching across all PRs if no owner match
+  # Output warnings for unmatched plugins
+  # Filter out plugins with invalid repo field
 
-UNMATCHED_FILE="$WORK_DIR/unmatched.jsonl"
+  UNMATCHED_FILE="$WORK_DIR/unmatched.jsonl"
 
-jq -s --slurpfile prmap "$PR_MAP_FILE" '
-  # Build owner (lowercase) -> [{number, title, index}] map from PR list
-  # Group by owner since one owner can have multiple PRs
-  ($prmap[0] | to_entries | map({
-    owner: (.value.headRepositoryOwner.login | ascii_downcase),
-    number: .value.number,
-    title: (.value.title // ""),
-    index: .key
-  })) as $allPRs |
-  
-  ($allPRs | group_by(.owner) | map({key: .[0].owner, value: .}) | from_entries) as $ownerPRs |
-  
-  # Deduplicate plugins by id
-  group_by(.id) | 
-  map(.[0]) |
-  
-  # Match each plugin to correct PR
-  map(
-    (.repo | split("/")[0] | ascii_downcase) as $owner |
-    .name as $pluginName |
-    ($pluginName | ascii_downcase) as $nameLower |
+  jq -s --slurpfile prmap "$PR_MAP_FILE" '
+    # Build owner (lowercase) -> [{number, title, index}] map from PR list
+    # Group by owner since one owner can have multiple PRs
+    ($prmap[0] | to_entries | map({
+      owner: (.value.headRepositoryOwner.login | ascii_downcase),
+      number: .value.number,
+      title: (.value.title // ""),
+      index: .key
+    })) as $allPRs |
     
-    # Get PRs for this owner
-    ($ownerPRs[$owner] // []) as $prs |
+    ($allPRs | group_by(.owner) | map({key: .[0].owner, value: .}) | from_entries) as $ownerPRs |
     
-    if ($prs | length) == 1 then
-      # Single PR for owner - direct match
-      { plugin: ., pr_number: $prs[0].number, pr_order: $prs[0].index, status: "owner_match" }
-    elif ($prs | length) > 1 then
-      # Multiple PRs for same owner - fuzzy match plugin name against PR title
-      # PR titles should follow "Add plugin: {Plugin Name}" pattern
-      ($prs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $matched |
+    # Deduplicate plugins by id and filter out invalid repos
+    group_by(.id) | 
+    map(.[0]) |
+    map(select(.repo | type == "string" and length > 0)) |
+    
+    # Match each plugin to correct PR
+    map(
+      (.repo | split("/")[0] | ascii_downcase) as $owner |
+      .name as $pluginName |
+      ($pluginName | ascii_downcase) as $nameLower |
       
-      if $matched then
-        { plugin: ., pr_number: $matched.number, pr_order: $matched.index, status: "owner_name_match" }
-      else
-        # Multiple PRs but no title match - output warning
-        { plugin: ., pr_number: null, pr_order: null, status: "owner_multiple_no_title_match" }
-      end
-    else
-      # No owner match - try name-based fallback across ALL PRs
-      # Require "Add plugin:" prefix to avoid false positives
-      ($allPRs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $nameMatch |
+      # Get PRs for this owner
+      ($ownerPRs[$owner] // []) as $prs |
       
-      if $nameMatch then
-        { plugin: ., pr_number: $nameMatch.number, pr_order: $nameMatch.index, status: "name_fallback" }
+      if ($prs | length) == 1 then
+        # Single PR for owner - direct match
+        { plugin: ., pr_number: $prs[0].number, pr_order: $prs[0].index, status: "owner_match" }
+      elif ($prs | length) > 1 then
+        # Multiple PRs for same owner - fuzzy match plugin name against PR title
+        # PR titles should follow "Add plugin: {Plugin Name}" pattern
+        ($prs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $matched |
+        
+        if $matched then
+          { plugin: ., pr_number: $matched.number, pr_order: $matched.index, status: "owner_name_match" }
+        else
+          # Multiple PRs but no title match - output warning
+          { plugin: ., pr_number: null, pr_order: null, status: "owner_multiple_no_title_match" }
+        end
       else
-        # No match at all
-        { plugin: ., pr_number: null, pr_order: null, status: "no_match" }
+        # No owner match - try name-based fallback across ALL PRs
+        # Require "Add plugin:" prefix to avoid false positives
+        ($allPRs | map(select(.title | ascii_downcase | contains("add plugin:") and contains($nameLower))) | .[0]) as $nameMatch |
+        
+        if $nameMatch then
+          { plugin: ., pr_number: $nameMatch.number, pr_order: $nameMatch.index, status: "name_fallback" }
+        else
+          # No match at all
+          { plugin: ., pr_number: null, pr_order: null, status: "no_match" }
+        end
       end
-    end
-  ) |
-  
-  # Separate matched and unmatched
-  {
-    matched: [.[] | select(.pr_number != null) | .plugin + {pr_number: .pr_number, pr_order: .pr_order}],
-    unmatched: [.[] | select(.pr_number == null)]
-  }
-' "$PENDING_FILE" > "$WORK_DIR/matched_result.json"
+    ) |
+    
+    # Separate matched and unmatched
+    {
+      matched: [.[] | select(.pr_number != null) | .plugin + {pr_number: .pr_number, pr_order: .pr_order}],
+      unmatched: [.[] | select(.pr_number == null)],
+      filtered: [.[] | select(.plugin.repo | type != "string" or length == 0)]
+    }
+  ' "$PENDING_FILE" > "$WORK_DIR/matched_result.json"
 
 # Extract unmatched plugins and output warnings
 jq -r '.unmatched[] | "WARNING: No matching PR for plugin: \(.plugin.id) (name: \"\(.plugin.name)\", repo: \"\(.plugin.repo)\", status: \(.status))"' "$WORK_DIR/matched_result.json"
