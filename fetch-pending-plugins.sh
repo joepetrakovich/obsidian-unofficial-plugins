@@ -79,8 +79,11 @@ PR_LIST_FILE="$WORK_DIR/open_prs.txt"
 # Filter to only PRs that modify community-plugins.json
 # Save PR number + owner login + title for matching at the end
 PR_MAP_FILE="$WORK_DIR/pr_map.json"
-gh pr list -R "${API_REPO}" --limit 5000 \
-  --search "community-plugins in:path" \
+
+# Fetch all open PRs using the Issues API (no search = no 1000 limit)
+# Then we'll filter locally by checking which ones have valid merge refs
+echo "Fetching open PRs (no search limit)..."
+gh pr list -R "${API_REPO}" --limit 10000 --state open \
   --json number,headRepositoryOwner,title > "$PR_MAP_FILE"
 
 # Extract just PR numbers for processing
