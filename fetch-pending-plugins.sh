@@ -196,15 +196,25 @@ echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skippe
 echo ""
 echo "=== Step 5: Creating final output ==="
 
+# Load manual additions if file exists
+MANUAL_ADDITIONS_FILE="$OUTPUT_DIR/manual-additions.json"
+manual_count=0
+if [ -f "$MANUAL_ADDITIONS_FILE" ]; then
+  echo "Loading manual additions..."
+  manual_count=$(jq 'length' "$MANUAL_ADDITIONS_FILE" 2>/dev/null || echo "0")
+  echo "Found ${manual_count} manual additions"
+fi
+
   # Deduplicate and fix PR numbers by matching repo owner to PR headRepositoryOwner
   # When an owner has multiple PRs, fuzzy match plugin name against PR title
   # Fallback to name-based matching across all PRs if no owner match
   # Output warnings for unmatched plugins
   # Filter out plugins with invalid repo field
+  # Merge manual additions, skipping any with IDs already found from PRs
 
   UNMATCHED_FILE="$WORK_DIR/unmatched.jsonl"
 
-  jq -s --slurpfile prmap "$PR_MAP_FILE" '
+  jq -s --slurpfile prmap "$PR_MAP_FILE" --slurpfile manual "$MANUAL_ADDITIONS_FILE" '
     # Build owner (lowercase) -> [{number, title, index}] map from PR list
     # Group by owner since one owner can have multiple PRs
     ($prmap[0] | to_entries | map({
@@ -220,6 +230,9 @@ echo "=== Step 5: Creating final output ==="
     group_by(.id) | 
     map(.[0]) |
     map(select(.repo | type == "string" and length > 0)) |
+    
+    # Build set of PR plugin IDs for filtering manual additions
+    (map(.id) | INDEX(.)) as $prPluginIds |
     
     # Match each plugin to correct PR
     map(
@@ -258,11 +271,15 @@ echo "=== Step 5: Creating final output ==="
       end
     ) |
     
+    # Filter manual additions to only include those not already in PR plugins
+    ($manual[0] // [] | map(select(.id as $id | $prPluginIds[$id] == null))) as $filteredManual |
+    
     # Separate matched and unmatched
     {
       matched: [.[] | select(.pr_number != null) | .plugin + {pr_number: .pr_number, pr_order: .pr_order}],
       unmatched: [.[] | select(.pr_number == null)],
-      filtered: [.[] | select(.plugin.repo | type != "string" or length == 0)]
+      filtered: [.[] | select(.plugin.repo | type != "string" or length == 0)],
+      manual_additions: $filteredManual
     }
   ' "$PENDING_FILE" > "$WORK_DIR/matched_result.json"
 
@@ -273,8 +290,12 @@ jq -r '.unmatched[] | "WARNING: No matching PR for plugin: \(.plugin.id) (name: 
 jq '.unmatched' "$WORK_DIR/matched_result.json" > "$UNMATCHED_FILE"
 unmatched_count=$(jq '.unmatched | length' "$WORK_DIR/matched_result.json")
 
-# Create final output from matched plugins
-jq '.matched | sort_by(.pr_order) | map(del(.pr_order))' "$WORK_DIR/matched_result.json" > "$OUTPUT_DIR/pending-plugins.json"
+# Get count of filtered manual additions
+manual_filtered_count=$(jq '.manual_additions | length' "$WORK_DIR/matched_result.json")
+manual_skipped=$((manual_count - manual_filtered_count))
+
+# Create final output from matched plugins + manual additions (without duplicates)
+jq '.matched + .manual_additions | sort_by(.pr_order // 999999) | map(del(.pr_order))' "$WORK_DIR/matched_result.json" > "$OUTPUT_DIR/pending-plugins.json"
 
 PENDING_COUNT=$(jq 'length' "$OUTPUT_DIR/pending-plugins.json")
 
@@ -287,11 +308,15 @@ echo "Skipped:             ${skipped}"
 echo "Current plugins:     ${CURRENT_COUNT}"
 echo "Pending plugins:     ${PENDING_COUNT}"
 echo "Unmatched plugins:   ${unmatched_count}"
+if [ "$manual_count" -gt 0 ]; then
+  echo "Manual additions:    ${manual_filtered_count} (skipped ${manual_skipped} already in PRs)"
+fi
 echo "========================================="
 echo ""
 echo "Output files:"
 echo "  ${OUTPUT_DIR}/current-plugins.json"
 echo "  ${OUTPUT_DIR}/pending-plugins.json"
+echo "  ${OUTPUT_DIR}/manual-additions.json"
 if [ "$unmatched_count" -gt 0 ]; then
   echo ""
   echo "Review unmatched plugins above and fix manually if needed."
