@@ -115,9 +115,17 @@ fi
 echo "Batch fetching all PR merge refs..."
 git fetch origin 'refs/pull/*/merge:refs/remotes/origin/pr/*/merge' 2>&1 | tail -1 || true
 
-# Count how many refs we fetched
-ref_count=$(git show-ref | grep -c "refs/remotes/origin/pr" || echo "0")
-echo "Fetched ${ref_count} merge refs"
+# Count merge refs
+merge_ref_count=$(git show-ref | grep -c "refs/remotes/origin/pr.*/merge" || echo "0")
+echo "Fetched ${merge_ref_count} merge refs"
+
+# Also fetch head refs as fallback for conflicted PRs
+echo "Batch fetching PR head refs (fallback for conflicted PRs)..."
+git fetch origin 'refs/pull/*/head:refs/remotes/origin/pr/*/head' 2>&1 | tail -1 || true
+
+# Count head refs
+head_ref_count=$(git show-ref | grep -c "refs/remotes/origin/pr.*/head" || echo "0")
+echo "Fetched ${head_ref_count} head refs"
 
 # Step 3: Get current plugins from master
 echo ""
@@ -139,17 +147,32 @@ processed=0
 extracted=0
 skipped=0
 
+# Track conflicted PRs that used head ref
+conflicted_count=0
+
 while IFS= read -r pr_number; do
   processed=$((processed + 1))
   
   # Progress update every 100 PRs
   if [ $((processed % 100)) -eq 0 ]; then
-    echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skipped: ${skipped})"
+    echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skipped: ${skipped}, conflicted: ${conflicted_count})"
   fi
   
-  # Check if we have a merge ref for this PR
-  ref="refs/remotes/origin/pr/${pr_number}/merge"
-  if ! git show-ref --verify --quiet "$ref" 2>/dev/null; then
+  # Try merge ref first (accurate, merged with master)
+  merge_ref="refs/remotes/origin/pr/${pr_number}/merge"
+  head_ref="refs/remotes/origin/pr/${pr_number}/head"
+  ref=""
+  from_conflicted=false
+  
+  if git show-ref --verify --quiet "$merge_ref" 2>/dev/null; then
+    ref="$merge_ref"
+  elif git show-ref --verify --quiet "$head_ref" 2>/dev/null; then
+    # Fallback: use head ref for conflicted PRs
+    ref="$head_ref"
+    from_conflicted=true
+    conflicted_count=$((conflicted_count + 1))
+  else
+    # No ref available at all
     skipped=$((skipped + 1))
     continue
   fi
@@ -180,8 +203,9 @@ while IFS= read -r pr_number; do
     continue
   fi
   
-  # Add PR number to each new plugin and append to output
-  echo "$new_plugins" | jq -c --arg pr "$pr_number" '.[] | . + {pr_number: ($pr | tonumber)}' >> "$PENDING_FILE" 2>/dev/null || continue
+  # Add PR number and conflicted flag to each new plugin and append to output
+  echo "$new_plugins" | jq -c --arg pr "$pr_number" --argjson conflicted "$from_conflicted" \
+    '.[] | . + {pr_number: ($pr | tonumber), from_conflicted_pr: $conflicted}' >> "$PENDING_FILE" 2>/dev/null || continue
   
   new_count=$(echo "$new_plugins" | jq 'length' 2>/dev/null) || continue
   if [ "$new_count" -gt 0 ]; then
@@ -189,6 +213,8 @@ while IFS= read -r pr_number; do
   fi
   
 done < "$PR_LIST_FILE"
+
+echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skipped: ${skipped}, conflicted: ${conflicted_count})"
 
 echo "  Progress: ${processed}/${total_prs} PRs (extracted: ${extracted}, skipped: ${skipped})"
 
@@ -304,7 +330,9 @@ echo "========================================="
 echo "Done!"
 echo "========================================="
 echo "Open PRs processed:  ${processed}"
-echo "Skipped:             ${skipped}"
+echo "  - Merged refs:     $((processed - skipped - conflicted_count))"
+echo "  - Conflicted PRs:  ${conflicted_count}"
+echo "  - Skipped:         ${skipped}"
 echo "Current plugins:     ${CURRENT_COUNT}"
 echo "Pending plugins:     ${PENDING_COUNT}"
 echo "Unmatched plugins:   ${unmatched_count}"
@@ -320,4 +348,9 @@ echo "  ${OUTPUT_DIR}/manual-additions.json"
 if [ "$unmatched_count" -gt 0 ]; then
   echo ""
   echo "Review unmatched plugins above and fix manually if needed."
+fi
+if [ "$conflicted_count" -gt 0 ]; then
+  echo ""
+  echo "Note: ${conflicted_count} plugins from conflicted PRs were included."
+  echo "These may have false positives - check 'from_conflicted_pr' field in output."
 fi

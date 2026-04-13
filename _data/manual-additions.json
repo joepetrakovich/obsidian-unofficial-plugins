@@ -1,20 +1,2 @@
 [
-  {
-    "id": "pairwise-glicko-ranking",
-    "name": "Pairwise Glicko Ranking",
-    "author": "Jack Williams",
-    "description": "Easily sort notes by any subjective criteria - Rank cohorts of notes in your vault by pairwise comparisons using the Glicko rating system.",
-    "repo": "WilliamsJack/pairwise-glicko-ranking",
-    "pr_number": 7765,
-    "manual": true
-  },
-  {
-    "id": "deadline-countdown",
-    "name": "Deadline Countdown",
-    "author": "HotAndCold",
-    "description": "Set and manage deadlines.",
-    "repo": "HotAndCold245/Deadline-Countdown",
-    "pr_number": 10518,
-    "manual": true
-  }
 ]
