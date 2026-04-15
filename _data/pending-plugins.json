@@ -1,6 +1,328 @@
 [
   {
-    "id": "obsidian-tag-cleaner",
+    "id": "llm-tasks",
+    "name": "LLM Tasks",
+    "author": "John",
+    "description": "Dispatch lines of text as tasks to LLM agents directly from your notes.",
+    "repo": "jacrify/llm-tasks",
+    "pr_number": 11964,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "pika-publish",
+    "name": "Pika.publish",
+    "author": "Otavio Cordeiro",
+    "description": "Publish notes to Pika.",
+    "repo": "otaviocc/obsidian-pika",
+    "pr_number": 11963,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "pdf-autoscroller",
+    "name": "PDF Autoscroller",
+    "author": "trailofjohn",
+    "description": "Automatically scrolls PDF files smoothly like movie credits, with WPM reading analytics.",
+    "repo": "trailofjohn/PDF-Autoscroller",
+    "pr_number": 11961,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "geocode-note",
+    "name": "Geocode Note",
+    "author": "Benoit Lamouche",
+    "description": "Add geographic coordinates, icon and color to your notes via geolocation or address lookup.",
+    "repo": "blamouche/obsidian-geocode-note",
+    "pr_number": 11960,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "latex-color-sync",
+    "name": "LaTeX Color Sync",
+    "author": "LuneVoilee",
+    "description": "Sync LaTeX formula color with nearby markdown text color.",
+    "repo": "LuneVoilee/obsidian-latex-color-sync",
+    "pr_number": 11958,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "merge-as-alias",
+    "name": "Merge as Alias",
+    "author": "Quietbday",
+    "description": "Merge one note into another while adding the old name as an alias and updating all internal links.",
+    "repo": "quietbyday/obsidian-merge-as-alias",
+    "pr_number": 11957,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "apple-tts",
+    "name": "Apple TTS",
+    "author": "ajsscott",
+    "description": "Read notes aloud using macOS native text-to-speech.",
+    "repo": "ajsscott/obsidian-apple-tts",
+    "pr_number": 11955,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "autonamer",
+    "name": "AutoNamer",
+    "author": "novexone",
+    "description": "Automatically renames new markdown files using timestamps or UUIDs.",
+    "repo": "novexone/obsidian-autonamer",
+    "pr_number": 11953,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "kicanvas-embed",
+    "name": "KiCanvas Embed - KiCad Renderer",
+    "author": "Johann Dirry",
+    "description": "Render KiCad (https://www.kicad.org/) documents using KiCanvas (https://kicanvas.org/).",
+    "repo": "MovGP0/obsidian-kicanvas-embed",
+    "pr_number": 11949,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "drive9",
+    "name": "drive9",
+    "author": "drive9-ai",
+    "description": "Sync your vault across devices via drive9 with semantic search and AI-agent access.",
+    "repo": "drive9-ai/obsidian-drive9",
+    "pr_number": 11948,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "syncist-todoist-sync",
+    "name": "Syncist (Todoist Sync)",
+    "author": "Bastiaan Schönhage",
+    "description": "Bidirectional task sync with Todoist. Subtasks, import, projects, labels, and inline query blocks. Created with the help of AI; fully validated and tested by human.",
+    "repo": "bastiaanschonhage/syncist",
+    "pr_number": 11947,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "flomo-bridge",
+    "name": "Flomo Bridge",
+    "author": "giraffe-tree",
+    "description": "Sync your Flomo notes with bi-directional linking.",
+    "repo": "giraffe-tree/flomo-bridge",
+    "pr_number": 11946,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "advanced-find-and-replace",
+    "name": "Advanced Find & Replace",
+    "author": "rockofox",
+    "description": "Find and replace text across your vault using regular expressions, with advanced features like capturing groups and a live preview.",
+    "repo": "rockofox/obsidian-advanced-find-and-replace",
+    "pr_number": 11941,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "confluence-export",
+    "name": "Confluence export",
+    "author": "Louis Carnec",
+    "description": "Export the current markdown note to a Confluence page using the Confluence REST API and a personal API token.",
+    "repo": "louismmrcarnec/export_to_confluence",
+    "pr_number": 11940,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "discord-rpc",
+    "name": "Discord RPC",
+    "description": "Show your activity on Discord via Rich Presence.",
+    "author": "30jannik06",
+    "repo": "30jannik06/Obsidian-Presence",
+    "pr_number": 11939,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "vaultprune",
+    "name": "VaultPrune - Unused Attachment Cleaner",
+    "author": "Baris Dincer",
+    "description": "Scan your vault for attachments that are no longer referenced and review them before moving them to trash.",
+    "repo": "barisdincer/VaultPrune",
+    "pr_number": 11938,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "aiob-board",
+    "name": "Aiob Board",
+    "author": "Aiob",
+    "description": "A clean, all-in-one dashboard — banner, progress bars, memo, stats & channels.",
+    "repo": "Aioblifeos/obsidian-aiob-board",
+    "pr_number": 11937,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "folio",
+    "name": "Folio",
+    "author": "Daniel Garvire",
+    "description": "Project-based long-form writing environment for books and scripts.",
+    "repo": "danigarvire/Folio",
+    "pr_number": 11936,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "date-helpers",
+    "name": "Date Helpers",
+    "author": "Patrice Bour",
+    "description": "Centralized date tools with keyboard-first interaction, natural language parsing, and full internationalization support.",
+    "repo": "patrice-bour/obsidian-date-helpers",
+    "pr_number": 11935,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "lite-calendar",
+    "name": "Lite Calendar",
+    "author": "lizhifeng",
+    "description": "macOS Calendar integration with a lightweight, flash-note style interface.",
+    "repo": "fengshuzi/lite-calendar",
+    "pr_number": 11934,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "image-viewer",
+    "name": "Image Viewer",
+    "author": "lizhifeng",
+    "description": "A powerful image viewer with gallery view, zoom, slideshow and more.",
+    "repo": "fengshuzi/image-viewer",
+    "pr_number": 11933,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "file-commander",
+    "name": "File Commander",
+    "author": "lizhifeng",
+    "description": "Batch file operations - select, delete, move, tag, rename images, find broken links and orphan notes.",
+    "repo": "fengshuzi/file-commander",
+    "pr_number": 11932,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "quick-page",
+    "name": "Quick Page",
+    "author": "lizhifeng",
+    "description": "Quickly create timestamped notes in a specified folder.",
+    "repo": "fengshuzi/quick-page",
+    "pr_number": 11931,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "daily-habit",
+    "name": "Daily Habit",
+    "author": "lizhifeng",
+    "description": "Track habits with diary-based check-ins and 7-day dot visualization.",
+    "repo": "fengshuzi/daily-habit",
+    "pr_number": 11930,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "tick-track",
+    "name": "Tick Track",
+    "author": "lizhifeng",
+    "description": "Track time spent on tasks with automatic duration calculation - toggle task status to start/stop tracking.",
+    "repo": "fengshuzi/tick-track",
+    "pr_number": 11929,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "obsidian-work-buddy",
+    "name": "Work Buddy",
+    "author": "Kaden McKeen",
+    "description": "HTTP bridge for the work-buddy agent framework — exposes the Obsidian API to external callers for vault queries, file I/O, notifications, and more.",
+    "repo": "KadenMc/obsidian-work-buddy",
+    "pr_number": 11927,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "vault-pulse",
+    "name": "Vault Pulse",
+    "author": "Stephen Monclova",
+    "description": "A GitHub-style activity heatmap of your vault's file activity across the last 365 days.",
+    "repo": "stefmf/vault-pulse",
+    "pr_number": 11926,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "markdown-cleaner",
+    "name": "Markdown Cleaner",
+    "description": "清理文本中多余的 Markdown 格式符号，自动转换 LaTeX 数学公式为兼容格式.",
+    "author": "Gao-Qian-Long",
+    "repo": "Gao-Qian-Long/obsidian-markdown-cleaner",
+    "pr_number": 11925,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "perplexity-bridge",
+    "name": "Perplexity Research Bridge",
+    "author": "End User",
+    "description": "Run Perplexity research and import threads as structured wiki-ready notes with citations, findings, and sources.",
+    "repo": "enduserlab/perplexity-bridge",
+    "pr_number": 11920,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "mcp-tools-istefox",
+    "name": "MCP Connector",
+    "author": "Stefano Ferri",
+    "description": "Connect MCP-compatible clients (Claude Desktop, Claude Code, Cline) to your vault with semantic search, templates, file management and gated command execution.",
+    "repo": "istefox/obsidian-mcp-connector",
+    "pr_number": 11919,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "task-pomodoro",
+    "repo": "chao-ace/task-pomodoro",
+    "branch": "master",
+    "pr_number": 11917,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "signal-bridge",
+    "name": "Signal Bridge",
+    "author": "End User",
+    "description": "Receives Signal messages via signal-cli and writes them as markdown notes into your vault.",
+    "repo": "enduserlab/signal-bridge",
+    "pr_number": 11914,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "backlink-migrator",
+    "name": "Backlink Migrator",
+    "author": "TulliG",
+    "description": "A simple plugin that automates file organization by relocating notes to a designated folder once they exceed a predefined threshold of backlinks.",
+    "repo": "TulliG/Backlink-Migrator",
+    "pr_number": 11913,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "enhanced-search-replace",
+    "name": "Enhanced search and replace",
+    "author": "Liu Hao",
+    "description": "Inline editor search and replace panel with match case, whole word, and regex.",
+    "repo": "liuhaoXD/obsidian-enhanced-search-replace",
+    "pr_number": 11911,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "signal-inbox",
+    "name": "Signal Inbox",
+    "author": "End User",
+    "description": "Smart inbox that watches a folder for incoming messages, auto-classifies them with Claude, and files them into your wiki.",
+    "repo": "enduserlab/signal-inbox",
+    "pr_number": 11910,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "cosmos-sync",
+    "name": "Cosmos",
+    "author": "Steve Michael Thomas",
+    "description": "Turn your vault into a solar system. Only the mathematical shadow of your writing leaves your machine.",
+    "repo": "stevenmichaelthomas/cosmos-obsidian",
+    "pr_number": 11908,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "b3nl-tag-cleaner",
     "name": "Unfinished Nested Tag Cleaner",
     "author": "Björn Lange (b3nl)",
     "description": "Remove unclosed (trailing-slash) hashtags from your notes.",
@@ -22,12 +344,12 @@
     "name": "AppleNotes Sync",
     "author": "lizhifeng",
     "description": "从 macOS 备忘录 App 同步笔记到本地 vault，支持图片和表格等富文本，可配置源文件夹和目标路径，仅手动刷新.",
-    "repo": "fengshuzi/obsidian-notes",
+    "repo": "fengshuzi/applenotes-sync",
     "pr_number": 11904,
     "from_conflicted_pr": false
   },
   {
-    "id": "moyu-plugin",
+    "id": "moyu-timer",
     "name": "Moyu Timer",
     "author": "innerpure",
     "description": "右下角状态栏计时器，算清你的真实时薪。A discreet status-bar timer that reveals your real hourly wage.",
@@ -228,7 +550,7 @@
     "id": "typedeck",
     "name": "Typedeck",
     "author": "Typedeck",
-    "description": "Write Typedeck-compatible presentations in Obsidian. Visualizes slide breaks, shows slide count, validates format, and opens files directly in Typedeck for macOS.",
+    "description": "Write presentation-ready Markdown with live slide-break visualization, slide count, format validation, and one-click export to Typedeck for macOS.",
     "repo": "testifyprep/obsidian-typedeck-plugin",
     "pr_number": 11871,
     "from_conflicted_pr": false
@@ -699,15 +1021,6 @@
     "description": "Seamlessly capture and structure ideas, voice notes, and images from instant messengers into your vault using AI.",
     "repo": "cjgtsc/obsidian-ai-idea-capture-plugin",
     "pr_number": 11788,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "latex-solver",
-    "name": "LaTeX Solver",
-    "author": "giacolees",
-    "description": "AI-powered LaTeX formula solver. Solves and simplifies mathematical formulas directly in your notes using LLMs.",
-    "repo": "giacolees/obsidian-latex-solver",
-    "pr_number": 11787,
     "from_conflicted_pr": false
   },
   {
@@ -1311,6 +1624,15 @@
     "description": "Visualize your notes in a 3D semantic space using embedding-based layouts or uploaded vectors.",
     "repo": "KHR0907/obsidian-3d-semantic-graph",
     "pr_number": 11694,
+    "from_conflicted_pr": false
+  },
+  {
+    "id": "tube-scribe",
+    "name": "TubeScribe",
+    "author": "Kaiyi Wong",
+    "description": "Generate YouTube metadata (titles, descriptions, tags) from your video notes using Claude AI with web research.",
+    "repo": "kaiyiwong/obsidian-tube-scribe",
+    "pr_number": 11691,
     "from_conflicted_pr": false
   },
   {
@@ -2170,30 +2492,12 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "markwhen-gantt",
-    "name": "Markwhen Gantt",
-    "author": "Remco",
-    "description": "Renders .mw / .markwhen files as interactive Gantt charts with zoom, owner filtering, and a split editor panel.",
-    "repo": "RemcovW2000/obsidian-markwhen-gantt",
-    "pr_number": 11555,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "plugin-card-bookmark",
     "name": "Card Bookmark",
     "author": "Da",
     "description": "Create rich card-style bookmarks for links and files.",
     "repo": "WanDa1993/obsidian-plugin-web-bookmark",
     "pr_number": 11554,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "obsidian-handwrite",
-    "name": "Handwrite",
-    "author": "3mpt7wh1te",
-    "description": "Handwrite notes via Xournal++ and insert as PNG into Markdown or Canvas.",
-    "repo": "FrankHumingtao/ObsidianHandWrite",
-    "pr_number": 11547,
     "from_conflicted_pr": false
   },
   {
@@ -2206,19 +2510,10 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "jupyter-viewer",
-    "name": "Jupyter Notebook Viewer",
-    "author": "William Wayn",
-    "description": "View Jupyter notebooks (.ipynb) directly in Obsidian with rendered code, markdown, and outputs.",
-    "repo": "WillzWayn/obsidian-jupyter",
-    "pr_number": 11544,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "recent-notes-dataview",
     "name": "Recent Notes for Dataview",
     "author": "Fat Elephant aka Waghmare",
-    "description": "Extract recently opened notes with help of dataview. Can exclude folders to prevent junk. 5-10 recent files can be shown in dataview table",
+    "description": "Tracks your recently opened notes and displays them in Dataview queries. Supports configurable count (5–10) and folder exclusions.",
     "repo": "bigelephant67/recent-notes-dataview",
     "pr_number": 11543,
     "from_conflicted_pr": false
@@ -2386,15 +2681,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "todo-dashboard",
-    "name": "Todo dashboard",
-    "author": "Alexander",
-    "description": "A dashboard that groups all your todo tasks by source file, with collapsible panels, priority filtering, due dates and search.",
-    "repo": "AlexanderJacquot/todo-dashboard",
-    "pr_number": 11504,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "study-flow-planner",
     "name": "Study Flow Planner",
     "author": "resina37451",
@@ -2434,7 +2720,7 @@
     "id": "colorful-folders",
     "name": "Colorful Folders",
     "description": "Automatically adds premium preset colors to all folders and subfolders.",
-    "author": "ROHIT-NAHAR",
+    "author": "ROHIT NAHAR",
     "repo": "RohitNahar-Offical/colorful-folders-obsidian",
     "pr_number": 11496,
     "from_conflicted_pr": false
@@ -3187,15 +3473,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "syncist-todoist-sync",
-    "name": "Syncist (Todoist Sync)",
-    "author": "Bastiaan Schönhage",
-    "description": "Bidirectional task sync with Todoist. Subtasks, import, projects, labels, and inline query blocks. Code 100% written by AI; plug-in 100% validated and tested by human.",
-    "repo": "bastiaanschonhage/syncist",
-    "pr_number": 11370,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "vlm-ocr",
     "name": "VLMs OCR",
     "author": "Agostino Cesarano",
@@ -3918,8 +4195,8 @@
   {
     "id": "textflow",
     "name": "textFlow",
-    "description": "Compile multiple notes into a single editable flow - like Scrivenings. Define from paths/tags/props or bookmarks. Auto-sync flow <-> source notes.",
     "author": "tine-schreibt",
+    "description": "Compile multiple notes into a single editable flow - like Scrivenings. Define flows from Dataview queries, or folders/tags/props, or bookmarks. Edits are synced automatically between flows and their sources.",
     "repo": "tine-schreibt/textflow",
     "pr_number": 11223,
     "from_conflicted_pr": false
@@ -6967,15 +7244,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "github-image-uploader",
-    "name": "Github Image Uploader",
-    "author": "makepin2r",
-    "description": "Automatically uploads inserted images to a GitHub repository and injects a renderable Markdown image reference into the note.",
-    "repo": "makepin2r/obsidian-github-image-uploader",
-    "pr_number": 10554,
-    "from_conflicted_pr": true
-  },
-  {
     "id": "webhooks-v2",
     "name": "Webhooks V2",
     "author": "khabaroff",
@@ -7090,15 +7358,6 @@
     "description": "Copy the current document to a WeChat Official Account article, including images, charts, and other embedded content.",
     "repo": "Spute/obsidian-copy-to-mp",
     "pr_number": 10531,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "image-enhance",
-    "name": "image enhance",
-    "author": "wheesys",
-    "description": "image enhance, about up(by picgo)/down/clean.",
-    "repo": "wheesys/obsidian-image-enhance-plugin",
-    "pr_number": 10529,
     "from_conflicted_pr": false
   },
   {
@@ -7237,39 +7496,12 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "reading-highlighter",
-    "name": "Reading Highlighter",
-    "author": "Tintalectronico",
-    "description": "Highlight selected text in reading mode using markdown highlight syntax.",
-    "repo": "keithwithAI/reading-highlighter",
-    "pr_number": 10506,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "daily-review",
-    "name": "Daily Review",
-    "author": "shenda",
-    "description": "Review your notes with a focused, random daily review session.",
-    "repo": "DashShen/obsidian-daily-review",
-    "pr_number": 10504,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "loom-view",
     "name": "Loom View",
     "author": "ujj",
     "description": "Grid-based timeline with regional lanes, entity connections, and dual date support (years and full dates).",
     "repo": "ujj/loom-view",
     "pr_number": 10503,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "etymology-fetch",
-    "name": "Etymology Fetch",
-    "description": "Automatically look up the etymology of selected words or phrases.",
-    "author": "LN Wang",
-    "repo": "a49a/obsidian-etymology",
-    "pr_number": 10502,
     "from_conflicted_pr": false
   },
   {
@@ -7363,15 +7595,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "gotime-video",
-    "name": "GoTime Video (Linux version)",
-    "author": "Willy Pregliasco",
-    "description": "Annotate videos with responsive md links to timestamps.",
-    "repo": "wpregliasco/mpv-gotime",
-    "pr_number": 10488,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "read-only-view",
     "name": "Read Only View",
     "author": "mrKazzila - Ilya Kazakov",
@@ -7432,15 +7655,6 @@
     "description": "A dedicated panel to organize tasks across the vault using the Getting Things Done methodology (Today, This Week, Someday…)",
     "repo": "Unpreditable/GettingThingsDone",
     "pr_number": 10472,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "gesture-control",
-    "name": "Gesture Control",
-    "author": "with-geun",
-    "description": "Control your vault with hand gestures via webcam using MediaPipe hand tracking.",
-    "repo": "with-geun/obsidian-gesture-control",
-    "pr_number": 10470,
     "from_conflicted_pr": false
   },
   {
@@ -7549,15 +7763,6 @@
     "description": "Visual task dashboard that reads #todo tags from your vault with Discord-style sidebar, categories, and two-way sync.",
     "repo": "Sean-Shmulevich/obsidian-tasks-dashboard",
     "pr_number": 10447,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "readease",
-    "name": "ReadEase",
-    "author": "LCPYM",
-    "description": "Customise your reading view with fonts, themes, spacing and more via a glass-like floating panel.",
-    "repo": "lcpym/readease-obsidian",
-    "pr_number": 10444,
     "from_conflicted_pr": false
   },
   {
@@ -7741,15 +7946,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "multi-attachment-inserter",
-    "name": "Multi-Attachment Inserter",
-    "author": "heyoujiang",
-    "description": "Insert multiple attachments and camera photos. Supports mobile and desktop.",
-    "repo": "heyoujiang/multi-attachment-inserter",
-    "pr_number": 10417,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "live-preview-bold-fix",
     "name": "Live Preview Bold Fix",
     "author": "Konoyo",
@@ -7840,15 +8036,6 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "carry-over-todos",
-    "name": "Carry Over Todos",
-    "author": "Blake Peterman",
-    "description": "Copy uncompleted todo items from the most recent previous daily note to today's daily note.",
-    "repo": "bpeterman/carry-over-todos",
-    "pr_number": 10392,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "shamsi-date-converter",
     "name": "Shamsi Date Converter",
     "author": "milad-s5",
@@ -7891,15 +8078,6 @@
     "description": "Hide specific tag nodes from Graph View by converting tags to plain text (e.g. #Year → —#Year). Unhide to restore them.",
     "repo": "studiogamma/tag-toggler",
     "pr_number": 10367,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "alias-suggest",
-    "name": "AliasSuggest",
-    "author": "MattHSBY",
-    "description": "Allows you to quickly add a new alias to a note while writing a display name for a link to that note.",
-    "repo": "MattHSBY/AliasSuggest",
-    "pr_number": 10363,
     "from_conflicted_pr": false
   },
   {
@@ -7957,30 +8135,12 @@
     "from_conflicted_pr": false
   },
   {
-    "id": "claude-code-copilot",
-    "name": "Claude Code Copilot",
-    "author": "J Medeiros",
-    "description": "Integrate the Claude Code with a chat panel, text transforms, and inline /ai commands.",
-    "repo": "N1et/obsidian-claude",
-    "pr_number": 10349,
-    "from_conflicted_pr": false
-  },
-  {
     "id": "hex-cartographer",
     "name": "Hex Cartographer",
     "author": "Christoph Werner",
     "description": "A visual hex map editor. Create fantasy world maps with custom SVG symbols, terrain, rivers, roads, and text annotations. Features color palettes and pattern tools. Perfect for RPG campaigns, novel writing, and worldbuilding.",
     "repo": "Taroslord/Hex-Cartographer",
     "pr_number": 10348,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "obsidanki",
-    "name": "Obsidanki",
-    "author": "Anton Zaviyalov",
-    "description": "This is an Anki integration plugin! Designed for efficient bulk exporting.",
-    "repo": "zavanton123/obsidanki",
-    "pr_number": 10347,
     "from_conflicted_pr": false
   },
   {
@@ -8080,15 +8240,6 @@
     "description": "Copy contents of selected files or folders into your clipboard with customizable templates.",
     "repo": "svkaka/copy-files-content",
     "pr_number": 10329,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "inline-ai-chat-notebook",
-    "name": "Inline AI Chat Notebook",
-    "author": "James Bradford",
-    "description": "An interactive AI chat interface built directly into your Markdown files. Edit prompts and responses as naturally as your notes.",
-    "repo": "arniebradfo/obsidian-plugin-iter",
-    "pr_number": 10328,
     "from_conflicted_pr": false
   },
   {
@@ -9466,7 +9617,7 @@
     "description": "Visual image tagging with sidebar manager. Right-click images or select in-editor to tag with clickable buttons. Stores tags in plugin settings.",
     "repo": "Ktonel475/Better-Image-Tag",
     "pr_number": 9979,
-    "from_conflicted_pr": false
+    "from_conflicted_pr": true
   },
   {
     "id": "readeck-highlights-sync",
@@ -9556,15 +9707,6 @@
     "description": "Automatically prefix new note names with today's date.",
     "repo": "huynhtranhoanglong/obsidian-datestamp",
     "pr_number": 9959,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "folio",
-    "name": "Folio",
-    "author": "Daniel Garvire",
-    "description": "Project-based long-form writing environment for books and scripts.",
-    "repo": "danigarvire/Folio",
-    "pr_number": 9958,
     "from_conflicted_pr": false
   },
   {
@@ -14875,15 +15017,6 @@
     "description": "Automatically sort daily notes and files by date in the file explorer. Supports multiple date formats (YYYY-MM-DD, DD.MM.YYYY, DD.MM.YY, MM/DD/YYYY) and flexible folder configuration.",
     "repo": "Reifat/daily-notes-sorter",
     "pr_number": 8452,
-    "from_conflicted_pr": false
-  },
-  {
-    "id": "real-calendar",
-    "name": "Real Calendar",
-    "author": "wiktor-wytch",
-    "description": "File-based calendar with embedded calendar support.",
-    "repo": "wiktor-wytch/real-calendar",
-    "pr_number": 8442,
     "from_conflicted_pr": false
   },
   {

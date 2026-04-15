@@ -244,7 +244,7 @@ fi
     # Build owner (lowercase) -> [{number, title, index}] map from PR list
     # Group by owner since one owner can have multiple PRs
     ($prmap[0] | to_entries | map({
-      owner: (.value.headRepositoryOwner.login | ascii_downcase),
+      owner: (.value.headRepositoryOwner.login // "" | ascii_downcase),
       number: .value.number,
       title: (.value.title // ""),
       index: .key
@@ -263,7 +263,7 @@ fi
     # Match each plugin to correct PR
     map(
       (.repo | split("/")[0] | ascii_downcase) as $owner |
-      .name as $pluginName |
+      (.name // "") as $pluginName |
       ($pluginName | ascii_downcase) as $nameLower |
       
       # Get PRs for this owner
